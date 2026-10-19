@@ -1,0 +1,10 @@
+.env
+.venv/
+barker_env/
+__pycache__/
+*.pyc
+*.tmp
+*.bak
+*.backup_*
+debug/
+*.log

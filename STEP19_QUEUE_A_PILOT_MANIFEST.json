@@ -1,0 +1,36 @@
+{
+  "step": 19,
+  "run_date": "2026-10-19",
+  "scope": "Supervised Queue A nine-GPU coordinate-calibration pilot",
+  "runner": "coordinate_calibration_runner.py",
+  "method": "Existing coordinate-calibration runner; no OpenAI API, OCR, scraper, or production-code changes",
+  "input_path": "step19_queue_a_pilot_input.json",
+  "calibration_path": "step19_queue_a_pilot_calibration.json",
+  "output_path": "Monthly_Scraped_Data/pcpartpicker_gpu_trends_step19_queue_a_pilot.json",
+  "artifact_directory": "diagnostics/step19_queue_a_pilot",
+  "source_evidence_directory": "diagnostics/step17_source_images",
+  "frozen_step9_output": "Monthly_Scraped_Data/pcpartpicker_gpu_trends_step9_seven_gpu_pilot.json",
+  "preflight": {
+    "exact_queue_a_count": 9,
+    "step18_statuses_all_calibration_verified": true,
+    "model_url_matches_verified": true,
+    "calibration_bounds_validated": true,
+    "calibration_monotonicity_validated": true,
+    "existing_runner_contract_verified": true,
+    "new_output_path_is_distinct": true,
+    "openai_api_required": false,
+    "production_batch": false
+  },
+  "records": [
+    {"gpu_model":"Arc A770","source_image_url":"https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.03.usd.gpu.chipset.arc-a770.09b5b39a8fc31d2be014809f16b446bb.png","local_source_image":"diagnostics/step17_source_images/arc_a770.png","step18_calibration":"diagnostics/step18_queue_a_manual_calibration/arc_a770.json"},
+    {"gpu_model":"GeForce RTX 4070 SUPER","source_image_url":"https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.03.usd.gpu.chipset.geforce-rtx-4070-super.5bec7249e1aa551db3f11831ee1f769b.png","local_source_image":"diagnostics/step17_source_images/geforce_rtx_4070_super.png","step18_calibration":"diagnostics/step18_queue_a_manual_calibration/geforce_rtx_4070_super.json"},
+    {"gpu_model":"GeForce RTX 4070 Ti","source_image_url":"https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.03.usd.gpu.chipset.geforce-rtx-4070-ti.0891c71f1ea313cc9e66a57f2c265016.png","local_source_image":"diagnostics/step17_source_images/geforce_rtx_4070_ti.png","step18_calibration":"diagnostics/step18_queue_a_manual_calibration/geforce_rtx_4070_ti.json"},
+    {"gpu_model":"GeForce RTX 4080 SUPER","source_image_url":"https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.03.usd.gpu.chipset.geforce-rtx-4080-super.a858118792c5646d68f0e1542535ff43.png","local_source_image":"diagnostics/step17_source_images/geforce_rtx_4080_super.png","step18_calibration":"diagnostics/step18_queue_a_manual_calibration/geforce_rtx_4080_super.json"},
+    {"gpu_model":"GeForce RTX 5070","source_image_url":"https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.03.usd.gpu.chipset.geforce-rtx-5070.b073341306f9732bd9487c3b41052478.png","local_source_image":"diagnostics/step17_source_images/geforce_rtx_5070.png","step18_calibration":"diagnostics/step18_queue_a_manual_calibration/geforce_rtx_5070.json"},
+    {"gpu_model":"GeForce RTX 5080","source_image_url":"https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.03.usd.gpu.chipset.geforce-rtx-5080.4e36342df1074be0d647325488a45f3a.png","local_source_image":"diagnostics/step17_source_images/geforce_rtx_5080.png","step18_calibration":"diagnostics/step18_queue_a_manual_calibration/geforce_rtx_5080.json"},
+    {"gpu_model":"Radeon RX 7700 XT","source_image_url":"https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.03.usd.gpu.chipset.radeon-rx-7700-xt.fa97855adbee7d73157f70236e76144a.png","local_source_image":"diagnostics/step17_source_images/radeon_rx_7700_xt.png","step18_calibration":"diagnostics/step18_queue_a_manual_calibration/radeon_rx_7700_xt.json"},
+    {"gpu_model":"Radeon RX 7800 XT","source_image_url":"https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.03.usd.gpu.chipset.radeon-rx-7800-xt.de499d514533349aba22eb78eacc5f90.png","local_source_image":"diagnostics/step17_source_images/radeon_rx_7800_xt.png","step18_calibration":"diagnostics/step18_queue_a_manual_calibration/radeon_rx_7800_xt.json"},
+    {"gpu_model":"Radeon RX 7900 XT","source_image_url":"https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.03.usd.gpu.chipset.radeon-rx-7900-xt.01d3f360e28a5f741a929b7a5ee45dea.png","local_source_image":"diagnostics/step17_source_images/radeon_rx_7900_xt.png","step18_calibration":"diagnostics/step18_queue_a_manual_calibration/radeon_rx_7900_xt.json"}
+  ],
+  "run_result": {"records":9,"success":0,"partial":0,"needs_review":9,"failed":0,"numeric_values":137,"na_values":34,"estimated_values":126,"observed_values":11,"all_records_have_19_month_keys":true,"all_records_have_required_metadata":true,"generated_overlays":9,"generated_diagnostics":9,"output_sha256":"140C261798C0AE5DFD62E00C0AC3E0E367B038DFC82EA7E36273D526E34D0E9F","step9_frozen_output_sha256_after_run":"C5E7D53A1C0A29EDFD2C9405214F4C2592724BDD4E4C25E4DEF71524457AB20A"}
+}

@@ -1,0 +1,21 @@
+{
+  "step": 18,
+  "assessment_date": "2026-10-19",
+  "scope": "Queue A manual-calibration audit only",
+  "monthly_extraction_run": false,
+  "production_calibration_changed": false,
+  "artifact_directory": "diagnostics/step18_queue_a_manual_calibration",
+  "records": [
+    {"gpu_model":"Arc A770","source_image_path":"diagnostics/step17_source_images/arc_a770.png","calibration_artifact":"diagnostics/step18_queue_a_manual_calibration/arc_a770.json","status":"calibration_verified","visual_review_required":true},
+    {"gpu_model":"GeForce RTX 4070 SUPER","source_image_path":"diagnostics/step17_source_images/geforce_rtx_4070_super.png","calibration_artifact":"diagnostics/step18_queue_a_manual_calibration/geforce_rtx_4070_super.json","status":"calibration_verified","visual_review_required":true},
+    {"gpu_model":"GeForce RTX 4070 Ti","source_image_path":"diagnostics/step17_source_images/geforce_rtx_4070_ti.png","calibration_artifact":"diagnostics/step18_queue_a_manual_calibration/geforce_rtx_4070_ti.json","status":"calibration_verified","visual_review_required":true},
+    {"gpu_model":"GeForce RTX 4080 SUPER","source_image_path":"diagnostics/step17_source_images/geforce_rtx_4080_super.png","calibration_artifact":"diagnostics/step18_queue_a_manual_calibration/geforce_rtx_4080_super.json","status":"calibration_verified","visual_review_required":true},
+    {"gpu_model":"GeForce RTX 5070","source_image_path":"diagnostics/step17_source_images/geforce_rtx_5070.png","calibration_artifact":"diagnostics/step18_queue_a_manual_calibration/geforce_rtx_5070.json","status":"calibration_verified","visual_review_required":true},
+    {"gpu_model":"GeForce RTX 5080","source_image_path":"diagnostics/step17_source_images/geforce_rtx_5080.png","calibration_artifact":"diagnostics/step18_queue_a_manual_calibration/geforce_rtx_5080.json","status":"calibration_verified","visual_review_required":true},
+    {"gpu_model":"Radeon RX 7700 XT","source_image_path":"diagnostics/step17_source_images/radeon_rx_7700_xt.png","calibration_artifact":"diagnostics/step18_queue_a_manual_calibration/radeon_rx_7700_xt.json","status":"calibration_verified","visual_review_required":true},
+    {"gpu_model":"Radeon RX 7800 XT","source_image_path":"diagnostics/step17_source_images/radeon_rx_7800_xt.png","calibration_artifact":"diagnostics/step18_queue_a_manual_calibration/radeon_rx_7800_xt.json","status":"calibration_verified","visual_review_required":true},
+    {"gpu_model":"Radeon RX 7900 XT","source_image_path":"diagnostics/step17_source_images/radeon_rx_7900_xt.png","calibration_artifact":"diagnostics/step18_queue_a_manual_calibration/radeon_rx_7900_xt.json","status":"calibration_verified","visual_review_required":true}
+  ],
+  "summary": {"calibration_verified":9,"manual_review_required":0,"blocked":0},
+  "limitations": ["Calibration verification does not produce prices or certify every monthly line position.","The first two requested months have no detected x gridline under the current visible chart range and may remain outside_visible_history.","Black-line gaps, spikes, steep transitions, and ambiguous candidates require existing review/N/A handling.","Queue B and Radeon RX 7600 XT were not calibrated in Step 18."]
+}

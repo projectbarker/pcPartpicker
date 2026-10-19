@@ -1,0 +1,9 @@
+scrapy
+beautifulsoup4
+selenium
+undetected-chromedriver
+python-dotenv
+openai
+requests
+itemadapter
+Pillow

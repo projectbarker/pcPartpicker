@@ -1,0 +1,18 @@
+{
+  "step": 23,
+  "audit_date": "2026-10-19",
+  "scope": "Queue B geometry validation using manually accepted y=427/$0 boundary; no extraction",
+  "artifact_directory": "diagnostics/step23_queue_b_validation",
+  "records": [
+    {"gpu_model": "GeForce RTX 4070 Ti SUPER", "overall_status": "manual_review_required", "geometry_status": "calibration_verified", "artifact": "diagnostics/step23_queue_b_validation/geforce_rtx_4070_ti_super.calibration.json", "unresolved": "late zero/black overlap"},
+    {"gpu_model": "GeForce RTX 5060 Ti", "overall_status": "manual_review_required", "geometry_status": "calibration_verified", "artifact": "diagnostics/step23_queue_b_validation/geforce_rtx_5060_ti.calibration.json", "unresolved": "early unsupported history"},
+    {"gpu_model": "GeForce RTX 5070 Ti", "overall_status": "manual_review_required", "geometry_status": "calibration_verified", "artifact": "diagnostics/step23_queue_b_validation/geforce_rtx_5070_ti.calibration.json", "unresolved": "early disconnected/unsupported history"},
+    {"gpu_model": "Radeon RX 9060 XT", "overall_status": "manual_review_required", "geometry_status": "calibration_verified", "artifact": "diagnostics/step23_queue_b_validation/radeon_rx_9060_xt.calibration.json", "unresolved": "history begins around February 2025"},
+    {"gpu_model": "Radeon RX 9070", "overall_status": "manual_review_required", "geometry_status": "calibration_verified", "artifact": "diagnostics/step23_queue_b_validation/radeon_rx_9070.calibration.json", "unresolved": "early disconnected/unsupported history"},
+    {"gpu_model": "Radeon RX 9070 XT", "overall_status": "manual_review_required", "geometry_status": "calibration_verified", "artifact": "diagnostics/step23_queue_b_validation/radeon_rx_9070_xt.calibration.json", "unresolved": "early disconnected/unsupported history"}
+  ],
+  "summary": {"calibration_verified": 0, "manual_review_required": 6, "blocked": 0, "geometry_verified": 6},
+  "rx_7600_xt": {"status": "blocked", "not_processed": true},
+  "extraction_run": false,
+  "policy": "Geometry is validated, but unresolved line history keeps every record manual_review_required; no missing months are filled."
+}

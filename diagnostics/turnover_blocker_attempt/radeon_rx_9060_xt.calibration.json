@@ -1,0 +1,335 @@
+{
+  "image_size": [
+    1176,
+    484
+  ],
+  "plot_bounds": [
+    55,
+    27,
+    1149,
+    427
+  ],
+  "x_gridlines": [
+    55,
+    113,
+    175,
+    235,
+    296,
+    359,
+    415,
+    477,
+    537,
+    599,
+    659,
+    721,
+    783,
+    843,
+    905,
+    965,
+    1026,
+    1089,
+    1145,
+    1149
+  ],
+  "y_gridlines": [
+    27,
+    94,
+    161,
+    227,
+    294,
+    361,
+    427
+  ],
+  "y_tick_values": [
+    1200,
+    1000,
+    800,
+    600,
+    400,
+    200,
+    0
+  ],
+  "anchor_date": "2024-10-01",
+  "anchor_x": 113,
+  "monthly_x_positions": {
+    "2024-07-01": null,
+    "2024-08-01": null,
+    "2024-09-01": 55,
+    "2024-10-01": 113,
+    "2024-11-01": 175,
+    "2024-12-01": 235,
+    "2025-01-01": 296,
+    "2025-02-01": 359,
+    "2025-03-01": 415,
+    "2025-04-01": 477,
+    "2025-05-01": 537,
+    "2025-06-01": 599,
+    "2025-07-01": 659,
+    "2025-08-01": 721,
+    "2025-09-01": 783,
+    "2025-10-01": 843,
+    "2025-11-01": 905,
+    "2025-12-01": 965,
+    "2026-01-01": 1026
+  },
+  "monthly_pixel_y_positions": {
+    "2024-07-01": null,
+    "2024-08-01": null,
+    "2024-09-01": null,
+    "2024-10-01": null,
+    "2024-11-01": null,
+    "2024-12-01": null,
+    "2025-01-01": null,
+    "2025-02-01": null,
+    "2025-03-01": null,
+    "2025-04-01": null,
+    "2025-05-01": null,
+    "2025-06-01": null,
+    "2025-07-01": 292.0,
+    "2025-08-01": 289.0,
+    "2025-09-01": 291.0,
+    "2025-10-01": 288.0,
+    "2025-11-01": 291.0,
+    "2025-12-01": 295.0,
+    "2026-01-01": 281.0
+  },
+  "monthly_sampling_diagnostics": {
+    "2024-07-01": {
+      "status": "out_of_history",
+      "candidates": []
+    },
+    "2024-08-01": {
+      "status": "out_of_history",
+      "candidates": []
+    },
+    "2024-09-01": {
+      "status": "rejected",
+      "reason": "missing_line_segment",
+      "candidates": [],
+      "accepted": null
+    },
+    "2024-10-01": {
+      "status": "rejected",
+      "reason": "missing_line_segment",
+      "candidates": [],
+      "accepted": null
+    },
+    "2024-11-01": {
+      "status": "rejected",
+      "reason": "missing_line_segment",
+      "candidates": [],
+      "accepted": null
+    },
+    "2024-12-01": {
+      "status": "rejected",
+      "reason": "missing_line_segment",
+      "candidates": [],
+      "accepted": null
+    },
+    "2025-01-01": {
+      "status": "rejected",
+      "reason": "missing_line_segment",
+      "candidates": [],
+      "accepted": null
+    },
+    "2025-02-01": {
+      "status": "rejected",
+      "reason": "missing_line_segment",
+      "candidates": [],
+      "accepted": null
+    },
+    "2025-03-01": {
+      "status": "rejected",
+      "reason": "missing_line_segment",
+      "candidates": [],
+      "accepted": null
+    },
+    "2025-04-01": {
+      "status": "rejected",
+      "reason": "missing_line_segment",
+      "candidates": [],
+      "accepted": null
+    },
+    "2025-05-01": {
+      "status": "rejected",
+      "reason": "missing_line_segment",
+      "candidates": [],
+      "accepted": null
+    },
+    "2025-06-01": {
+      "status": "rejected",
+      "reason": "missing_line_segment",
+      "candidates": [],
+      "accepted": null
+    },
+    "2025-07-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 292.0,
+          "x_span": 12,
+          "y_span": 7,
+          "horizontal_support": 13,
+          "area": 42,
+          "vertical_spike": false,
+          "score": 14.0
+        }
+      ],
+      "accepted": {
+        "y": 292.0,
+        "x_span": 12,
+        "y_span": 7,
+        "horizontal_support": 13,
+        "area": 42,
+        "vertical_spike": false,
+        "score": 14.0
+      }
+    },
+    "2025-08-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 289.0,
+          "x_span": 12,
+          "y_span": 4,
+          "horizontal_support": 13,
+          "area": 39,
+          "vertical_spike": false,
+          "score": 15.0
+        }
+      ],
+      "accepted": {
+        "y": 289.0,
+        "x_span": 12,
+        "y_span": 4,
+        "horizontal_support": 13,
+        "area": 39,
+        "vertical_spike": false,
+        "score": 15.0
+      }
+    },
+    "2025-09-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 291.0,
+          "x_span": 12,
+          "y_span": 4,
+          "horizontal_support": 13,
+          "area": 39,
+          "vertical_spike": false,
+          "score": 15.0
+        }
+      ],
+      "accepted": {
+        "y": 291.0,
+        "x_span": 12,
+        "y_span": 4,
+        "horizontal_support": 13,
+        "area": 39,
+        "vertical_spike": false,
+        "score": 15.0
+      }
+    },
+    "2025-10-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 288.0,
+          "x_span": 12,
+          "y_span": 3,
+          "horizontal_support": 13,
+          "area": 39,
+          "vertical_spike": false,
+          "score": 14.0
+        }
+      ],
+      "accepted": {
+        "y": 288.0,
+        "x_span": 12,
+        "y_span": 3,
+        "horizontal_support": 13,
+        "area": 39,
+        "vertical_spike": false,
+        "score": 14.0
+      }
+    },
+    "2025-11-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 291.0,
+          "x_span": 12,
+          "y_span": 4,
+          "horizontal_support": 13,
+          "area": 39,
+          "vertical_spike": false,
+          "score": 14.0
+        }
+      ],
+      "accepted": {
+        "y": 291.0,
+        "x_span": 12,
+        "y_span": 4,
+        "horizontal_support": 13,
+        "area": 39,
+        "vertical_spike": false,
+        "score": 14.0
+      }
+    },
+    "2025-12-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 295.0,
+          "x_span": 12,
+          "y_span": 8,
+          "horizontal_support": 13,
+          "area": 41,
+          "vertical_spike": false,
+          "score": 13.0
+        }
+      ],
+      "accepted": {
+        "y": 295.0,
+        "x_span": 12,
+        "y_span": 8,
+        "horizontal_support": 13,
+        "area": 41,
+        "vertical_spike": false,
+        "score": 13.0
+      }
+    },
+    "2026-01-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 281.0,
+          "x_span": 12,
+          "y_span": 5,
+          "horizontal_support": 13,
+          "area": 39,
+          "vertical_spike": false,
+          "score": 11.0
+        }
+      ],
+      "accepted": {
+        "y": 281.0,
+        "x_span": 12,
+        "y_span": 5,
+        "horizontal_support": 13,
+        "area": 39,
+        "vertical_spike": false,
+        "score": 11.0
+      }
+    }
+  },
+  "calibration_source": "Step 23 manually validated geometry"
+}
