@@ -2,7 +2,7 @@
   "step": 22,
   "audit_date": "2026-10-19",
   "scope": "Manual review of Queue B bottom y=427 boundary; no extraction",
-  "source_manifest": "STEP21_QUEUE_B_CALIBRATION_MANIFEST.json",
+  "source_manifest": "queue_b_calibration_manifest.json",
   "source_images": "diagnostics/step17_source_images",
   "proposed_artifacts": "diagnostics/step22_bottom_boundary_review",
   "decisions": [

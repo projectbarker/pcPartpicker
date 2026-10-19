@@ -9,8 +9,8 @@ from gpu_trends_image_extraction import backup_and_write, load_gpu_records
 
 
 ROOT = Path(__file__).parent
-INPUT_PATH = ROOT / "step9_pilot_input.json"
-CALIBRATION_PATH = ROOT / "step9_pilot_calibration.json"
+INPUT_PATH = ROOT / "initial_pilot_input.json"
+CALIBRATION_PATH = ROOT / "initial_pilot_calibration.json"
 ARTIFACT_DIR = ROOT / "diagnostics" / "step9_seven_gpu_pilot"
 OUTPUT_PATH = ROOT / "Monthly_Scraped_Data" / "pcpartpicker_gpu_trends_step9_seven_gpu_pilot.json"
 

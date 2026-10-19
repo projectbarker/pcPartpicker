@@ -3,7 +3,7 @@
   "audit_date": "2026-10-19",
   "scope": "Existing Step 19 Queue A pilot; no extraction rerun",
   "source_output": "Monthly_Scraped_Data/pcpartpicker_gpu_trends_step19_queue_a_pilot.json",
-  "source_manifest": "STEP19_QUEUE_A_PILOT_MANIFEST.json",
+  "source_manifest": "queue_a_pilot_manifest.json",
   "source_images_directory": "diagnostics/step17_source_images",
   "overlay_directory": "diagnostics/step19_queue_a_pilot",
   "records_audited": 9,

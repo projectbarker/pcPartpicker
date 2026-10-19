@@ -6,8 +6,8 @@
   "monthly_extraction": "coordinate_calibration_runner.process_record",
   "output_path": "Monthly_Scraped_Data/pcpartpicker_gpu_trends_step9_seven_gpu_pilot.json",
   "artifact_directory": "diagnostics/step9_seven_gpu_pilot",
-  "input_path": "step9_pilot_input.json",
-  "calibration_path": "step9_pilot_calibration.json",
+  "input_path": "initial_pilot_input.json",
+  "calibration_path": "initial_pilot_calibration.json",
   "records": [
     {"gpu_model": "Arc A380", "source_image_path": "diagnostics/controlled_validation_sources/arc_a380.png", "image_dimensions": [1176, 484], "sha256_prefix": "ab99e76bd09c8f08", "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.03.usd.gpu.chipset.arc-a380.f1755c339444bd0501f679c3831a3aa2.png", "anchor_date": "2024-10-01", "anchor_x": 113, "y_tick_values": [300, 250, 200, 150, 100, 50, 0]},
     {"gpu_model": "Arc A750", "source_image_path": "diagnostics/controlled_validation_sources/arc_a750.png", "image_dimensions": [1176, 484], "sha256_prefix": "61fefb85c724a669", "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.03.usd.gpu.chipset.arc-a750.6963ef17e87620e81fbef8b940dd2c3f.png", "anchor_date": "2024-10-01", "anchor_x": 113, "y_tick_values": [600, 500, 400, 300, 200, 100, 0]},
