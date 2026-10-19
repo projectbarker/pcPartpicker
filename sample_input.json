@@ -1,0 +1,14 @@
+[
+  {
+    "gpu_model": "Arc A380",
+    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.03.usd.gpu.chipset.arc-a380.f1755c339444bd0501f679c3831a3aa2.png"
+  },
+  {
+    "gpu_model": "GeForce RTX 4090",
+    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.03.usd.gpu.chipset.geforce-rtx-4090.6cffaa467e9701ce93547594581181d0.png"
+  },
+  {
+    "gpu_model": "Radeon RX 7900 XTX",
+    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.03.usd.gpu.chipset.radeon-rx-7900-xtx.53f78199588e2176b6b66c3453ce4ae2.png"
+  }
+]

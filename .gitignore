@@ -7,4 +7,26 @@ __pycache__/
 *.bak
 *.backup_*
 debug/
+.idea/
+.vscode/
+bin/
+pcpartpicker_debug_page.html
+arc_a380_chart_debug.png
+*_backup_*.json
+
+# Local historical reports and intermediate datasets are retained locally,
+# but are not part of the compact published repository.
+/OVERLAY_REVIEW.md
+/STEP*.md
+/CALIBRATION_READINESS*.md
+/CALIBRATION_READINESS*.json
+/Monthly_Scraped_Data/*
+!/Monthly_Scraped_Data/
+!/Monthly_Scraped_Data/pcpartpicker_gpu_trends_final.json
+
+# Keep only the reviewed diagnostic bundle in the published repository.
+/diagnostics/*
+!/diagnostics/
+!/diagnostics/turnover_blocker_attempt/
+!/diagnostics/turnover_blocker_attempt/**
 *.log

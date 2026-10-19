@@ -1,0 +1,9 @@
+{
+  "Arc A380": {"anchor_date": "2024-10-01", "anchor_x": 113, "y_tick_values": [300, 250, 200, 150, 100, 50, 0]},
+  "Arc A750": {"anchor_date": "2024-10-01", "anchor_x": 113, "y_tick_values": [600, 500, 400, 300, 200, 100, 0]},
+  "GeForce RTX 4070": {"anchor_date": "2024-10-01", "anchor_x": 113, "y_tick_values": [1200, 1000, 800, 600, 400, 200, 0]},
+  "GeForce RTX 4080": {"anchor_date": "2024-10-01", "anchor_x": 113, "y_tick_values": [3000, 2500, 2000, 1500, 1000, 500, 0]},
+  "GeForce RTX 4090": {"anchor_date": "2024-10-01", "anchor_x": 113, "y_tick_values": [6000, 5000, 4000, 3000, 2000, 1000, 0]},
+  "GeForce RTX 5090": {"anchor_date": "2024-10-01", "anchor_x": 113, "y_tick_values": [6000, 5000, 4000, 3000, 2000, 1000, 0]},
+  "Radeon RX 7900 XTX": {"anchor_date": "2024-10-01", "anchor_x": 113, "y_tick_values": [1500, 1250, 1000, 750, 500, 250, 0]}
+}
