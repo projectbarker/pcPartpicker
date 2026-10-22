@@ -1,0 +1,584 @@
+{
+  "source_image": "C:\\Users\\ranvi\\Documents\\Ranvijay_Work\\GPU_PCPARTPICKER\\diagnostics\\cached_july_2026_sources\\radeon_rx_7800_xt.png",
+  "image_size": [
+    1176,
+    484
+  ],
+  "plot_bounds": [
+    55,
+    27,
+    1149,
+    427
+  ],
+  "x_gridlines": [
+    55,
+    115,
+    171,
+    233,
+    293,
+    355,
+    415,
+    477,
+    539,
+    599,
+    661,
+    721,
+    782,
+    845,
+    901,
+    963,
+    1023,
+    1085,
+    1145
+  ],
+  "y_gridlines": [
+    27,
+    94,
+    161,
+    227,
+    294,
+    361,
+    427
+  ],
+  "y_tick_values": [
+    1200.0,
+    1000.0,
+    800.0,
+    600.0,
+    400.0,
+    200.0,
+    0.0
+  ],
+  "anchor_date": "2025-02-01",
+  "anchor_x": 115,
+  "monthly_x_positions": {
+    "2024-07-01": null,
+    "2024-08-01": null,
+    "2024-09-01": null,
+    "2024-10-01": null,
+    "2024-11-01": null,
+    "2024-12-01": null,
+    "2025-01-01": 55,
+    "2025-02-01": 115,
+    "2025-03-01": 171,
+    "2025-04-01": 233,
+    "2025-05-01": 293,
+    "2025-06-01": 355,
+    "2025-07-01": 415,
+    "2025-08-01": 477,
+    "2025-09-01": 539,
+    "2025-10-01": 599,
+    "2025-11-01": 661,
+    "2025-12-01": 721,
+    "2026-01-01": 782,
+    "2026-02-01": 845,
+    "2026-03-01": 901,
+    "2026-04-01": 963,
+    "2026-05-01": 1023,
+    "2026-06-01": 1085,
+    "2026-07-01": 1145,
+    "2026-08-01": null,
+    "2026-09-01": null
+  },
+  "monthly_pixel_y_positions": {
+    "2024-07-01": null,
+    "2024-08-01": null,
+    "2024-09-01": null,
+    "2024-10-01": null,
+    "2024-11-01": null,
+    "2024-12-01": null,
+    "2025-01-01": 229.0,
+    "2025-02-01": 251.0,
+    "2025-03-01": 238.0,
+    "2025-04-01": 245.0,
+    "2025-05-01": 244.0,
+    "2025-06-01": 213.0,
+    "2025-07-01": 218.0,
+    "2025-08-01": 207.0,
+    "2025-09-01": 230.0,
+    "2025-10-01": 226.0,
+    "2025-11-01": 208.0,
+    "2025-12-01": 228.0,
+    "2026-01-01": 246.0,
+    "2026-02-01": 235.0,
+    "2026-03-01": 231.0,
+    "2026-04-01": 246.0,
+    "2026-05-01": 231.0,
+    "2026-06-01": 235.0,
+    "2026-07-01": null,
+    "2026-08-01": null,
+    "2026-09-01": null
+  },
+  "monthly_sampling_diagnostics": {
+    "2024-07-01": {
+      "status": "out_of_history",
+      "candidates": []
+    },
+    "2024-08-01": {
+      "status": "out_of_history",
+      "candidates": []
+    },
+    "2024-09-01": {
+      "status": "out_of_history",
+      "candidates": []
+    },
+    "2024-10-01": {
+      "status": "out_of_history",
+      "candidates": []
+    },
+    "2024-11-01": {
+      "status": "out_of_history",
+      "candidates": []
+    },
+    "2024-12-01": {
+      "status": "out_of_history",
+      "candidates": []
+    },
+    "2025-01-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 229.0,
+          "x_span": 4,
+          "y_span": 15,
+          "horizontal_support": 5,
+          "area": 26,
+          "vertical_spike": false,
+          "score": 11.0
+        }
+      ],
+      "accepted": {
+        "y": 229.0,
+        "x_span": 4,
+        "y_span": 15,
+        "horizontal_support": 5,
+        "area": 26,
+        "vertical_spike": false,
+        "score": 11.0
+      }
+    },
+    "2025-02-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 251.0,
+          "x_span": 12,
+          "y_span": 6,
+          "horizontal_support": 13,
+          "area": 40,
+          "vertical_spike": false,
+          "score": 11.0
+        }
+      ],
+      "accepted": {
+        "y": 251.0,
+        "x_span": 12,
+        "y_span": 6,
+        "horizontal_support": 13,
+        "area": 40,
+        "vertical_spike": false,
+        "score": 11.0
+      }
+    },
+    "2025-03-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 238.0,
+          "x_span": 12,
+          "y_span": 15,
+          "horizontal_support": 13,
+          "area": 46,
+          "vertical_spike": false,
+          "score": 11.0
+        }
+      ],
+      "accepted": {
+        "y": 238.0,
+        "x_span": 12,
+        "y_span": 15,
+        "horizontal_support": 13,
+        "area": 46,
+        "vertical_spike": false,
+        "score": 11.0
+      }
+    },
+    "2025-04-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 245.0,
+          "x_span": 12,
+          "y_span": 3,
+          "horizontal_support": 13,
+          "area": 40,
+          "vertical_spike": false,
+          "score": 16.0
+        }
+      ],
+      "accepted": {
+        "y": 245.0,
+        "x_span": 12,
+        "y_span": 3,
+        "horizontal_support": 13,
+        "area": 40,
+        "vertical_spike": false,
+        "score": 16.0
+      }
+    },
+    "2025-05-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 244.0,
+          "x_span": 12,
+          "y_span": 3,
+          "horizontal_support": 13,
+          "area": 39,
+          "vertical_spike": false,
+          "score": 16.0
+        }
+      ],
+      "accepted": {
+        "y": 244.0,
+        "x_span": 12,
+        "y_span": 3,
+        "horizontal_support": 13,
+        "area": 39,
+        "vertical_spike": false,
+        "score": 16.0
+      }
+    },
+    "2025-06-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 213.0,
+          "x_span": 12,
+          "y_span": 5,
+          "horizontal_support": 13,
+          "area": 39,
+          "vertical_spike": false,
+          "score": 12.0
+        }
+      ],
+      "accepted": {
+        "y": 213.0,
+        "x_span": 12,
+        "y_span": 5,
+        "horizontal_support": 13,
+        "area": 39,
+        "vertical_spike": false,
+        "score": 12.0
+      }
+    },
+    "2025-07-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 218.0,
+          "x_span": 12,
+          "y_span": 33,
+          "horizontal_support": 13,
+          "area": 67,
+          "vertical_spike": false,
+          "score": 12.0
+        }
+      ],
+      "accepted": {
+        "y": 218.0,
+        "x_span": 12,
+        "y_span": 33,
+        "horizontal_support": 13,
+        "area": 67,
+        "vertical_spike": false,
+        "score": 12.0
+      }
+    },
+    "2025-08-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 207.0,
+          "x_span": 12,
+          "y_span": 8,
+          "horizontal_support": 13,
+          "area": 41,
+          "vertical_spike": false,
+          "score": 11.0
+        }
+      ],
+      "accepted": {
+        "y": 207.0,
+        "x_span": 12,
+        "y_span": 8,
+        "horizontal_support": 13,
+        "area": 41,
+        "vertical_spike": false,
+        "score": 11.0
+      }
+    },
+    "2025-09-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 230.0,
+          "x_span": 12,
+          "y_span": 16,
+          "horizontal_support": 13,
+          "area": 49,
+          "vertical_spike": false,
+          "score": 13.0
+        }
+      ],
+      "accepted": {
+        "y": 230.0,
+        "x_span": 12,
+        "y_span": 16,
+        "horizontal_support": 13,
+        "area": 49,
+        "vertical_spike": false,
+        "score": 13.0
+      }
+    },
+    "2025-10-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 226.0,
+          "x_span": 12,
+          "y_span": 2,
+          "horizontal_support": 13,
+          "area": 39,
+          "vertical_spike": false,
+          "score": 13.0
+        }
+      ],
+      "accepted": {
+        "y": 226.0,
+        "x_span": 12,
+        "y_span": 2,
+        "horizontal_support": 13,
+        "area": 39,
+        "vertical_spike": false,
+        "score": 13.0
+      }
+    },
+    "2025-11-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 208.0,
+          "x_span": 12,
+          "y_span": 17,
+          "horizontal_support": 13,
+          "area": 52,
+          "vertical_spike": false,
+          "score": 11.0
+        }
+      ],
+      "accepted": {
+        "y": 208.0,
+        "x_span": 12,
+        "y_span": 17,
+        "horizontal_support": 13,
+        "area": 52,
+        "vertical_spike": false,
+        "score": 11.0
+      }
+    },
+    "2025-12-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 228.0,
+          "x_span": 12,
+          "y_span": 3,
+          "horizontal_support": 13,
+          "area": 39,
+          "vertical_spike": false,
+          "score": 11.0
+        }
+      ],
+      "accepted": {
+        "y": 228.0,
+        "x_span": 12,
+        "y_span": 3,
+        "horizontal_support": 13,
+        "area": 39,
+        "vertical_spike": false,
+        "score": 11.0
+      }
+    },
+    "2026-01-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 246.0,
+          "x_span": 12,
+          "y_span": 2,
+          "horizontal_support": 13,
+          "area": 39,
+          "vertical_spike": false,
+          "score": 11.0
+        }
+      ],
+      "accepted": {
+        "y": 246.0,
+        "x_span": 12,
+        "y_span": 2,
+        "horizontal_support": 13,
+        "area": 39,
+        "vertical_spike": false,
+        "score": 11.0
+      }
+    },
+    "2026-02-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 235.0,
+          "x_span": 12,
+          "y_span": 5,
+          "horizontal_support": 13,
+          "area": 39,
+          "vertical_spike": false,
+          "score": 13.0
+        }
+      ],
+      "accepted": {
+        "y": 235.0,
+        "x_span": 12,
+        "y_span": 5,
+        "horizontal_support": 13,
+        "area": 39,
+        "vertical_spike": false,
+        "score": 13.0
+      }
+    },
+    "2026-03-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 231.0,
+          "x_span": 12,
+          "y_span": 2,
+          "horizontal_support": 13,
+          "area": 39,
+          "vertical_spike": false,
+          "score": 13.0
+        }
+      ],
+      "accepted": {
+        "y": 231.0,
+        "x_span": 12,
+        "y_span": 2,
+        "horizontal_support": 13,
+        "area": 39,
+        "vertical_spike": false,
+        "score": 13.0
+      }
+    },
+    "2026-04-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 246.0,
+          "x_span": 12,
+          "y_span": 2,
+          "horizontal_support": 13,
+          "area": 39,
+          "vertical_spike": false,
+          "score": 11.0
+        }
+      ],
+      "accepted": {
+        "y": 246.0,
+        "x_span": 12,
+        "y_span": 2,
+        "horizontal_support": 13,
+        "area": 39,
+        "vertical_spike": false,
+        "score": 11.0
+      }
+    },
+    "2026-05-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 231.0,
+          "x_span": 12,
+          "y_span": 2,
+          "horizontal_support": 13,
+          "area": 39,
+          "vertical_spike": false,
+          "score": 13.0
+        }
+      ],
+      "accepted": {
+        "y": 231.0,
+        "x_span": 12,
+        "y_span": 2,
+        "horizontal_support": 13,
+        "area": 39,
+        "vertical_spike": false,
+        "score": 13.0
+      }
+    },
+    "2026-06-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 235.0,
+          "x_span": 12,
+          "y_span": 9,
+          "horizontal_support": 13,
+          "area": 45,
+          "vertical_spike": false,
+          "score": 13.0
+        }
+      ],
+      "accepted": {
+        "y": 235.0,
+        "x_span": 12,
+        "y_span": 9,
+        "horizontal_support": 13,
+        "area": 45,
+        "vertical_spike": false,
+        "score": 13.0
+      }
+    },
+    "2026-07-01": {
+      "status": "rejected",
+      "reason": "missing_line_segment",
+      "candidates": [],
+      "accepted": null
+    },
+    "2026-08-01": {
+      "status": "out_of_history",
+      "candidates": []
+    },
+    "2026-09-01": {
+      "status": "out_of_history",
+      "candidates": []
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "gpu_model_name": "GeForce RTX 4090",
+  "source_image": "diagnostics\\live_chart_sources_20261022\\geforce_rtx_4090.png",
+  "source_sha256": "CF1E102433B0F5F323DC68202E9546D1AA52D1335311104BDBB4C0367E032B59",
+  "image_size": [
+    1176,
+    484
+  ],
+  "plot_bounds": [
+    55,
+    27,
+    1149,
+    427
+  ],
+  "x_gridlines": [
+    55,
+    71,
+    133,
+    193,
+    255,
+    317,
+    377,
+    439,
+    499,
+    560,
+    623,
+    679,
+    741,
+    801,
+    863,
+    923,
+    985,
+    1047,
+    1107,
+    1149
+  ],
+  "y_gridlines": [
+    27,
+    94,
+    161,
+    227,
+    294,
+    361,
+    427
+  ],
+  "y_tick_values": [
+    6000.0,
+    5000.0,
+    4000.0,
+    3000.0,
+    2000.0,
+    1000.0,
+    0.0
+  ],
+  "anchor_date": "2025-05-01",
+  "anchor_x": 71,
+  "monthly_x_positions": {
+    "2026-08-01": 985,
+    "2026-09-01": 1047
+  },
+  "monthly_pixel_y_positions": {
+    "2026-08-01": null,
+    "2026-09-01": null
+  },
+  "monthly_sampling_diagnostics": {
+    "2026-08-01": {
+      "status": "rejected",
+      "reason": "missing_line_segment",
+      "candidates": [],
+      "accepted": null
+    },
+    "2026-09-01": {
+      "status": "rejected",
+      "reason": "missing_line_segment",
+      "candidates": [],
+      "accepted": null
+    }
+  },
+  "price_trend": {
+    "2026-08-01": "N/A",
+    "2026-09-01": "N/A"
+  },
+  "price_quality": {
+    "2026-08-01": "N/A",
+    "2026-09-01": "N/A"
+  },
+  "review_reasons": [
+    "live_asset_review_pending",
+    "missing_line_segment"
+  ],
+  "review_status": "human_verification_pending",
+  "overlay_path": "experimental\\aug_sep_2026_full_review_20261022\\geforce_rtx_4090.overlay.png"
+}

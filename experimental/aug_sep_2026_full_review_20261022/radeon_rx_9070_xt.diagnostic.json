@@ -1,0 +1,129 @@
+{
+  "gpu_model_name": "Radeon RX 9070 XT",
+  "source_image": "diagnostics\\live_chart_sources_20261022\\radeon_rx_9070_xt.png",
+  "source_sha256": "245677F0A4A4F753FF6A1AC17AD612645B0344427BD17546520EC5DFF0444018",
+  "image_size": [
+    1176,
+    484
+  ],
+  "plot_bounds": [
+    55,
+    27,
+    1149,
+    427
+  ],
+  "x_gridlines": [
+    55,
+    71,
+    133,
+    193,
+    255,
+    317,
+    377,
+    439,
+    499,
+    560,
+    623,
+    679,
+    741,
+    801,
+    863,
+    923,
+    985,
+    1047,
+    1107,
+    1149
+  ],
+  "y_gridlines": [
+    27,
+    94,
+    161,
+    227,
+    294,
+    361,
+    427
+  ],
+  "y_tick_values": [
+    1200.0,
+    1000.0,
+    800.0,
+    600.0,
+    400.0,
+    200.0,
+    0.0
+  ],
+  "anchor_date": "2025-05-01",
+  "anchor_x": 71,
+  "monthly_x_positions": {
+    "2026-08-01": 985,
+    "2026-09-01": 1047
+  },
+  "monthly_pixel_y_positions": {
+    "2026-08-01": 190.0,
+    "2026-09-01": 171.0
+  },
+  "monthly_sampling_diagnostics": {
+    "2026-08-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 190.0,
+          "x_span": 12,
+          "y_span": 9,
+          "horizontal_support": 13,
+          "area": 42,
+          "vertical_spike": false,
+          "score": 11.0
+        }
+      ],
+      "accepted": {
+        "y": 190.0,
+        "x_span": 12,
+        "y_span": 9,
+        "horizontal_support": 13,
+        "area": 42,
+        "vertical_spike": false,
+        "score": 11.0
+      }
+    },
+    "2026-09-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 171.0,
+          "x_span": 12,
+          "y_span": 10,
+          "horizontal_support": 13,
+          "area": 42,
+          "vertical_spike": false,
+          "score": 11.0
+        }
+      ],
+      "accepted": {
+        "y": 171.0,
+        "x_span": 12,
+        "y_span": 10,
+        "horizontal_support": 13,
+        "area": 42,
+        "vertical_spike": false,
+        "score": 11.0
+      }
+    }
+  },
+  "price_trend": {
+    "2026-08-01": "712.00",
+    "2026-09-01": "770.00"
+  },
+  "price_quality": {
+    "2026-08-01": "estimated",
+    "2026-09-01": "estimated"
+  },
+  "review_reasons": [
+    "estimated_values_present",
+    "live_asset_review_pending"
+  ],
+  "review_status": "human_verification_pending",
+  "overlay_path": "experimental\\aug_sep_2026_full_review_20261022\\radeon_rx_9070_xt.overlay.png"
+}

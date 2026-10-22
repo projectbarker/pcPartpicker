@@ -27,7 +27,9 @@
       "2026-04-01": "179.00",
       "2026-05-01": "189.00",
       "2026-06-01": "195.00",
-      "2026-07-01": "194.00"
+      "2026-07-01": "194.00",
+      "2026-08-01": "200.00",
+      "2026-09-01": "206.00"
     },
     "price_quality": {
       "2024-07-01": "N/A",
@@ -54,13 +56,16 @@
       "2026-04-01": "estimated",
       "2026-05-01": "estimated",
       "2026-06-01": "estimated",
-      "2026-07-01": "estimated"
+      "2026-07-01": "estimated",
+      "2026-08-01": "observed",
+      "2026-09-01": "estimated"
     },
     "review_required": true,
     "review_reasons": [
       "cached_july_2026_source",
       "estimated_values_present",
-      "outside_visible_history"
+      "outside_visible_history",
+      "aug_sep_2026_approved_patch"
     ],
     "extraction_status": "needs_review",
     "calibration_artifact": "C:\\Users\\ranvi\\Documents\\Ranvijay_Work\\GPU_PCPARTPICKER\\diagnostics\\cached_july_2026_extraction\\arc_a380.overlay.png",
@@ -96,7 +101,9 @@
       "2026-04-01": "329.00",
       "2026-05-01": "311.00",
       "2026-06-01": "311.00",
-      "2026-07-01": "284.00"
+      "2026-07-01": "284.00",
+      "2026-08-01": "293.00",
+      "2026-09-01": "294.00"
     },
     "price_quality": {
       "2024-07-01": "N/A",
@@ -123,14 +130,17 @@
       "2026-04-01": "estimated",
       "2026-05-01": "estimated",
       "2026-06-01": "estimated",
-      "2026-07-01": "estimated"
+      "2026-07-01": "estimated",
+      "2026-08-01": "estimated",
+      "2026-09-01": "estimated"
     },
     "review_required": true,
     "review_reasons": [
       "cached_july_2026_source",
       "estimated_values_present",
       "missing_line_segment",
-      "outside_visible_history"
+      "outside_visible_history",
+      "aug_sep_2026_approved_patch"
     ],
     "extraction_status": "needs_review",
     "calibration_artifact": "C:\\Users\\ranvi\\Documents\\Ranvijay_Work\\GPU_PCPARTPICKER\\diagnostics\\cached_july_2026_extraction\\arc_a750.overlay.png",
@@ -166,7 +176,9 @@
       "2026-04-01": "N/A",
       "2026-05-01": "437.00",
       "2026-06-01": "437.00",
-      "2026-07-01": "434.00"
+      "2026-07-01": "434.00",
+      "2026-08-01": "240.00",
+      "2026-09-01": "255.00"
     },
     "price_quality": {
       "2024-07-01": "N/A",
@@ -193,14 +205,17 @@
       "2026-04-01": "N/A",
       "2026-05-01": "estimated",
       "2026-06-01": "estimated",
-      "2026-07-01": "estimated"
+      "2026-07-01": "estimated",
+      "2026-08-01": "estimated",
+      "2026-09-01": "estimated"
     },
     "review_required": true,
     "review_reasons": [
       "cached_july_2026_source",
       "estimated_values_present",
       "isolated_spike",
-      "outside_visible_history"
+      "outside_visible_history",
+      "aug_sep_2026_approved_patch"
     ],
     "extraction_status": "needs_review",
     "calibration_artifact": "C:\\Users\\ranvi\\Documents\\Ranvijay_Work\\GPU_PCPARTPICKER\\diagnostics\\cached_july_2026_extraction\\arc_a770.overlay.png",
@@ -236,7 +251,9 @@
       "2026-04-01": "600.00",
       "2026-05-01": "600.00",
       "2026-06-01": "600.00",
-      "2026-07-01": "600.00"
+      "2026-07-01": "600.00",
+      "2026-08-01": "648.00",
+      "2026-09-01": "648.00"
     },
     "price_quality": {
       "2024-07-01": "N/A",
@@ -263,13 +280,16 @@
       "2026-04-01": "observed",
       "2026-05-01": "observed",
       "2026-06-01": "observed",
-      "2026-07-01": "observed"
+      "2026-07-01": "observed",
+      "2026-08-01": "estimated",
+      "2026-09-01": "estimated"
     },
     "review_required": true,
     "review_reasons": [
       "cached_july_2026_source",
       "estimated_values_present",
-      "outside_visible_history"
+      "outside_visible_history",
+      "aug_sep_2026_approved_patch"
     ],
     "extraction_status": "needs_review",
     "calibration_artifact": "diagnostics\\cached_july_2026_extraction\\recovery_artifacts\\geforce_rtx_4070.overlay.png",
@@ -305,7 +325,9 @@
       "2026-04-01": "633.00",
       "2026-05-01": "633.00",
       "2026-06-01": "633.00",
-      "2026-07-01": "N/A"
+      "2026-07-01": "N/A",
+      "2026-08-01": "633.00",
+      "2026-09-01": "688.00"
     },
     "price_quality": {
       "2024-07-01": "N/A",
@@ -332,14 +354,17 @@
       "2026-04-01": "estimated",
       "2026-05-01": "estimated",
       "2026-06-01": "estimated",
-      "2026-07-01": "N/A"
+      "2026-07-01": "N/A",
+      "2026-08-01": "estimated",
+      "2026-09-01": "estimated"
     },
     "review_required": true,
     "review_reasons": [
       "cached_july_2026_source",
       "estimated_values_present",
       "isolated_spike",
-      "outside_visible_history"
+      "outside_visible_history",
+      "aug_sep_2026_approved_patch"
     ],
     "extraction_status": "needs_review",
     "calibration_artifact": "C:\\Users\\ranvi\\Documents\\Ranvijay_Work\\GPU_PCPARTPICKER\\diagnostics\\cached_july_2026_extraction\\geforce_rtx_4070_super.overlay.png",
@@ -375,7 +400,9 @@
       "2026-04-01": "N/A",
       "2026-05-01": "N/A",
       "2026-06-01": "N/A",
-      "2026-07-01": "N/A"
+      "2026-07-01": "N/A",
+      "2026-08-01": "N/A",
+      "2026-09-01": "N/A"
     },
     "price_quality": {
       "2024-07-01": "N/A",
@@ -402,13 +429,16 @@
       "2026-04-01": "N/A",
       "2026-05-01": "N/A",
       "2026-06-01": "N/A",
-      "2026-07-01": "N/A"
+      "2026-07-01": "N/A",
+      "2026-08-01": "N/A",
+      "2026-09-01": "N/A"
     },
     "review_required": true,
     "review_reasons": [
       "estimated_values_present",
       "missing_line_segment",
-      "outside_visible_history"
+      "outside_visible_history",
+      "aug_sep_2026_approved_patch"
     ],
     "extraction_status": "needs_review",
     "calibration_artifact": "diagnostics\\step19_queue_a_pilot\\geforce_rtx_4070_ti.overlay.png",
@@ -444,7 +474,9 @@
       "2026-04-01": "N/A",
       "2026-05-01": "N/A",
       "2026-06-01": "N/A",
-      "2026-07-01": "N/A"
+      "2026-07-01": "N/A",
+      "2026-08-01": "N/A",
+      "2026-09-01": "N/A"
     },
     "price_quality": {
       "2024-07-01": "N/A",
@@ -471,14 +503,17 @@
       "2026-04-01": "N/A",
       "2026-05-01": "N/A",
       "2026-06-01": "N/A",
-      "2026-07-01": "N/A"
+      "2026-07-01": "N/A",
+      "2026-08-01": "N/A",
+      "2026-09-01": "N/A"
     },
     "review_required": true,
     "review_reasons": [
       "estimated_values_present",
       "isolated_spike",
       "missing_line_segment",
-      "outside_visible_history"
+      "outside_visible_history",
+      "aug_sep_2026_approved_patch"
     ],
     "extraction_status": "needs_review",
     "calibration_artifact": "diagnostics\\turnover_blocker_attempt\\geforce_rtx_4070_ti_super.overlay.png",
@@ -514,7 +549,9 @@
       "2026-04-01": "1545.00",
       "2026-05-01": "1545.00",
       "2026-06-01": "1545.00",
-      "2026-07-01": "1545.00"
+      "2026-07-01": "1545.00",
+      "2026-08-01": "1545.00",
+      "2026-09-01": "1545.00"
     },
     "price_quality": {
       "2024-07-01": "N/A",
@@ -541,14 +578,17 @@
       "2026-04-01": "estimated",
       "2026-05-01": "estimated",
       "2026-06-01": "estimated",
-      "2026-07-01": "estimated"
+      "2026-07-01": "estimated",
+      "2026-08-01": "estimated",
+      "2026-09-01": "estimated"
     },
     "review_required": true,
     "review_reasons": [
       "cached_july_2026_source",
       "estimated_values_present",
       "isolated_spike",
-      "outside_visible_history"
+      "outside_visible_history",
+      "aug_sep_2026_approved_patch"
     ],
     "extraction_status": "needs_review",
     "calibration_artifact": "C:\\Users\\ranvi\\Documents\\Ranvijay_Work\\GPU_PCPARTPICKER\\diagnostics\\cached_july_2026_extraction\\geforce_rtx_4080.overlay.png",
@@ -584,7 +624,9 @@
       "2026-04-01": "1198.00",
       "2026-05-01": "1198.00",
       "2026-06-01": "1198.00",
-      "2026-07-01": "1198.00"
+      "2026-07-01": "1198.00",
+      "2026-08-01": "1198.00",
+      "2026-09-01": "1198.00"
     },
     "price_quality": {
       "2024-07-01": "N/A",
@@ -611,14 +653,17 @@
       "2026-04-01": "estimated",
       "2026-05-01": "estimated",
       "2026-06-01": "estimated",
-      "2026-07-01": "estimated"
+      "2026-07-01": "estimated",
+      "2026-08-01": "estimated",
+      "2026-09-01": "estimated"
     },
     "review_required": true,
     "review_reasons": [
       "cached_july_2026_source",
       "estimated_values_present",
       "isolated_spike",
-      "outside_visible_history"
+      "outside_visible_history",
+      "aug_sep_2026_approved_patch"
     ],
     "extraction_status": "needs_review",
     "calibration_artifact": "C:\\Users\\ranvi\\Documents\\Ranvijay_Work\\GPU_PCPARTPICKER\\diagnostics\\cached_july_2026_extraction\\geforce_rtx_4080_super.overlay.png",
@@ -654,7 +699,9 @@
       "2026-04-01": "N/A",
       "2026-05-01": "N/A",
       "2026-06-01": "N/A",
-      "2026-07-01": "N/A"
+      "2026-07-01": "N/A",
+      "2026-08-01": "N/A",
+      "2026-09-01": "N/A"
     },
     "price_quality": {
       "2024-07-01": "N/A",
@@ -681,14 +728,17 @@
       "2026-04-01": "N/A",
       "2026-05-01": "N/A",
       "2026-06-01": "N/A",
-      "2026-07-01": "N/A"
+      "2026-07-01": "N/A",
+      "2026-08-01": "N/A",
+      "2026-09-01": "N/A"
     },
     "review_required": true,
     "review_reasons": [
       "estimated_values_present",
       "isolated_spike",
       "missing_line_segment",
-      "outside_visible_history"
+      "outside_visible_history",
+      "aug_sep_2026_approved_patch"
     ],
     "extraction_status": "needs_review",
     "calibration_artifact": "C:\\Users\\ranvi\\Documents\\Ranvijay_Work\\GPU_PCPARTPICKER\\diagnostics\\step9_seven_gpu_pilot\\geforce_rtx_4090.overlay.png",
@@ -724,7 +774,9 @@
       "2026-04-01": "582.00",
       "2026-05-01": "573.00",
       "2026-06-01": "573.00",
-      "2026-07-01": "567.00"
+      "2026-07-01": "567.00",
+      "2026-08-01": "648.00",
+      "2026-09-01": "748.00"
     },
     "price_quality": {
       "2024-07-01": "N/A",
@@ -751,14 +803,17 @@
       "2026-04-01": "estimated",
       "2026-05-01": "estimated",
       "2026-06-01": "estimated",
-      "2026-07-01": "estimated"
+      "2026-07-01": "estimated",
+      "2026-08-01": "estimated",
+      "2026-09-01": "estimated"
     },
     "review_required": true,
     "review_reasons": [
       "cached_july_2026_source",
       "estimated_values_present",
       "missing_line_segment",
-      "outside_visible_history"
+      "outside_visible_history",
+      "aug_sep_2026_approved_patch"
     ],
     "extraction_status": "needs_review",
     "calibration_artifact": "C:\\Users\\ranvi\\Documents\\Ranvijay_Work\\GPU_PCPARTPICKER\\diagnostics\\cached_july_2026_extraction\\geforce_rtx_5060_ti.overlay.png",
@@ -794,7 +849,9 @@
       "2026-04-01": "755.00",
       "2026-05-01": "752.00",
       "2026-06-01": "752.00",
-      "2026-07-01": "745.00"
+      "2026-07-01": "745.00",
+      "2026-08-01": "856.00",
+      "2026-09-01": "1000.00"
     },
     "price_quality": {
       "2024-07-01": "N/A",
@@ -821,7 +878,9 @@
       "2026-04-01": "estimated",
       "2026-05-01": "estimated",
       "2026-06-01": "estimated",
-      "2026-07-01": "estimated"
+      "2026-07-01": "estimated",
+      "2026-08-01": "estimated",
+      "2026-09-01": "observed"
     },
     "review_required": true,
     "review_reasons": [
@@ -829,7 +888,8 @@
       "estimated_values_present",
       "isolated_spike",
       "missing_line_segment",
-      "outside_visible_history"
+      "outside_visible_history",
+      "aug_sep_2026_approved_patch"
     ],
     "extraction_status": "needs_review",
     "calibration_artifact": "C:\\Users\\ranvi\\Documents\\Ranvijay_Work\\GPU_PCPARTPICKER\\diagnostics\\cached_july_2026_extraction\\geforce_rtx_5070.overlay.png",
@@ -865,7 +925,9 @@
       "2026-04-01": "545.00",
       "2026-05-01": "556.00",
       "2026-06-01": "560.00",
-      "2026-07-01": "560.00"
+      "2026-07-01": "560.00",
+      "2026-08-01": "608.00",
+      "2026-09-01": "668.00"
     },
     "price_quality": {
       "2024-07-01": "N/A",
@@ -892,7 +954,9 @@
       "2026-04-01": "estimated",
       "2026-05-01": "estimated",
       "2026-06-01": "estimated",
-      "2026-07-01": "estimated"
+      "2026-07-01": "estimated",
+      "2026-08-01": "estimated",
+      "2026-09-01": "estimated"
     },
     "review_required": true,
     "review_reasons": [
@@ -900,7 +964,8 @@
       "estimated_values_present",
       "isolated_spike",
       "missing_line_segment",
-      "outside_visible_history"
+      "outside_visible_history",
+      "aug_sep_2026_approved_patch"
     ],
     "extraction_status": "needs_review",
     "calibration_artifact": "C:\\Users\\ranvi\\Documents\\Ranvijay_Work\\GPU_PCPARTPICKER\\diagnostics\\cached_july_2026_extraction\\geforce_rtx_5070_ti.overlay.png",
@@ -936,7 +1001,9 @@
       "2026-04-01": "1636.00",
       "2026-05-01": "1621.00",
       "2026-06-01": "1682.00",
-      "2026-07-01": "1629.00"
+      "2026-07-01": "1629.00",
+      "2026-08-01": "1750.00",
+      "2026-09-01": "1894.00"
     },
     "price_quality": {
       "2024-07-01": "N/A",
@@ -963,14 +1030,17 @@
       "2026-04-01": "estimated",
       "2026-05-01": "estimated",
       "2026-06-01": "estimated",
-      "2026-07-01": "estimated"
+      "2026-07-01": "estimated",
+      "2026-08-01": "estimated",
+      "2026-09-01": "estimated"
     },
     "review_required": true,
     "review_reasons": [
       "cached_july_2026_source",
       "estimated_values_present",
       "missing_line_segment",
-      "outside_visible_history"
+      "outside_visible_history",
+      "aug_sep_2026_approved_patch"
     ],
     "extraction_status": "needs_review",
     "calibration_artifact": "C:\\Users\\ranvi\\Documents\\Ranvijay_Work\\GPU_PCPARTPICKER\\diagnostics\\cached_july_2026_extraction\\geforce_rtx_5080.overlay.png",
@@ -1006,7 +1076,9 @@
       "2026-04-01": "3667.00",
       "2026-05-01": "3758.00",
       "2026-06-01": "3879.00",
-      "2026-07-01": "4149.00"
+      "2026-07-01": "4149.00",
+      "2026-08-01": "4284.00",
+      "2026-09-01": "4537.00"
     },
     "price_quality": {
       "2024-07-01": "N/A",
@@ -1033,14 +1105,17 @@
       "2026-04-01": "estimated",
       "2026-05-01": "estimated",
       "2026-06-01": "estimated",
-      "2026-07-01": "estimated"
+      "2026-07-01": "estimated",
+      "2026-08-01": "estimated",
+      "2026-09-01": "estimated"
     },
     "review_required": true,
     "review_reasons": [
       "cached_july_2026_source",
       "estimated_values_present",
       "missing_line_segment",
-      "outside_visible_history"
+      "outside_visible_history",
+      "aug_sep_2026_approved_patch"
     ],
     "extraction_status": "needs_review",
     "calibration_artifact": "C:\\Users\\ranvi\\Documents\\Ranvijay_Work\\GPU_PCPARTPICKER\\diagnostics\\cached_july_2026_extraction\\geforce_rtx_5090.overlay.png",
@@ -1076,7 +1151,9 @@
       "2026-04-01": "N/A",
       "2026-05-01": "N/A",
       "2026-06-01": "370.00",
-      "2026-07-01": "365.00"
+      "2026-07-01": "365.00",
+      "2026-08-01": "N/A",
+      "2026-09-01": "N/A"
     },
     "price_quality": {
       "2024-07-01": "N/A",
@@ -1103,7 +1180,9 @@
       "2026-04-01": "N/A",
       "2026-05-01": "N/A",
       "2026-06-01": "estimated",
-      "2026-07-01": "estimated"
+      "2026-07-01": "estimated",
+      "2026-08-01": "N/A",
+      "2026-09-01": "N/A"
     },
     "review_required": true,
     "review_reasons": [
@@ -1112,7 +1191,9 @@
       "estimated_values_present",
       "isolated_spike",
       "missing_line_segment",
-      "outside_visible_history"
+      "outside_visible_history",
+      "ambiguous_month_boundary",
+      "aug_sep_2026_approved_patch"
     ],
     "extraction_status": "needs_review",
     "failure_stage": null,
@@ -1148,7 +1229,9 @@
       "2026-04-01": "400.00",
       "2026-05-01": "493.00",
       "2026-06-01": "478.00",
-      "2026-07-01": "478.00"
+      "2026-07-01": "478.00",
+      "2026-08-01": "499.00",
+      "2026-09-01": "567.00"
     },
     "price_quality": {
       "2024-07-01": "N/A",
@@ -1175,13 +1258,16 @@
       "2026-04-01": "observed",
       "2026-05-01": "estimated",
       "2026-06-01": "estimated",
-      "2026-07-01": "estimated"
+      "2026-07-01": "estimated",
+      "2026-08-01": "estimated",
+      "2026-09-01": "estimated"
     },
     "review_required": true,
     "review_reasons": [
       "cached_july_2026_source",
       "estimated_values_present",
-      "outside_visible_history"
+      "outside_visible_history",
+      "aug_sep_2026_approved_patch"
     ],
     "extraction_status": "needs_review",
     "calibration_artifact": "C:\\Users\\ranvi\\Documents\\Ranvijay_Work\\GPU_PCPARTPICKER\\diagnostics\\cached_july_2026_extraction\\radeon_rx_7700_xt.overlay.png",
@@ -1217,7 +1303,9 @@
       "2026-04-01": "543.00",
       "2026-05-01": "588.00",
       "2026-06-01": "576.00",
-      "2026-07-01": "N/A"
+      "2026-07-01": "N/A",
+      "2026-08-01": "N/A",
+      "2026-09-01": "N/A"
     },
     "price_quality": {
       "2024-07-01": "N/A",
@@ -1244,13 +1332,17 @@
       "2026-04-01": "estimated",
       "2026-05-01": "estimated",
       "2026-06-01": "estimated",
-      "2026-07-01": "N/A"
+      "2026-07-01": "N/A",
+      "2026-08-01": "N/A",
+      "2026-09-01": "N/A"
     },
     "review_required": true,
     "review_reasons": [
       "cached_july_2026_source",
       "estimated_values_present",
-      "outside_visible_history"
+      "outside_visible_history",
+      "missing_line_segment",
+      "aug_sep_2026_approved_patch"
     ],
     "extraction_status": "needs_review",
     "calibration_artifact": "C:\\Users\\ranvi\\Documents\\Ranvijay_Work\\GPU_PCPARTPICKER\\diagnostics\\cached_july_2026_extraction\\radeon_rx_7800_xt.overlay.png",
@@ -1286,7 +1378,9 @@
       "2026-04-01": "748.00",
       "2026-05-01": "818.00",
       "2026-06-01": "848.00",
-      "2026-07-01": "869.00"
+      "2026-07-01": "869.00",
+      "2026-08-01": "871.00",
+      "2026-09-01": "943.00"
     },
     "price_quality": {
       "2024-07-01": "N/A",
@@ -1313,13 +1407,16 @@
       "2026-04-01": "estimated",
       "2026-05-01": "estimated",
       "2026-06-01": "estimated",
-      "2026-07-01": "estimated"
+      "2026-07-01": "estimated",
+      "2026-08-01": "estimated",
+      "2026-09-01": "estimated"
     },
     "review_required": true,
     "review_reasons": [
       "cached_july_2026_source",
       "estimated_values_present",
-      "outside_visible_history"
+      "outside_visible_history",
+      "aug_sep_2026_approved_patch"
     ],
     "extraction_status": "needs_review",
     "calibration_artifact": "C:\\Users\\ranvi\\Documents\\Ranvijay_Work\\GPU_PCPARTPICKER\\diagnostics\\cached_july_2026_extraction\\radeon_rx_7900_xt.overlay.png",
@@ -1355,7 +1452,9 @@
       "2026-04-01": "1168.00",
       "2026-05-01": "1104.00",
       "2026-06-01": "1101.00",
-      "2026-07-01": "1000.00"
+      "2026-07-01": "1000.00",
+      "2026-08-01": "N/A",
+      "2026-09-01": "N/A"
     },
     "price_quality": {
       "2024-07-01": "N/A",
@@ -1382,13 +1481,17 @@
       "2026-04-01": "estimated",
       "2026-05-01": "estimated",
       "2026-06-01": "estimated",
-      "2026-07-01": "observed"
+      "2026-07-01": "observed",
+      "2026-08-01": "N/A",
+      "2026-09-01": "N/A"
     },
     "review_required": true,
     "review_reasons": [
       "cached_july_2026_source",
       "estimated_values_present",
-      "outside_visible_history"
+      "outside_visible_history",
+      "ambiguous_month_boundary",
+      "aug_sep_2026_approved_patch"
     ],
     "extraction_status": "needs_review",
     "calibration_artifact": "C:\\Users\\ranvi\\Documents\\Ranvijay_Work\\GPU_PCPARTPICKER\\diagnostics\\cached_july_2026_extraction\\radeon_rx_7900_xtx.overlay.png",
@@ -1424,7 +1527,9 @@
       "2026-04-01": "531.00",
       "2026-05-01": "528.00",
       "2026-06-01": "525.00",
-      "2026-07-01": "513.00"
+      "2026-07-01": "513.00",
+      "2026-08-01": "549.00",
+      "2026-09-01": "600.00"
     },
     "price_quality": {
       "2024-07-01": "N/A",
@@ -1451,14 +1556,17 @@
       "2026-04-01": "estimated",
       "2026-05-01": "estimated",
       "2026-06-01": "estimated",
-      "2026-07-01": "estimated"
+      "2026-07-01": "estimated",
+      "2026-08-01": "estimated",
+      "2026-09-01": "observed"
     },
     "review_required": true,
     "review_reasons": [
       "cached_july_2026_source",
       "estimated_values_present",
       "missing_line_segment",
-      "outside_visible_history"
+      "outside_visible_history",
+      "aug_sep_2026_approved_patch"
     ],
     "extraction_status": "needs_review",
     "calibration_artifact": "diagnostics\\cached_july_2026_extraction\\recovery_artifacts\\radeon_rx_9060_xt.overlay.png",
@@ -1494,7 +1602,9 @@
       "2026-04-01": "818.00",
       "2026-05-01": "800.00",
       "2026-06-01": "770.00",
-      "2026-07-01": "761.00"
+      "2026-07-01": "761.00",
+      "2026-08-01": "827.00",
+      "2026-09-01": "845.00"
     },
     "price_quality": {
       "2024-07-01": "N/A",
@@ -1521,14 +1631,17 @@
       "2026-04-01": "estimated",
       "2026-05-01": "observed",
       "2026-06-01": "estimated",
-      "2026-07-01": "estimated"
+      "2026-07-01": "estimated",
+      "2026-08-01": "estimated",
+      "2026-09-01": "estimated"
     },
     "review_required": true,
     "review_reasons": [
       "cached_july_2026_source",
       "estimated_values_present",
       "missing_line_segment",
-      "outside_visible_history"
+      "outside_visible_history",
+      "aug_sep_2026_approved_patch"
     ],
     "extraction_status": "needs_review",
     "calibration_artifact": "C:\\Users\\ranvi\\Documents\\Ranvijay_Work\\GPU_PCPARTPICKER\\diagnostics\\cached_july_2026_extraction\\radeon_rx_9070.overlay.png",
@@ -1564,7 +1677,9 @@
       "2026-04-01": "890.00",
       "2026-05-01": "896.00",
       "2026-06-01": "866.00",
-      "2026-07-01": "857.00"
+      "2026-07-01": "857.00",
+      "2026-08-01": "712.00",
+      "2026-09-01": "770.00"
     },
     "price_quality": {
       "2024-07-01": "N/A",
@@ -1591,14 +1706,17 @@
       "2026-04-01": "estimated",
       "2026-05-01": "estimated",
       "2026-06-01": "estimated",
-      "2026-07-01": "estimated"
+      "2026-07-01": "estimated",
+      "2026-08-01": "estimated",
+      "2026-09-01": "estimated"
     },
     "review_required": true,
     "review_reasons": [
       "cached_july_2026_source",
       "estimated_values_present",
       "missing_line_segment",
-      "outside_visible_history"
+      "outside_visible_history",
+      "aug_sep_2026_approved_patch"
     ],
     "extraction_status": "needs_review",
     "calibration_artifact": "C:\\Users\\ranvi\\Documents\\Ranvijay_Work\\GPU_PCPARTPICKER\\diagnostics\\cached_july_2026_extraction\\radeon_rx_9070_xt.overlay.png",

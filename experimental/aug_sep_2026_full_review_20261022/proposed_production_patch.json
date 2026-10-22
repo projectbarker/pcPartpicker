@@ -1,0 +1,632 @@
+{
+  "generated_at": "2026-10-22",
+  "authorized_for_production": false,
+  "reason_not_applied": "No genuine human approval was supplied; this is a review proposal only.",
+  "months": [
+    "2026-08-01",
+    "2026-09-01"
+  ],
+  "records": [
+    {
+      "gpu_model_name": "Arc A380",
+      "months": {
+        "2026-08-01": {
+          "price_trend": "200.00",
+          "price_quality": "observed",
+          "review_required": true,
+          "review_reasons": [
+            "approved_observed",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/arc_a380.png",
+          "source_sha256": "4862622C6FAEC6793196679EE906C6378F1578607206F42E0CA1301F2B6787FD"
+        },
+        "2026-09-01": {
+          "price_trend": "206.00",
+          "price_quality": "estimated",
+          "review_required": true,
+          "review_reasons": [
+            "approved_estimated",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/arc_a380.png",
+          "source_sha256": "4862622C6FAEC6793196679EE906C6378F1578607206F42E0CA1301F2B6787FD"
+        }
+      }
+    },
+    {
+      "gpu_model_name": "Arc A750",
+      "months": {
+        "2026-08-01": {
+          "price_trend": "293.00",
+          "price_quality": "estimated",
+          "review_required": true,
+          "review_reasons": [
+            "approved_estimated",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/arc_a750.png",
+          "source_sha256": "D46DF55569083AF246FF5AACA25FCBFE8BCAAB77F3DD3F18FA119A95C91671C2"
+        },
+        "2026-09-01": {
+          "price_trend": "294.00",
+          "price_quality": "estimated",
+          "review_required": true,
+          "review_reasons": [
+            "approved_estimated",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/arc_a750.png",
+          "source_sha256": "D46DF55569083AF246FF5AACA25FCBFE8BCAAB77F3DD3F18FA119A95C91671C2"
+        }
+      }
+    },
+    {
+      "gpu_model_name": "Arc A770",
+      "months": {
+        "2026-08-01": {
+          "price_trend": "240.00",
+          "price_quality": "estimated",
+          "review_required": true,
+          "review_reasons": [
+            "approved_estimated",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/arc_a770.png",
+          "source_sha256": "1C1DA676EB7E1484116F7A92B72518AA4D0AB683A2816D0A6D95C7EF82D2658F"
+        },
+        "2026-09-01": {
+          "price_trend": "255.00",
+          "price_quality": "estimated",
+          "review_required": true,
+          "review_reasons": [
+            "approved_estimated",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/arc_a770.png",
+          "source_sha256": "1C1DA676EB7E1484116F7A92B72518AA4D0AB683A2816D0A6D95C7EF82D2658F"
+        }
+      }
+    },
+    {
+      "gpu_model_name": "GeForce RTX 4070",
+      "months": {
+        "2026-08-01": {
+          "price_trend": "648.00",
+          "price_quality": "estimated",
+          "review_required": true,
+          "review_reasons": [
+            "approved_estimated",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/geforce_rtx_4070.png",
+          "source_sha256": "8AA4529378DDD6DE2A4C650674AF85BB428D04863B88D191EB622D159C0F9C0A"
+        },
+        "2026-09-01": {
+          "price_trend": "648.00",
+          "price_quality": "estimated",
+          "review_required": true,
+          "review_reasons": [
+            "approved_estimated",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/geforce_rtx_4070.png",
+          "source_sha256": "8AA4529378DDD6DE2A4C650674AF85BB428D04863B88D191EB622D159C0F9C0A"
+        }
+      }
+    },
+    {
+      "gpu_model_name": "GeForce RTX 4070 SUPER",
+      "months": {
+        "2026-08-01": {
+          "price_trend": "633.00",
+          "price_quality": "estimated",
+          "review_required": true,
+          "review_reasons": [
+            "approved_estimated",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/geforce_rtx_4070_super.png",
+          "source_sha256": "36A53935606C739D5FFC7A63190A1249BC0E093F6702B75089C93B718352BB73"
+        },
+        "2026-09-01": {
+          "price_trend": "688.00",
+          "price_quality": "estimated",
+          "review_required": true,
+          "review_reasons": [
+            "approved_estimated",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/geforce_rtx_4070_super.png",
+          "source_sha256": "36A53935606C739D5FFC7A63190A1249BC0E093F6702B75089C93B718352BB73"
+        }
+      }
+    },
+    {
+      "gpu_model_name": "GeForce RTX 4070 Ti",
+      "months": {
+        "2026-08-01": {
+          "price_trend": "N/A",
+          "price_quality": "N/A",
+          "review_required": true,
+          "review_reasons": [
+            "rejected_missing_segment",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/geforce_rtx_4070_ti.png",
+          "source_sha256": "7E27B78525F14033B4B3954B5C32ADADD560CB308F72BF0F1780B74F2F943FB5"
+        },
+        "2026-09-01": {
+          "price_trend": "N/A",
+          "price_quality": "N/A",
+          "review_required": true,
+          "review_reasons": [
+            "rejected_missing_segment",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/geforce_rtx_4070_ti.png",
+          "source_sha256": "7E27B78525F14033B4B3954B5C32ADADD560CB308F72BF0F1780B74F2F943FB5"
+        }
+      }
+    },
+    {
+      "gpu_model_name": "GeForce RTX 4070 Ti SUPER",
+      "months": {
+        "2026-08-01": {
+          "price_trend": "N/A",
+          "price_quality": "N/A",
+          "review_required": true,
+          "review_reasons": [
+            "rejected_missing_segment",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/geforce_rtx_4070_ti_super.png",
+          "source_sha256": "D7AB9A5F6E1408BF423D2FF4C302C103657EF17FC9AA89A473D77C2EF710156F"
+        },
+        "2026-09-01": {
+          "price_trend": "N/A",
+          "price_quality": "N/A",
+          "review_required": true,
+          "review_reasons": [
+            "rejected_missing_segment",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/geforce_rtx_4070_ti_super.png",
+          "source_sha256": "D7AB9A5F6E1408BF423D2FF4C302C103657EF17FC9AA89A473D77C2EF710156F"
+        }
+      }
+    },
+    {
+      "gpu_model_name": "GeForce RTX 4080",
+      "months": {
+        "2026-08-01": {
+          "price_trend": "1545.00",
+          "price_quality": "estimated",
+          "review_required": true,
+          "review_reasons": [
+            "approved_estimated",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/geforce_rtx_4080.png",
+          "source_sha256": "737E396772769BE1E47A420434FBA58B4D196ED463E5E393F410440FB600EAA5"
+        },
+        "2026-09-01": {
+          "price_trend": "1545.00",
+          "price_quality": "estimated",
+          "review_required": true,
+          "review_reasons": [
+            "approved_estimated",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/geforce_rtx_4080.png",
+          "source_sha256": "737E396772769BE1E47A420434FBA58B4D196ED463E5E393F410440FB600EAA5"
+        }
+      }
+    },
+    {
+      "gpu_model_name": "GeForce RTX 4080 SUPER",
+      "months": {
+        "2026-08-01": {
+          "price_trend": "1198.00",
+          "price_quality": "estimated",
+          "review_required": true,
+          "review_reasons": [
+            "approved_estimated",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/geforce_rtx_4080_super.png",
+          "source_sha256": "3810613F8382D6F8DD5357A321CB7AD3226CC3183A3018F679795ADF0509CD0D"
+        },
+        "2026-09-01": {
+          "price_trend": "1198.00",
+          "price_quality": "estimated",
+          "review_required": true,
+          "review_reasons": [
+            "approved_estimated",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/geforce_rtx_4080_super.png",
+          "source_sha256": "3810613F8382D6F8DD5357A321CB7AD3226CC3183A3018F679795ADF0509CD0D"
+        }
+      }
+    },
+    {
+      "gpu_model_name": "GeForce RTX 4090",
+      "months": {
+        "2026-08-01": {
+          "price_trend": "N/A",
+          "price_quality": "N/A",
+          "review_required": true,
+          "review_reasons": [
+            "rejected_missing_segment",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/geforce_rtx_4090.png",
+          "source_sha256": "CF1E102433B0F5F323DC68202E9546D1AA52D1335311104BDBB4C0367E032B59"
+        },
+        "2026-09-01": {
+          "price_trend": "N/A",
+          "price_quality": "N/A",
+          "review_required": true,
+          "review_reasons": [
+            "rejected_missing_segment",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/geforce_rtx_4090.png",
+          "source_sha256": "CF1E102433B0F5F323DC68202E9546D1AA52D1335311104BDBB4C0367E032B59"
+        }
+      }
+    },
+    {
+      "gpu_model_name": "GeForce RTX 5060 Ti",
+      "months": {
+        "2026-08-01": {
+          "price_trend": "648.00",
+          "price_quality": "estimated",
+          "review_required": true,
+          "review_reasons": [
+            "approved_estimated",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/geforce_rtx_5060_ti.png",
+          "source_sha256": "5E32EC634592FA842418958473508080F6DB2E3D76B30A071CD54E0613E29016"
+        },
+        "2026-09-01": {
+          "price_trend": "748.00",
+          "price_quality": "estimated",
+          "review_required": true,
+          "review_reasons": [
+            "approved_estimated",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/geforce_rtx_5060_ti.png",
+          "source_sha256": "5E32EC634592FA842418958473508080F6DB2E3D76B30A071CD54E0613E29016"
+        }
+      }
+    },
+    {
+      "gpu_model_name": "GeForce RTX 5070",
+      "months": {
+        "2026-08-01": {
+          "price_trend": "856.00",
+          "price_quality": "estimated",
+          "review_required": true,
+          "review_reasons": [
+            "approved_estimated",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/geforce_rtx_5070.png",
+          "source_sha256": "924F8E898285569C1214BA9111B802729C064E7C73796F030BEEB3F719006D90"
+        },
+        "2026-09-01": {
+          "price_trend": "1000.00",
+          "price_quality": "observed",
+          "review_required": true,
+          "review_reasons": [
+            "approved_observed",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/geforce_rtx_5070.png",
+          "source_sha256": "924F8E898285569C1214BA9111B802729C064E7C73796F030BEEB3F719006D90"
+        }
+      }
+    },
+    {
+      "gpu_model_name": "GeForce RTX 5070 Ti",
+      "months": {
+        "2026-08-01": {
+          "price_trend": "608.00",
+          "price_quality": "estimated",
+          "review_required": true,
+          "review_reasons": [
+            "approved_estimated",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/geforce_rtx_5070_ti.png",
+          "source_sha256": "EE783B6C7A0182F241CA53B19180AF83F6ABBE35DF88721A023895323E6500AC"
+        },
+        "2026-09-01": {
+          "price_trend": "668.00",
+          "price_quality": "estimated",
+          "review_required": true,
+          "review_reasons": [
+            "approved_estimated",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/geforce_rtx_5070_ti.png",
+          "source_sha256": "EE783B6C7A0182F241CA53B19180AF83F6ABBE35DF88721A023895323E6500AC"
+        }
+      }
+    },
+    {
+      "gpu_model_name": "GeForce RTX 5080",
+      "months": {
+        "2026-08-01": {
+          "price_trend": "1750.00",
+          "price_quality": "estimated",
+          "review_required": true,
+          "review_reasons": [
+            "approved_estimated",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/geforce_rtx_5080.png",
+          "source_sha256": "D47EE279AC3268B2F00FE8AAC366B5D096B1EFD4F98F00EFDC6D4756CC835DB0"
+        },
+        "2026-09-01": {
+          "price_trend": "1894.00",
+          "price_quality": "estimated",
+          "review_required": true,
+          "review_reasons": [
+            "approved_estimated",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/geforce_rtx_5080.png",
+          "source_sha256": "D47EE279AC3268B2F00FE8AAC366B5D096B1EFD4F98F00EFDC6D4756CC835DB0"
+        }
+      }
+    },
+    {
+      "gpu_model_name": "GeForce RTX 5090",
+      "months": {
+        "2026-08-01": {
+          "price_trend": "4284.00",
+          "price_quality": "estimated",
+          "review_required": true,
+          "review_reasons": [
+            "approved_estimated",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/geforce_rtx_5090.png",
+          "source_sha256": "B932D1FA00742EB6F9797972508F5C0FA6DBAA37F76CAFA834C411043652FCAD"
+        },
+        "2026-09-01": {
+          "price_trend": "4537.00",
+          "price_quality": "estimated",
+          "review_required": true,
+          "review_reasons": [
+            "approved_estimated",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/geforce_rtx_5090.png",
+          "source_sha256": "B932D1FA00742EB6F9797972508F5C0FA6DBAA37F76CAFA834C411043652FCAD"
+        }
+      }
+    },
+    {
+      "gpu_model_name": "Radeon RX 7600 XT",
+      "months": {
+        "2026-08-01": {
+          "price_trend": "N/A",
+          "price_quality": "N/A",
+          "review_required": true,
+          "review_reasons": [
+            "rejected_ambiguous",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/radeon_rx_7600_xt.png",
+          "source_sha256": "F370E0214BB3ECFD26B948F07EF5FA5CCD09008394705D2E48CB48C98CBB0D1C"
+        },
+        "2026-09-01": {
+          "price_trend": "N/A",
+          "price_quality": "N/A",
+          "review_required": true,
+          "review_reasons": [
+            "rejected_ambiguous",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/radeon_rx_7600_xt.png",
+          "source_sha256": "F370E0214BB3ECFD26B948F07EF5FA5CCD09008394705D2E48CB48C98CBB0D1C"
+        }
+      }
+    },
+    {
+      "gpu_model_name": "Radeon RX 7700 XT",
+      "months": {
+        "2026-08-01": {
+          "price_trend": "499.00",
+          "price_quality": "estimated",
+          "review_required": true,
+          "review_reasons": [
+            "approved_estimated",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/radeon_rx_7700_xt.png",
+          "source_sha256": "082112B5F5184F76D4A1F1F7A275EB9B74794CEA1CBEA1BA7A10E5C92A5BDC2B"
+        },
+        "2026-09-01": {
+          "price_trend": "567.00",
+          "price_quality": "estimated",
+          "review_required": true,
+          "review_reasons": [
+            "approved_estimated",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/radeon_rx_7700_xt.png",
+          "source_sha256": "082112B5F5184F76D4A1F1F7A275EB9B74794CEA1CBEA1BA7A10E5C92A5BDC2B"
+        }
+      }
+    },
+    {
+      "gpu_model_name": "Radeon RX 7800 XT",
+      "months": {
+        "2026-08-01": {
+          "price_trend": "N/A",
+          "price_quality": "N/A",
+          "review_required": true,
+          "review_reasons": [
+            "rejected_missing_segment",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/radeon_rx_7800_xt.png",
+          "source_sha256": "B527AF6F80E2934A1085BB42D0E3D27AB490A0712823BF02EC912AECAE6ED702"
+        },
+        "2026-09-01": {
+          "price_trend": "N/A",
+          "price_quality": "N/A",
+          "review_required": true,
+          "review_reasons": [
+            "rejected_missing_segment",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/radeon_rx_7800_xt.png",
+          "source_sha256": "B527AF6F80E2934A1085BB42D0E3D27AB490A0712823BF02EC912AECAE6ED702"
+        }
+      }
+    },
+    {
+      "gpu_model_name": "Radeon RX 7900 XT",
+      "months": {
+        "2026-08-01": {
+          "price_trend": "871.00",
+          "price_quality": "estimated",
+          "review_required": true,
+          "review_reasons": [
+            "approved_estimated",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/radeon_rx_7900_xt.png",
+          "source_sha256": "43A3374631B2CA5F94E1C67B84C68070A751AF0BF081DC501FC3D3A2E99B41A9"
+        },
+        "2026-09-01": {
+          "price_trend": "943.00",
+          "price_quality": "estimated",
+          "review_required": true,
+          "review_reasons": [
+            "approved_estimated",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/radeon_rx_7900_xt.png",
+          "source_sha256": "43A3374631B2CA5F94E1C67B84C68070A751AF0BF081DC501FC3D3A2E99B41A9"
+        }
+      }
+    },
+    {
+      "gpu_model_name": "Radeon RX 7900 XTX",
+      "months": {
+        "2026-08-01": {
+          "price_trend": "N/A",
+          "price_quality": "N/A",
+          "review_required": true,
+          "review_reasons": [
+            "rejected_ambiguous",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/radeon_rx_7900_xtx.png",
+          "source_sha256": "B40B8ED457FDB807B12DDB888D6FB4248C5300BA7318DECA1523464DF7841A73"
+        },
+        "2026-09-01": {
+          "price_trend": "N/A",
+          "price_quality": "N/A",
+          "review_required": true,
+          "review_reasons": [
+            "rejected_ambiguous",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/radeon_rx_7900_xtx.png",
+          "source_sha256": "B40B8ED457FDB807B12DDB888D6FB4248C5300BA7318DECA1523464DF7841A73"
+        }
+      }
+    },
+    {
+      "gpu_model_name": "Radeon RX 9060 XT",
+      "months": {
+        "2026-08-01": {
+          "price_trend": "549.00",
+          "price_quality": "estimated",
+          "review_required": true,
+          "review_reasons": [
+            "approved_estimated",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/radeon_rx_9060_xt.png",
+          "source_sha256": "BAE9BDFEF140A9AEBEA8F1264CCE0224914CC0B03A0D7773FD22F3000838A784"
+        },
+        "2026-09-01": {
+          "price_trend": "600.00",
+          "price_quality": "observed",
+          "review_required": true,
+          "review_reasons": [
+            "approved_observed",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/radeon_rx_9060_xt.png",
+          "source_sha256": "BAE9BDFEF140A9AEBEA8F1264CCE0224914CC0B03A0D7773FD22F3000838A784"
+        }
+      }
+    },
+    {
+      "gpu_model_name": "Radeon RX 9070",
+      "months": {
+        "2026-08-01": {
+          "price_trend": "827.00",
+          "price_quality": "estimated",
+          "review_required": true,
+          "review_reasons": [
+            "approved_estimated",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/radeon_rx_9070.png",
+          "source_sha256": "8F1B7A89192B39A1814E31926FBADF3F902B7F9EFDCB3568A41B7437D4AC1C94"
+        },
+        "2026-09-01": {
+          "price_trend": "845.00",
+          "price_quality": "estimated",
+          "review_required": true,
+          "review_reasons": [
+            "approved_estimated",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/radeon_rx_9070.png",
+          "source_sha256": "8F1B7A89192B39A1814E31926FBADF3F902B7F9EFDCB3568A41B7437D4AC1C94"
+        }
+      }
+    },
+    {
+      "gpu_model_name": "Radeon RX 9070 XT",
+      "months": {
+        "2026-08-01": {
+          "price_trend": "712.00",
+          "price_quality": "estimated",
+          "review_required": true,
+          "review_reasons": [
+            "approved_estimated",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/radeon_rx_9070_xt.png",
+          "source_sha256": "245677F0A4A4F753FF6A1AC17AD612645B0344427BD17546520EC5DFF0444018"
+        },
+        "2026-09-01": {
+          "price_trend": "770.00",
+          "price_quality": "estimated",
+          "review_required": true,
+          "review_reasons": [
+            "approved_estimated",
+            "human_approval_pending"
+          ],
+          "source_image_path": "diagnostics/live_chart_sources_20261022/radeon_rx_9070_xt.png",
+          "source_sha256": "245677F0A4A4F753FF6A1AC17AD612645B0344427BD17546520EC5DFF0444018"
+        }
+      }
+    }
+  ]
+}

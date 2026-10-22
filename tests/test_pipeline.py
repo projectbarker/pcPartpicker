@@ -37,7 +37,7 @@ class PipelineTests(unittest.TestCase):
         values, status = safe_parse_json(complete_payload())
         self.assertEqual(list(values), EXPECTED_MONTHS)
         self.assertEqual(len(values), len(EXPECTED_MONTHS))
-        self.assertEqual(EXPECTED_MONTHS[-1], "2026-07-01")
+        self.assertEqual(EXPECTED_MONTHS[-1], "2026-09-01")
         self.assertEqual(status, "success")
 
     def test_partial_and_all_missing_are_not_success(self):

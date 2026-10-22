@@ -1,0 +1,50 @@
+severity,gpu_model_name,month,check,evidence,status,recommended_action
+INFO,,,production_hash,773F35F2BCA7081DFCF80D2F09CDE56914A0E8FEE1F1AFFA17B0A4CD044A9D16,PASS,Preserve the verified production hash.
+INFO,,,backup_hash,920BFC9BD9F93DB05EC25D64598E4037D132D411B6B32CEA01C4DB38C105D2A1,PASS,Preserve the byte-identical pre-update backup.
+INFO,,,dataset_structure,"records=23, unique_models=23, invalid_items=0",PASS,Repair schema only if a concrete invalid item is confirmed.
+INFO,,,dataset_counts,"{""N/A"": 162, ""estimated"": 421, ""numeric"": 459, ""observed"": 38}",PASS,Keep the counts reconciled to the 621-position schema.
+WARNING,,,review_gate,"All 23 records have review_required=true; the August/September package was automated evidence review, not independent human sign-off.",WARNING,Obtain genuine human review before valuation or external publication.
+WARNING,,,unresolved_target_values,12 of 46 August/September positions are N/A in the approved patch: missing or ambiguous line evidence.,WARNING,Retain N/A unless a reviewer supplies direct chart evidence.
+INFO,,,historical_preservation,"changed_paths=115, unexpected=0",PASS,Do not rewrite historical months; investigate any non-target changes.
+INFO,,,patch_register_reconciliation,"patch_positions=46, register_rows=46, mismatches=0",PASS,Keep production values aligned with the approved register.
+INFO,,,asset_provenance,"manifest_entries=23, asset_failures=[]",PASS,Preserve the manifest and official asset hashes.
+WARNING,Arc A770,2026-08-01,statistical_price_change_flag,absolute change=$194.00; IQR upper flag=$106.50,UNVERIFIED,Review the native chart; do not auto-correct.
+WARNING,GeForce RTX 4070 SUPER,2025-12-01,statistical_price_change_flag,absolute change=$182.00; IQR upper flag=$106.50,UNVERIFIED,Review the native chart; do not auto-correct.
+WARNING,GeForce RTX 4070 Ti,2025-04-01,statistical_price_change_flag,absolute change=$114.00; IQR upper flag=$106.50,UNVERIFIED,Review the native chart; do not auto-correct.
+WARNING,GeForce RTX 4070 Ti,2025-08-01,statistical_price_change_flag,absolute change=$112.00; IQR upper flag=$106.50,UNVERIFIED,Review the native chart; do not auto-correct.
+WARNING,GeForce RTX 4080,2024-11-01,statistical_price_change_flag,absolute change=$232.00; IQR upper flag=$106.50,UNVERIFIED,Review the native chart; do not auto-correct.
+WARNING,GeForce RTX 4080,2024-12-01,statistical_price_change_flag,absolute change=$299.00; IQR upper flag=$106.50,UNVERIFIED,Review the native chart; do not auto-correct.
+WARNING,GeForce RTX 4080,2025-01-01,statistical_price_change_flag,absolute change=$112.00; IQR upper flag=$106.50,UNVERIFIED,Review the native chart; do not auto-correct.
+WARNING,GeForce RTX 4080,2025-02-01,statistical_price_change_flag,absolute change=$307.00; IQR upper flag=$106.50,UNVERIFIED,Review the native chart; do not auto-correct.
+WARNING,GeForce RTX 4090,2024-10-01,statistical_price_change_flag,absolute change=$254.00; IQR upper flag=$106.50,UNVERIFIED,Review the native chart; do not auto-correct.
+WARNING,GeForce RTX 4090,2025-02-01,statistical_price_change_flag,absolute change=$134.00; IQR upper flag=$106.50,UNVERIFIED,Review the native chart; do not auto-correct.
+WARNING,GeForce RTX 4090,2025-06-01,statistical_price_change_flag,absolute change=$209.00; IQR upper flag=$106.50,UNVERIFIED,Review the native chart; do not auto-correct.
+WARNING,GeForce RTX 4090,2025-07-01,statistical_price_change_flag,absolute change=$209.00; IQR upper flag=$106.50,UNVERIFIED,Review the native chart; do not auto-correct.
+WARNING,GeForce RTX 5070,2026-02-01,statistical_price_change_flag,absolute change=$109.00; IQR upper flag=$106.50,UNVERIFIED,Review the native chart; do not auto-correct.
+WARNING,GeForce RTX 5070,2026-08-01,statistical_price_change_flag,absolute change=$111.00; IQR upper flag=$106.50,UNVERIFIED,Review the native chart; do not auto-correct.
+WARNING,GeForce RTX 5070,2026-09-01,statistical_price_change_flag,absolute change=$144.00; IQR upper flag=$106.50,UNVERIFIED,Review the native chart; do not auto-correct.
+WARNING,GeForce RTX 5070 Ti,2026-02-01,statistical_price_change_flag,absolute change=$376.00; IQR upper flag=$106.50,UNVERIFIED,Review the native chart; do not auto-correct.
+WARNING,GeForce RTX 5080,2025-03-01,statistical_price_change_flag,absolute change=$157.00; IQR upper flag=$106.50,UNVERIFIED,Review the native chart; do not auto-correct.
+WARNING,GeForce RTX 5080,2025-05-01,statistical_price_change_flag,absolute change=$135.00; IQR upper flag=$106.50,UNVERIFIED,Review the native chart; do not auto-correct.
+WARNING,GeForce RTX 5080,2026-02-01,statistical_price_change_flag,absolute change=$249.00; IQR upper flag=$106.50,UNVERIFIED,Review the native chart; do not auto-correct.
+WARNING,GeForce RTX 5080,2026-08-01,statistical_price_change_flag,absolute change=$121.00; IQR upper flag=$106.50,UNVERIFIED,Review the native chart; do not auto-correct.
+WARNING,GeForce RTX 5080,2026-09-01,statistical_price_change_flag,absolute change=$144.00; IQR upper flag=$106.50,UNVERIFIED,Review the native chart; do not auto-correct.
+WARNING,GeForce RTX 5090,2025-03-01,statistical_price_change_flag,absolute change=$314.00; IQR upper flag=$106.50,UNVERIFIED,Review the native chart; do not auto-correct.
+WARNING,GeForce RTX 5090,2025-04-01,statistical_price_change_flag,absolute change=$164.00; IQR upper flag=$106.50,UNVERIFIED,Review the native chart; do not auto-correct.
+WARNING,GeForce RTX 5090,2025-05-01,statistical_price_change_flag,absolute change=$225.00; IQR upper flag=$106.50,UNVERIFIED,Review the native chart; do not auto-correct.
+WARNING,GeForce RTX 5090,2025-06-01,statistical_price_change_flag,absolute change=$182.00; IQR upper flag=$106.50,UNVERIFIED,Review the native chart; do not auto-correct.
+WARNING,GeForce RTX 5090,2025-09-01,statistical_price_change_flag,absolute change=$166.00; IQR upper flag=$106.50,UNVERIFIED,Review the native chart; do not auto-correct.
+WARNING,GeForce RTX 5090,2026-02-01,statistical_price_change_flag,absolute change=$437.00; IQR upper flag=$106.50,UNVERIFIED,Review the native chart; do not auto-correct.
+WARNING,GeForce RTX 5090,2026-03-01,statistical_price_change_flag,absolute change=$273.00; IQR upper flag=$106.50,UNVERIFIED,Review the native chart; do not auto-correct.
+WARNING,GeForce RTX 5090,2026-06-01,statistical_price_change_flag,absolute change=$121.00; IQR upper flag=$106.50,UNVERIFIED,Review the native chart; do not auto-correct.
+WARNING,GeForce RTX 5090,2026-07-01,statistical_price_change_flag,absolute change=$270.00; IQR upper flag=$106.50,UNVERIFIED,Review the native chart; do not auto-correct.
+WARNING,GeForce RTX 5090,2026-08-01,statistical_price_change_flag,absolute change=$135.00; IQR upper flag=$106.50,UNVERIFIED,Review the native chart; do not auto-correct.
+WARNING,GeForce RTX 5090,2026-09-01,statistical_price_change_flag,absolute change=$253.00; IQR upper flag=$106.50,UNVERIFIED,Review the native chart; do not auto-correct.
+WARNING,Radeon RX 7900 XT,2026-02-01,statistical_price_change_flag,absolute change=$121.00; IQR upper flag=$106.50,UNVERIFIED,Review the native chart; do not auto-correct.
+WARNING,Radeon RX 7900 XTX,2025-03-01,statistical_price_change_flag,absolute change=$165.00; IQR upper flag=$106.50,UNVERIFIED,Review the native chart; do not auto-correct.
+WARNING,Radeon RX 7900 XTX,2025-12-01,statistical_price_change_flag,absolute change=$110.00; IQR upper flag=$106.50,UNVERIFIED,Review the native chart; do not auto-correct.
+WARNING,Radeon RX 7900 XTX,2026-01-01,statistical_price_change_flag,absolute change=$110.00; IQR upper flag=$106.50,UNVERIFIED,Review the native chart; do not auto-correct.
+WARNING,Radeon RX 7900 XTX,2026-02-01,statistical_price_change_flag,absolute change=$168.00; IQR upper flag=$106.50,UNVERIFIED,Review the native chart; do not auto-correct.
+WARNING,Radeon RX 9070 XT,2025-06-01,statistical_price_change_flag,absolute change=$107.00; IQR upper flag=$106.50,UNVERIFIED,Review the native chart; do not auto-correct.
+WARNING,Radeon RX 9070 XT,2026-08-01,statistical_price_change_flag,absolute change=$145.00; IQR upper flag=$106.50,UNVERIFIED,Review the native chart; do not auto-correct.
+INFO,,,statistical_screen,"flagged_transitions=39, q1=$4.00, q3=$45.00, upper=$106.50",WARNING,"Treat statistical flags as review prompts, not proof of extraction error."

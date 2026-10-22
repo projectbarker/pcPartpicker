@@ -1,7 +1,11 @@
 """Selenium-backed PCPartPicker GPU trend-image collector."""
 
 import json
+import ctypes
+import os
+import re
 import shutil
+import subprocess
 import tempfile
 import time
 from pathlib import Path
@@ -12,6 +16,101 @@ from bs4 import BeautifulSoup
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
+
+
+def _parse_chrome_major_version(version_output):
+    """Return Chrome's major version from ``chrome.exe --version`` output."""
+    match = re.search(r"(?:Chrome|Chromium)\s+(\d+)", version_output or "")
+    return int(match.group(1)) if match else None
+
+
+def _detect_chrome_major_version():
+    """Detect the installed Chrome major version for driver compatibility."""
+    candidates = [
+        shutil.which("chrome.exe"),
+        os.path.join(os.environ.get("PROGRAMFILES", ""), "Google", "Chrome", "Application", "chrome.exe"),
+        os.path.join(
+            os.environ.get("PROGRAMFILES(X86)", ""),
+            "Google",
+            "Chrome",
+            "Application",
+            "chrome.exe",
+        ),
+        os.path.join(
+            os.environ.get("LOCALAPPDATA", ""), "Google", "Chrome", "Application", "chrome.exe"
+        ),
+    ]
+    for candidate in dict.fromkeys(path for path in candidates if path):
+        if not Path(candidate).exists():
+            continue
+        file_major = _windows_file_major_version(candidate)
+        if file_major is not None:
+            return file_major
+        try:
+            result = subprocess.run(
+                [candidate, "--version"],
+                capture_output=True,
+                text=True,
+                check=False,
+                timeout=10,
+            )
+        except (OSError, subprocess.SubprocessError):
+            continue
+        major = _parse_chrome_major_version(result.stdout or result.stderr)
+        if major is not None:
+            return major
+    return None
+
+
+def _windows_file_major_version(path):
+    """Read a Windows executable's major file-version without starting it."""
+    if os.name != "nt":
+        return None
+    try:
+        from ctypes import wintypes
+
+        version_dll = ctypes.WinDLL("version", use_last_error=True)
+        version_dll.GetFileVersionInfoSizeW.argtypes = [wintypes.LPCWSTR, ctypes.POINTER(wintypes.DWORD)]
+        version_dll.GetFileVersionInfoSizeW.restype = wintypes.DWORD
+        version_dll.GetFileVersionInfoW.argtypes = [
+            wintypes.LPCWSTR,
+            wintypes.DWORD,
+            wintypes.DWORD,
+            wintypes.LPVOID,
+        ]
+        version_dll.GetFileVersionInfoW.restype = wintypes.BOOL
+        version_dll.VerQueryValueW.argtypes = [
+            wintypes.LPVOID,
+            wintypes.LPCWSTR,
+            ctypes.POINTER(ctypes.c_void_p),
+            ctypes.POINTER(wintypes.UINT),
+        ]
+        version_dll.VerQueryValueW.restype = wintypes.BOOL
+
+        dummy = wintypes.DWORD()
+        size = version_dll.GetFileVersionInfoSizeW(path, ctypes.byref(dummy))
+        if not size:
+            return None
+        data = ctypes.create_string_buffer(size)
+        if not version_dll.GetFileVersionInfoW(path, 0, size, data):
+            return None
+        value = ctypes.c_void_p()
+        length = wintypes.UINT()
+        if not version_dll.VerQueryValueW(data, "\\", ctypes.byref(value), ctypes.byref(length)):
+            return None
+
+        class FixedFileInfo(ctypes.Structure):
+            _fields_ = [
+                ("dwSignature", wintypes.DWORD),
+                ("dwStrucVer", wintypes.DWORD),
+                ("dwFileVerMS", wintypes.DWORD),
+                ("dwFileVerLS", wintypes.DWORD),
+            ]
+
+        info = ctypes.cast(value, ctypes.POINTER(FixedFileInfo)).contents
+        return info.dwFileVerMS >> 16
+    except (AttributeError, OSError, TypeError, ValueError):
+        return None
 
 
 class PCPartPickerGPUSpider(scrapy.Spider):
@@ -35,7 +134,14 @@ class PCPartPickerGPUSpider(scrapy.Spider):
         options.add_argument("--no-sandbox")
         options.add_argument("--disable-dev-shm-usage")
         options.add_argument("--start-maximized")
-        self.driver = uc.Chrome(options=options)
+        chrome_major = _detect_chrome_major_version()
+        driver_kwargs = {"options": options}
+        if chrome_major is not None:
+            self.logger.info("Using ChromeDriver major version %s", chrome_major)
+            driver_kwargs["version_main"] = chrome_major
+        else:
+            self.logger.warning("Could not detect Chrome version; using driver auto-detection")
+        self.driver = uc.Chrome(**driver_kwargs)
 
     def start_requests(self):
         """Run the browser collection once, then let Scrapy close cleanly."""

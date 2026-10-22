@@ -1,0 +1,566 @@
+{
+  "source_image": "C:\\Users\\ranvi\\Documents\\Ranvijay_Work\\GPU_PCPARTPICKER\\diagnostics\\cached_july_2026_sources\\radeon_rx_9070_xt.png",
+  "image_size": [
+    1176,
+    484
+  ],
+  "plot_bounds": [
+    55,
+    27,
+    1149,
+    427
+  ],
+  "x_gridlines": [
+    55,
+    115,
+    171,
+    233,
+    293,
+    355,
+    415,
+    477,
+    539,
+    599,
+    661,
+    721,
+    782,
+    845,
+    901,
+    963,
+    1023,
+    1085,
+    1145
+  ],
+  "y_gridlines": [
+    27,
+    94,
+    161,
+    227,
+    294,
+    361,
+    427
+  ],
+  "y_tick_values": [
+    1200.0,
+    1000.0,
+    800.0,
+    600.0,
+    400.0,
+    200.0,
+    0.0
+  ],
+  "anchor_date": "2025-02-01",
+  "anchor_x": 115,
+  "monthly_x_positions": {
+    "2024-07-01": null,
+    "2024-08-01": null,
+    "2024-09-01": null,
+    "2024-10-01": null,
+    "2024-11-01": null,
+    "2024-12-01": null,
+    "2025-01-01": 55,
+    "2025-02-01": 115,
+    "2025-03-01": 171,
+    "2025-04-01": 233,
+    "2025-05-01": 293,
+    "2025-06-01": 355,
+    "2025-07-01": 415,
+    "2025-08-01": 477,
+    "2025-09-01": 539,
+    "2025-10-01": 599,
+    "2025-11-01": 661,
+    "2025-12-01": 721,
+    "2026-01-01": 782,
+    "2026-02-01": 845,
+    "2026-03-01": 901,
+    "2026-04-01": 963,
+    "2026-05-01": 1023,
+    "2026-06-01": 1085,
+    "2026-07-01": 1145,
+    "2026-08-01": null,
+    "2026-09-01": null
+  },
+  "monthly_pixel_y_positions": {
+    "2024-07-01": null,
+    "2024-08-01": null,
+    "2024-09-01": null,
+    "2024-10-01": null,
+    "2024-11-01": null,
+    "2024-12-01": null,
+    "2025-01-01": null,
+    "2025-02-01": 69.0,
+    "2025-03-01": null,
+    "2025-04-01": 172.0,
+    "2025-05-01": 154.0,
+    "2025-06-01": 118.0,
+    "2025-07-01": 134.0,
+    "2025-08-01": 138.0,
+    "2025-09-01": 147.0,
+    "2025-10-01": 152.0,
+    "2025-11-01": 157.0,
+    "2025-12-01": 169.0,
+    "2026-01-01": 157.0,
+    "2026-02-01": 125.0,
+    "2026-03-01": 126.0,
+    "2026-04-01": 131.0,
+    "2026-05-01": 129.0,
+    "2026-06-01": 139.0,
+    "2026-07-01": 142.0,
+    "2026-08-01": null,
+    "2026-09-01": null
+  },
+  "monthly_sampling_diagnostics": {
+    "2024-07-01": {
+      "status": "out_of_history",
+      "candidates": []
+    },
+    "2024-08-01": {
+      "status": "out_of_history",
+      "candidates": []
+    },
+    "2024-09-01": {
+      "status": "out_of_history",
+      "candidates": []
+    },
+    "2024-10-01": {
+      "status": "out_of_history",
+      "candidates": []
+    },
+    "2024-11-01": {
+      "status": "out_of_history",
+      "candidates": []
+    },
+    "2024-12-01": {
+      "status": "out_of_history",
+      "candidates": []
+    },
+    "2025-01-01": {
+      "status": "rejected",
+      "reason": "missing_line_segment",
+      "candidates": [],
+      "accepted": null
+    },
+    "2025-02-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 69.0,
+          "x_span": 12,
+          "y_span": 2,
+          "horizontal_support": 13,
+          "area": 39,
+          "vertical_spike": false,
+          "score": 11.0
+        }
+      ],
+      "accepted": {
+        "y": 69.0,
+        "x_span": 12,
+        "y_span": 2,
+        "horizontal_support": 13,
+        "area": 39,
+        "vertical_spike": false,
+        "score": 11.0
+      }
+    },
+    "2025-03-01": {
+      "status": "rejected",
+      "reason": "missing_line_segment",
+      "candidates": [],
+      "accepted": null
+    },
+    "2025-04-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 172.0,
+          "x_span": 12,
+          "y_span": 2,
+          "horizontal_support": 13,
+          "area": 39,
+          "vertical_spike": false,
+          "score": 11.0
+        }
+      ],
+      "accepted": {
+        "y": 172.0,
+        "x_span": 12,
+        "y_span": 2,
+        "horizontal_support": 13,
+        "area": 39,
+        "vertical_spike": false,
+        "score": 11.0
+      }
+    },
+    "2025-05-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 154.0,
+          "x_span": 12,
+          "y_span": 6,
+          "horizontal_support": 13,
+          "area": 41,
+          "vertical_spike": false,
+          "score": 11.0
+        }
+      ],
+      "accepted": {
+        "y": 154.0,
+        "x_span": 12,
+        "y_span": 6,
+        "horizontal_support": 13,
+        "area": 41,
+        "vertical_spike": false,
+        "score": 11.0
+      }
+    },
+    "2025-06-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 118.0,
+          "x_span": 12,
+          "y_span": 6,
+          "horizontal_support": 13,
+          "area": 39,
+          "vertical_spike": false,
+          "score": 11.0
+        }
+      ],
+      "accepted": {
+        "y": 118.0,
+        "x_span": 12,
+        "y_span": 6,
+        "horizontal_support": 13,
+        "area": 39,
+        "vertical_spike": false,
+        "score": 11.0
+      }
+    },
+    "2025-07-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 134.0,
+          "x_span": 12,
+          "y_span": 9,
+          "horizontal_support": 13,
+          "area": 42,
+          "vertical_spike": false,
+          "score": 13.0
+        }
+      ],
+      "accepted": {
+        "y": 134.0,
+        "x_span": 12,
+        "y_span": 9,
+        "horizontal_support": 13,
+        "area": 42,
+        "vertical_spike": false,
+        "score": 13.0
+      }
+    },
+    "2025-08-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 138.0,
+          "x_span": 12,
+          "y_span": 4,
+          "horizontal_support": 13,
+          "area": 39,
+          "vertical_spike": false,
+          "score": 13.0
+        }
+      ],
+      "accepted": {
+        "y": 138.0,
+        "x_span": 12,
+        "y_span": 4,
+        "horizontal_support": 13,
+        "area": 39,
+        "vertical_spike": false,
+        "score": 13.0
+      }
+    },
+    "2025-09-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 147.0,
+          "x_span": 12,
+          "y_span": 3,
+          "horizontal_support": 13,
+          "area": 39,
+          "vertical_spike": false,
+          "score": 12.0
+        }
+      ],
+      "accepted": {
+        "y": 147.0,
+        "x_span": 12,
+        "y_span": 3,
+        "horizontal_support": 13,
+        "area": 39,
+        "vertical_spike": false,
+        "score": 12.0
+      }
+    },
+    "2025-10-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 152.0,
+          "x_span": 12,
+          "y_span": 3,
+          "horizontal_support": 13,
+          "area": 39,
+          "vertical_spike": false,
+          "score": 12.0
+        }
+      ],
+      "accepted": {
+        "y": 152.0,
+        "x_span": 12,
+        "y_span": 3,
+        "horizontal_support": 13,
+        "area": 39,
+        "vertical_spike": false,
+        "score": 12.0
+      }
+    },
+    "2025-11-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 157.0,
+          "x_span": 12,
+          "y_span": 7,
+          "horizontal_support": 13,
+          "area": 39,
+          "vertical_spike": false,
+          "score": 12.0
+        }
+      ],
+      "accepted": {
+        "y": 157.0,
+        "x_span": 12,
+        "y_span": 7,
+        "horizontal_support": 13,
+        "area": 39,
+        "vertical_spike": false,
+        "score": 12.0
+      }
+    },
+    "2025-12-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 169.0,
+          "x_span": 12,
+          "y_span": 9,
+          "horizontal_support": 13,
+          "area": 43,
+          "vertical_spike": false,
+          "score": 11.0
+        }
+      ],
+      "accepted": {
+        "y": 169.0,
+        "x_span": 12,
+        "y_span": 9,
+        "horizontal_support": 13,
+        "area": 43,
+        "vertical_spike": false,
+        "score": 11.0
+      }
+    },
+    "2026-01-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 157.0,
+          "x_span": 12,
+          "y_span": 10,
+          "horizontal_support": 13,
+          "area": 42,
+          "vertical_spike": false,
+          "score": 11.0
+        }
+      ],
+      "accepted": {
+        "y": 157.0,
+        "x_span": 12,
+        "y_span": 10,
+        "horizontal_support": 13,
+        "area": 42,
+        "vertical_spike": false,
+        "score": 11.0
+      }
+    },
+    "2026-02-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 125.0,
+          "x_span": 12,
+          "y_span": 4,
+          "horizontal_support": 13,
+          "area": 39,
+          "vertical_spike": false,
+          "score": 16.0
+        }
+      ],
+      "accepted": {
+        "y": 125.0,
+        "x_span": 12,
+        "y_span": 4,
+        "horizontal_support": 13,
+        "area": 39,
+        "vertical_spike": false,
+        "score": 16.0
+      }
+    },
+    "2026-03-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 126.0,
+          "x_span": 12,
+          "y_span": 8,
+          "horizontal_support": 13,
+          "area": 45,
+          "vertical_spike": false,
+          "score": 16.0
+        }
+      ],
+      "accepted": {
+        "y": 126.0,
+        "x_span": 12,
+        "y_span": 8,
+        "horizontal_support": 13,
+        "area": 45,
+        "vertical_spike": false,
+        "score": 16.0
+      }
+    },
+    "2026-04-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 131.0,
+          "x_span": 12,
+          "y_span": 5,
+          "horizontal_support": 13,
+          "area": 39,
+          "vertical_spike": false,
+          "score": 15.0
+        }
+      ],
+      "accepted": {
+        "y": 131.0,
+        "x_span": 12,
+        "y_span": 5,
+        "horizontal_support": 13,
+        "area": 39,
+        "vertical_spike": false,
+        "score": 15.0
+      }
+    },
+    "2026-05-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 129.0,
+          "x_span": 12,
+          "y_span": 6,
+          "horizontal_support": 13,
+          "area": 41,
+          "vertical_spike": false,
+          "score": 15.0
+        }
+      ],
+      "accepted": {
+        "y": 129.0,
+        "x_span": 12,
+        "y_span": 6,
+        "horizontal_support": 13,
+        "area": 41,
+        "vertical_spike": false,
+        "score": 15.0
+      }
+    },
+    "2026-06-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 139.0,
+          "x_span": 12,
+          "y_span": 4,
+          "horizontal_support": 13,
+          "area": 39,
+          "vertical_spike": false,
+          "score": 14.0
+        }
+      ],
+      "accepted": {
+        "y": 139.0,
+        "x_span": 12,
+        "y_span": 4,
+        "horizontal_support": 13,
+        "area": 39,
+        "vertical_spike": false,
+        "score": 14.0
+      }
+    },
+    "2026-07-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 142.0,
+          "x_span": 8,
+          "y_span": 5,
+          "horizontal_support": 9,
+          "area": 28,
+          "vertical_spike": false,
+          "score": 14.0
+        }
+      ],
+      "accepted": {
+        "y": 142.0,
+        "x_span": 8,
+        "y_span": 5,
+        "horizontal_support": 9,
+        "area": 28,
+        "vertical_spike": false,
+        "score": 14.0
+      }
+    },
+    "2026-08-01": {
+      "status": "out_of_history",
+      "candidates": []
+    },
+    "2026-09-01": {
+      "status": "out_of_history",
+      "candidates": []
+    }
+  }
+}

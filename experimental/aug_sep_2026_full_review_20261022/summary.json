@@ -1,0 +1,12 @@
+{
+  "gpu_count": 23,
+  "position_count": 46,
+  "numeric_count": 36,
+  "na_count": 10,
+  "observed_count": 3,
+  "estimated_count": 33,
+  "review_required_count": 46,
+  "pilot_comparison_positions": 6,
+  "pilot_discrepancy_count": 0,
+  "human_verification_complete": false
+}

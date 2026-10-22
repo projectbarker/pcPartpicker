@@ -1,9 +1,0 @@
-[
-  {"gpu_model": "Arc A380", "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.03.usd.gpu.chipset.arc-a380.f1755c339444bd0501f679c3831a3aa2.png", "local_source_path": "diagnostics/controlled_validation_sources/arc_a380.png"},
-  {"gpu_model": "Arc A750", "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.03.usd.gpu.chipset.arc-a750.6963ef17e87620e81fbef8b940dd2c3f.png", "local_source_path": "diagnostics/controlled_validation_sources/arc_a750.png"},
-  {"gpu_model": "GeForce RTX 4070", "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.03.usd.gpu.chipset.geforce-rtx-4070.2c9a68b6c7e27149327757962c836ce7.png", "local_source_path": "diagnostics/controlled_validation_sources/geforce_rtx_4070.png"},
-  {"gpu_model": "GeForce RTX 4080", "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.03.usd.gpu.chipset.geforce-rtx-4080.1a458cb629180b007380226fb7d85212.png", "local_source_path": "diagnostics/controlled_validation_sources/geforce_rtx_4080.png"},
-  {"gpu_model": "GeForce RTX 4090", "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.03.usd.gpu.chipset.geforce-rtx-4090.6cffaa467e9701ce93547594581181d0.png", "local_source_path": "diagnostics/controlled_validation_sources/geforce_rtx_4090.png"},
-  {"gpu_model": "GeForce RTX 5090", "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.03.usd.gpu.chipset.geforce-rtx-5090.0415678effbb5b2452c453747511202c.png", "local_source_path": "diagnostics/controlled_validation_sources/geforce_rtx_5090.png"},
-  {"gpu_model": "Radeon RX 7900 XTX", "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.03.usd.gpu.chipset.radeon-rx-7900-xtx.53f78199588e2176b6b66c3453ce4ae2.png", "local_source_path": "diagnostics/controlled_validation_sources/radeon_rx_7900_xtx.png"}
-]

@@ -1,0 +1,129 @@
+{
+  "gpu_model_name": "Arc A380",
+  "source_image": "diagnostics\\live_chart_sources_20261022\\arc_a380.png",
+  "source_sha256": "4862622C6FAEC6793196679EE906C6378F1578607206F42E0CA1301F2B6787FD",
+  "image_size": [
+    1176,
+    484
+  ],
+  "plot_bounds": [
+    55,
+    27,
+    1149,
+    427
+  ],
+  "x_gridlines": [
+    55,
+    71,
+    133,
+    193,
+    255,
+    317,
+    377,
+    439,
+    499,
+    560,
+    623,
+    679,
+    741,
+    801,
+    863,
+    923,
+    985,
+    1047,
+    1107,
+    1149
+  ],
+  "y_gridlines": [
+    27,
+    94,
+    161,
+    227,
+    294,
+    361,
+    427
+  ],
+  "y_tick_values": [
+    300.0,
+    250.0,
+    200.0,
+    150.0,
+    100.0,
+    50.0,
+    0.0
+  ],
+  "anchor_date": "2025-05-01",
+  "anchor_x": 71,
+  "monthly_x_positions": {
+    "2026-08-01": 985,
+    "2026-09-01": 1047
+  },
+  "monthly_pixel_y_positions": {
+    "2026-08-01": 161.0,
+    "2026-09-01": 153.0
+  },
+  "monthly_sampling_diagnostics": {
+    "2026-08-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 161.0,
+          "x_span": 12,
+          "y_span": 21,
+          "horizontal_support": 13,
+          "area": 60,
+          "vertical_spike": false,
+          "score": 11.0
+        }
+      ],
+      "accepted": {
+        "y": 161.0,
+        "x_span": 12,
+        "y_span": 21,
+        "horizontal_support": 13,
+        "area": 60,
+        "vertical_spike": false,
+        "score": 11.0
+      }
+    },
+    "2026-09-01": {
+      "status": "accepted",
+      "reason": null,
+      "candidates": [
+        {
+          "y": 153.0,
+          "x_span": 12,
+          "y_span": 14,
+          "horizontal_support": 13,
+          "area": 49,
+          "vertical_spike": false,
+          "score": 11.0
+        }
+      ],
+      "accepted": {
+        "y": 153.0,
+        "x_span": 12,
+        "y_span": 14,
+        "horizontal_support": 13,
+        "area": 49,
+        "vertical_spike": false,
+        "score": 11.0
+      }
+    }
+  },
+  "price_trend": {
+    "2026-08-01": "200.00",
+    "2026-09-01": "206.00"
+  },
+  "price_quality": {
+    "2026-08-01": "observed",
+    "2026-09-01": "estimated"
+  },
+  "review_reasons": [
+    "estimated_values_present",
+    "live_asset_review_pending"
+  ],
+  "review_status": "human_verification_pending",
+  "overlay_path": "experimental\\aug_sep_2026_full_review_20261022\\arc_a380.overlay.png"
+}
