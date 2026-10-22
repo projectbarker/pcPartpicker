@@ -88,6 +88,19 @@ class CoordinateCalibrationTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "horizontal gridlines"):
             calibrate_chart(image, {"anchor_date": "2024-08-01", "anchor_x": 60, "y_tick_values": [100, 50, 0]})
 
+    def test_verified_manual_gridlines_require_in_bounds_monotonic_geometry(self):
+        image = synthetic_chart()
+        config = {"anchor_date": "2024-08-01", "anchor_x": 60, "y_tick_values": [100, 50, 0]}
+        config["verified_y_gridlines"] = [10, 50, 90]
+        calibration = calibrate_chart(image, config)
+        self.assertEqual(calibration.y_gridlines, (10, 50, 90))
+        config["verified_y_gridlines"] = [10, 50, 50]
+        with self.assertRaisesRegex(ValueError, "increase top-to-bottom"):
+            calibrate_chart(image, config)
+        config["verified_y_gridlines"] = [10, 50, image.height]
+        with self.assertRaisesRegex(ValueError, "outside image bounds"):
+            calibrate_chart(image, config)
+
     def test_calibration_rejects_contradictory_tick_order(self):
         with self.assertRaisesRegex(ValueError, "strictly decrease"):
             calibrate_chart(synthetic_chart(), {"anchor_date": "2024-08-01", "anchor_x": 60, "y_tick_values": [0, 50, 100]})

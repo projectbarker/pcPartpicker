@@ -8,12 +8,12 @@ The published dataset is [`Monthly_Scraped_Data/pcpartpicker_gpu_trends_final.js
 
 - 23 unique GPU records and 27 monthly fields per record.
 - Requested date range: July 2024 through September 2026.
-- 621 monthly positions: 404 numeric and 217 `N/A`.
-- Numeric values: 31 `observed` and 373 `estimated`.
-- All 23 records require review; one record is failed and six records remain blocked by calibration errors on the refreshed-source attempt.
-- The current deterministic test suite passes 43 tests.
+- 621 monthly positions: 425 numeric and 196 `N/A`.
+- Numeric values: 35 `observed` and 390 `estimated`.
+- All 23 records require review; no record is failed after individually verified manual-axis recovery.
+- The current deterministic test suite passes 44 tests.
 
-The counts reconcile: `404 + 217 = 621` and `31 + 373 = 404`. The dataset is structurally complete, but not fully numerically complete or production-approved. A controlled run using cached July 3, 2026 chart sources added 97 numeric values for February–July 2026 where calibration and line evidence supported them. August and September remain `N/A`; no future values were inferred. Radeon RX 7600 XT remains blocked by `ValueError: Expected 7 horizontal gridlines, detected 6`, and five additional refreshed-source charts had the same calibration failure. No calibration check was bypassed. See [`docs/CACHED_JULY_2026_EXTRACTION_REPORT.md`](docs/CACHED_JULY_2026_EXTRACTION_REPORT.md).
+The counts reconcile: `425 + 196 = 621` and `35 + 390 = 425`. The dataset is structurally complete, but not fully numerically complete or production-approved. A controlled run using cached July 3, 2026 chart sources added 97 values, and a separately validated manual-axis recovery added 21 more. August and September remain `N/A`; no future values were inferred. All six former calibration failures now have individually verified axis geometry, but their outputs remain review-required and unsupported line segments remain `N/A`. See [`docs/CACHED_JULY_2026_COMPLETION_AUDIT.md`](docs/CACHED_JULY_2026_COMPLETION_AUDIT.md).
 
 ## Quick start
 
@@ -82,7 +82,7 @@ Run the deterministic suite with:
 python -m unittest discover -s tests -v
 ```
 
-The current full suite passes 43 tests, including calibration, runner, pipeline, output-safety, schema, source-collection setup, and date-range checks. Passing tests do not independently prove the accuracy of every raster-chart reading.
+The current full suite passes 44 tests, including calibration, runner, pipeline, output-safety, schema, source-collection setup, manual-axis validation, and date-range checks. Passing tests do not independently prove the accuracy of every raster-chart reading.
 
 ## Documentation index
 

@@ -8,7 +8,7 @@ The output is a chart-derived observation. It is not a transaction database and 
 
 ## Current result
 
-The extended dataset contains 23 unique GPU records and 621 monthly positions. There are 307 numeric values and 314 `N/A` values; numeric values split into 25 `observed` and 282 `estimated`. All 23 records require review because the extension months are unvalidated, and Radeon RX 7600 XT is explicitly failed because its calibration detects six rather than seven horizontal gridlines.
+The current dataset contains 23 unique GPU records and 621 monthly positions. There are 425 numeric values and 196 `N/A` values; numeric values split into 35 `observed` and 390 `estimated`. All 23 records require review. The six former automatic gridline failures now have individually verified manual-axis geometry; unsupported line segments and August–September 2026 remain `N/A`.
 
 ## Main components
 

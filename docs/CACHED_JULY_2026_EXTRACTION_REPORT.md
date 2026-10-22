@@ -14,23 +14,23 @@ Only newly supported February–July 2026 positions were added. July 2024–Janu
 |---|---:|
 | GPU records | 23 |
 | Monthly positions | 621 |
-| Numeric values | 404 |
-| `N/A` values | 217 |
-| `observed` values | 31 |
-| `estimated` values | 373 |
+| Numeric values | 425 |
+| `N/A` values | 196 |
+| `observed` values | 35 |
+| `estimated` values | 390 |
 | Records requiring review | 23 |
-| Failed records | 1 |
-| New numeric values in Feb–Jul 2026 | 97 |
+| Failed records | 0 |
+| New numeric values relative to the pre-cached baseline | 118 |
 
-New numeric coverage by month is February 17, March 15, April 16, May 17, June 17, and July 15. August and September remain zero numeric values.
+New numeric coverage by month is February 19, March 17, April 18, May 19, June 20, and July 18. August and September remain zero numeric values.
 
 ## Calibration and review
 
-17 charts produced numeric values, all marked for review because the readings are raster-derived and mostly estimated. Six charts failed the existing seven-gridline calibration check and were not forced through: GeForce RTX 4070, GeForce RTX 4070 Ti, GeForce RTX 4070 Ti SUPER, GeForce RTX 4090, Radeon RX 9060 XT, and Radeon RX 7600 XT. RX 7600 XT remains explicitly blocked with no bypass.
+All 23 charts produced at least some numeric values, and all records remain marked for review because the readings are raster-derived and mostly estimated. Six charts initially failed the automatic seven-gridline calibration check: GeForce RTX 4070, GeForce RTX 4070 Ti, GeForce RTX 4070 Ti SUPER, GeForce RTX 4090, Radeon RX 9060 XT, and Radeon RX 7600 XT. Direct chart evidence supported an explicit in-bounds manual gridline configuration for each; the automatic detector threshold was not changed. Unsupported segments remain `N/A`.
 
 Representative overlays were inspected for Arc A380 and Radeon RX 9070; the accepted markers followed the black line, while spike/missing-line diagnostics remained visible. The GeForce RTX 4070 source visibly lacks a detector-complete horizontal gridline set, so it remains failed rather than receiving fabricated prices.
 
-No universal accuracy threshold was claimed. The extraction is a controlled, review-required update, not proof that every price is within the manager's reported 1–5% range.
+No universal accuracy threshold was claimed. The extraction is a controlled, review-required update, not proof that every price is within the manager's reported 1–5% range. The full audit is `docs/CACHED_JULY_2026_COMPLETION_AUDIT.md`.
 
 ## Integrity and artifacts
 

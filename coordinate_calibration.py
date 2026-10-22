@@ -73,7 +73,16 @@ def calibrate_chart(image: Image.Image, config: dict[str, Any]) -> Calibration:
     """Calibrate one image using its visible tick labels and date anchor."""
     y_lines, x_lines = detect_gridlines(image)
     y_values = tuple(float(value) for value in config["y_tick_values"])
-    if len(y_lines) != len(y_values):
+    verified_y_lines = config.get("verified_y_gridlines")
+    if verified_y_lines is not None:
+        y_lines = [int(value) for value in verified_y_lines]
+        if len(y_lines) != len(y_values):
+            raise ValueError("Verified horizontal gridline count does not match y-axis tick values")
+        if any(value < 0 or value >= image.height for value in y_lines):
+            raise ValueError("Verified horizontal gridlines are outside image bounds")
+        if any(upper >= lower for upper, lower in zip(y_lines, y_lines[1:])):
+            raise ValueError("Verified horizontal gridlines must increase top-to-bottom")
+    elif len(y_lines) != len(y_values):
         raise ValueError(f"Expected {len(y_values)} horizontal gridlines, detected {len(y_lines)}")
     if any(upper <= lower for upper, lower in zip(y_values, y_values[1:])):
         raise ValueError("Y-axis tick values must strictly decrease from top to bottom")

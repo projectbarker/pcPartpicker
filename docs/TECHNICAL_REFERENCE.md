@@ -29,4 +29,4 @@ The date anchor and tick mappings remain explicit calibration evidence rather th
 
 ## Tests
 
-The current full deterministic suite passes 43 tests covering calibration, runner behavior, pipeline validation, failure isolation, output schema, safe writes, source-collection setup, and the 27-month range. Tests verify behavior; they do not establish that every chart-derived value is ground truth. The cached July 2026 extraction report records the controlled source refresh and its six calibration failures.
+The current full deterministic suite passes 44 tests covering calibration, runner behavior, pipeline validation, failure isolation, output schema, safe writes, source-collection setup, manual-axis validation, and the 27-month range. Tests verify behavior; they do not establish that every chart-derived value is ground truth. The cached July 2026 completion audit records the controlled source refresh, manual-axis recovery, and remaining missing-value reasons.

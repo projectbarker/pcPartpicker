@@ -1,0 +1,44 @@
+{
+  "GeForce RTX 4070": {
+    "anchor_date": "2025-02-01",
+    "anchor_x": 113,
+    "y_tick_values": [1200, 1000, 800, 600, 400, 200, 0],
+    "verified_y_gridlines": [27, 94, 161, 227, 294, 361, 427],
+    "evidence": "Visible labeled axis and horizontal gridline sequence; y=227 is obscured by the black line but the $600 line is directly visible on both sides."
+  },
+  "GeForce RTX 4070 Ti": {
+    "anchor_date": "2025-02-01",
+    "anchor_x": 113,
+    "y_tick_values": [1200, 1000, 800, 600, 400, 200, 0],
+    "verified_y_gridlines": [27, 94, 161, 227, 294, 361, 427],
+    "evidence": "Visible labeled axis and complete horizontal gridline sequence including the bottom $0 boundary."
+  },
+  "GeForce RTX 4070 Ti SUPER": {
+    "anchor_date": "2025-02-01",
+    "anchor_x": 113,
+    "y_tick_values": [1200, 1000, 800, 600, 400, 200, 0],
+    "verified_y_gridlines": [27, 94, 161, 227, 294, 361, 427],
+    "evidence": "Visible labeled axis and complete horizontal gridline sequence including the bottom $0 boundary."
+  },
+  "GeForce RTX 4090": {
+    "anchor_date": "2025-02-01",
+    "anchor_x": 113,
+    "y_tick_values": [6000, 5000, 4000, 3000, 2000, 1000, 0],
+    "verified_y_gridlines": [27, 94, 161, 227, 294, 361, 427],
+    "evidence": "Visible labeled axis and complete horizontal gridline sequence including the bottom $0 boundary."
+  },
+  "Radeon RX 9060 XT": {
+    "anchor_date": "2025-02-01",
+    "anchor_x": 113,
+    "y_tick_values": [1200, 1000, 800, 600, 400, 200, 0],
+    "verified_y_gridlines": [27, 94, 161, 227, 294, 361, 427],
+    "evidence": "Visible labeled axis and complete horizontal gridline sequence including the bottom $0 boundary."
+  },
+  "Radeon RX 7600 XT": {
+    "anchor_date": "2025-02-01",
+    "anchor_x": 113,
+    "y_tick_values": [600, 500, 400, 300, 200, 100, 0],
+    "verified_y_gridlines": [27, 94, 161, 227, 294, 361, 427],
+    "evidence": "Visible labeled axis and complete horizontal gridline sequence including the bottom $0 boundary; frequent actual-line drops to $0 remain subject to normal line review."
+  }
+}

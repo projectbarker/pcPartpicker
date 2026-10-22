@@ -26,14 +26,10 @@ The approximate manual readings in the historical validation work are visual ref
 
 The original chart URLs are dated `2026.03.03`. A controlled follow-up used 23 cached CDN URLs dated `2026.07.03` and retrieved all 23 chart images. Where calibration and line evidence passed, February through July 2026 were extracted conservatively. August and September remain `N/A` with `extension_not_validated`; no value was inferred beyond visible history.
 
-The source investigation found `pcpartpicker_debug_page.html`, a saved local page containing 23 CDN references dated `2026.07.03`. All 23 were downloaded and inspected as a controlled cached-source run. The rolling chart axes support approximately July 2026; August and September remain unverified. Six records failed calibration (`Expected 7 horizontal gridlines, detected 6`, including RX 7600 XT), so those records produced no new numeric values. No official public trend-data API or downloadable dataset was found, and unofficial wrappers were not accepted as authoritative sources. See `docs/CACHED_JULY_2026_EXTRACTION_REPORT.md`.
+The source investigation found `pcpartpicker_debug_page.html`, a saved local page containing 23 CDN references dated `2026.07.03`. All 23 were downloaded and inspected as a controlled cached-source run. The rolling chart axes support approximately July 2026; August and September remain unverified. Six records initially failed automatic calibration (`Expected 7 horizontal gridlines, detected 6`), but direct image evidence supported a bounded manual-axis configuration without changing the default threshold. Unsupported segments remain `N/A`. No official public trend-data API or downloadable dataset was found, and unofficial wrappers were not accepted as authoritative sources. See `docs/CACHED_JULY_2026_COMPLETION_AUDIT.md`.
 
-## Remaining blocker
+## Remaining limitations
 
-Radeon RX 7600 XT still raises:
-
-```text
-ValueError: Expected 7 horizontal gridlines, detected 6
-```
+The six former automatic calibration failures now have verified manual-axis geometry, but all records remain review-required. Missing line segments and isolated spikes remain `N/A`; August and September 2026 are not visible in the cached source charts.
 
 Its visible bottom boundary was not approved as a safe replacement for the missing gridline. The calibration check remains intact and the record remains failed.
