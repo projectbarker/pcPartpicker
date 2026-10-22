@@ -2,21 +2,21 @@
 
 ## Final artifact
 
-The published dataset is [`../Monthly_Scraped_Data/pcpartpicker_gpu_trends_final.json`](../Monthly_Scraped_Data/pcpartpicker_gpu_trends_final.json). The extended file contains 23 unique GPU records, 27 monthly keys per record, and 621 total positions.
+The published dataset is [`../Monthly_Scraped_Data/pcpartpicker_gpu_trends_final.json`](../Monthly_Scraped_Data/pcpartpicker_gpu_trends_final.json). The file contains 23 unique GPU records, 25 monthly keys per record, and 575 total positions, covering July 2024 through July 2026.
 
 | Measure | Result |
 |---|---:|
 | Numeric values | 425 |
-| `N/A` values | 196 |
+| `N/A` values | 150 |
 | `observed` values | 35 |
 | `estimated` values | 390 |
 | Records requiring review | 23 |
 | Failed records | 0 |
 | Reported passing tests | 44 |
 
-The counts reconcile: `425 + 196 = 621` and `35 + 390 = 425`.
+The counts reconcile: `425 + 150 = 575` and `35 + 390 = 425`.
 
-The prior integrated baseline contained 19 months, 437 positions, 307 numeric values, and 130 `N/A` values. The cached July 2026 run preserved existing numeric values and added 118 evidence-supported values in total. August and September remain `N/A` because they are not visible in the cached source charts.
+The prior integrated baseline contained 19 months, 437 positions, 307 numeric values, and 130 `N/A` values. The cached July 2026 run preserved existing numeric values and added 118 evidence-supported values in total. August and September are excluded because they are not visible in the cached source charts.
 
 ## Integration evidence
 
@@ -32,7 +32,7 @@ The current full suite passes 44 tests.
 
 ## Extension evidence and source coverage
 
-The cached source URLs are dated `2026.07.03`. All 23 cached images were retrieved and inspected; their rolling x-axes support approximately July 2026, not August or September. A local calibrated extraction added 118 values relative to the pre-cached baseline where supported. No live scraper/API extraction was run, and August–September remain `N/A` rather than being inferred.
+The cached source URLs are dated `2026.07.03`. All 23 cached images were retrieved and inspected; their rolling x-axes support approximately July 2026, not August. A local calibrated extraction added 118 values relative to the pre-cached baseline where supported. No live scraper/API extraction was run, and unsupported later months were not included.
 
 The October 2026 authorized-source investigation found a saved local page with 23 newer CDN references dated `2026.07.03`. All 23 URL references differ from the March sources and were retrieved for the controlled run. Live page retrieval remains blocked by Cloudflare, no official public chart-data API was found, and no prices were extracted for unsupported months. See [`CACHED_JULY_2026_EXTRACTION_REPORT.md`](CACHED_JULY_2026_EXTRACTION_REPORT.md).
 

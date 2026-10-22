@@ -1,12 +1,12 @@
 {
-  "dataset_sha256": "A001249CE23B0537FA475F24AE7B5BF8DDE18FF896449EA10AF1CEBD37BE66E2",
+  "dataset_sha256": "920BFC9BD9F93DB05EC25D64598E4037D132D411B6B32CEA01C4DB38C105D2A1",
   "baseline_sha256": "FBD1F9126A899F57D01A41BC46E54897DA515B37C42E4FBE9CDB33CF32CE5459",
   "dataset_counts": {
     "record_count": 23,
-    "month_count": 27,
-    "position_count": 621,
+    "month_count": 25,
+    "position_count": 575,
     "numeric_count": 425,
-    "na_count": 196,
+    "na_count": 150,
     "observed_count": 35,
     "estimated_count": 390,
     "failed_record_count": 0
@@ -48,7 +48,6 @@
   "na_reason_counts": {
     "out_of_history": 85,
     "isolated_spike": 11,
-    "source_unavailable_chart_not_visible": 46,
     "missing_line_segment": 54
   }
 }

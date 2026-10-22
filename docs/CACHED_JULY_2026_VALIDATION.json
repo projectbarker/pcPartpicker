@@ -707,7 +707,7 @@
   ],
   "final_dataset_counts": {
     "numeric": 425,
-    "na": 196,
+    "na": 150,
     "observed": 35,
     "estimated": 390,
     "failed_records": 0

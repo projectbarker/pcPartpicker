@@ -6,14 +6,14 @@ The project uses Scrapy, BeautifulSoup, Selenium, undetected-chromedriver, pytho
 
 ## Calibration implementation
 
-`coordinate_calibration.py` detects chart geometry, maps calibrated pixels to USD, identifies connected dark components near monthly positions, scores horizontal support and neighboring continuity, rejects isolated vertical spikes, and emits diagnostic overlays. `coordinate_calibration_runner.py` loads explicit per-image calibration, isolates record failures, normalizes the 27 monthly keys, and writes atomically.
+`coordinate_calibration.py` detects chart geometry, maps calibrated pixels to USD, identifies connected dark components near monthly positions, scores horizontal support and neighboring continuity, rejects isolated vertical spikes, and emits diagnostic overlays. `coordinate_calibration_runner.py` loads explicit per-image calibration, isolates record failures, normalizes the 25 monthly keys, and writes atomically.
 
 The date anchor and tick mappings remain explicit calibration evidence rather than automated OCR. Axis mappings must be monotonic and in bounds. Invalid or contradictory calibration fails safely before numeric extraction.
 
 ## Important decisions
 
 - Keep Selenium because the trends page is dynamically rendered.
-- Keep the 27-month schema and backward-compatible `price_trend` field.
+- Keep the verified 25-month schema and backward-compatible `price_trend` field.
 - Treat chart readings as observations, not exact ground truth.
 - Use bounded API retries and classify all-`N/A` results as failed.
 - Preserve `observed`, `estimated`, `N/A`, review, and failure metadata.
@@ -29,4 +29,4 @@ The date anchor and tick mappings remain explicit calibration evidence rather th
 
 ## Tests
 
-The current full deterministic suite passes 44 tests covering calibration, runner behavior, pipeline validation, failure isolation, output schema, safe writes, source-collection setup, manual-axis validation, and the 27-month range. Tests verify behavior; they do not establish that every chart-derived value is ground truth. The cached July 2026 completion audit records the controlled source refresh, manual-axis recovery, and remaining missing-value reasons.
+The current full deterministic suite passes 44 tests covering calibration, runner behavior, pipeline validation, failure isolation, output schema, safe writes, source-collection setup, manual-axis validation, and the verified 25-month range. Tests verify behavior; they do not establish that every chart-derived value is ground truth. The cached July 2026 completion audit records the controlled source refresh, manual-axis recovery, and remaining missing-value reasons.

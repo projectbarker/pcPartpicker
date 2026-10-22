@@ -6,14 +6,14 @@ This project retrieves PCPartPicker GPU trend-chart images and produces a review
 
 The published dataset is [`Monthly_Scraped_Data/pcpartpicker_gpu_trends_final.json`](Monthly_Scraped_Data/pcpartpicker_gpu_trends_final.json).
 
-- 23 unique GPU records and 27 monthly fields per record.
-- Requested date range: July 2024 through September 2026.
-- 621 monthly positions: 425 numeric and 196 `N/A`.
+- 23 unique GPU records and 25 monthly fields per record.
+- Verified date range: July 2024 through July 2026.
+- 575 monthly positions: 425 numeric and 150 `N/A`.
 - Numeric values: 35 `observed` and 390 `estimated`.
 - All 23 records require review; no record is failed after individually verified manual-axis recovery.
 - The current deterministic test suite passes 44 tests.
 
-The counts reconcile: `425 + 196 = 621` and `35 + 390 = 425`. The dataset is structurally complete, but not fully numerically complete or production-approved. A controlled run using cached July 3, 2026 chart sources added 97 values, and a separately validated manual-axis recovery added 21 more. August and September remain `N/A`; no future values were inferred. All six former calibration failures now have individually verified axis geometry, but their outputs remain review-required and unsupported line segments remain `N/A`. See [`docs/CACHED_JULY_2026_COMPLETION_AUDIT.md`](docs/CACHED_JULY_2026_COMPLETION_AUDIT.md).
+The counts reconcile: `425 + 150 = 575` and `35 + 390 = 425`. The dataset is structurally complete for the verified source range, but not fully numerically complete or production-approved. A controlled run using cached July 3, 2026 chart sources added 97 values, and a separately validated manual-axis recovery added 21 more. August was not verified and September was not verified, so neither key is retained. All records remain review-required. See [`docs/FINAL_RECOVERY_AUDIT.md`](docs/FINAL_RECOVERY_AUDIT.md).
 
 ## Quick start
 
@@ -42,13 +42,13 @@ The scraper can be inspected with `python -m scrapy --settings=batch.settings li
 
 ## Data quality and schema
 
-Every record retains `gpu_model_name`, `image_url`, the backward-compatible `price_trend` field, `price_quality`, review metadata, and `extraction_status`. `price_trend` has exactly the 27 keys from `2024-07-01` through `2026-09-01`.
+Every record retains `gpu_model_name`, `image_url`, the backward-compatible `price_trend` field, `price_quality`, review metadata, and `extraction_status`. `price_trend` has exactly the 25 keys from `2024-07-01` through `2026-07-01`.
 
 - `observed` means the line position is directly supported by visible chart evidence.
 - `estimated` means a readable chart position was mapped conservatively; it is rounded to dollars, formatted with two decimals, and remains review-required.
 - `N/A` means history is unsupported, missing, disconnected, or ambiguous. Prices are never interpolated, extrapolated, smoothed, or invented.
 
-August and September 2026 carry `N/A` with `extension_not_validated`; no future prices were inferred from the last visible point. February–July values recovered from cached July sources remain estimated and review-required unless directly supported by existing evidence.
+August and September 2026 are outside the verified source range and are intentionally absent from the dataset. February–July values recovered from cached July sources remain estimated and review-required unless directly supported by existing evidence.
 
 ### Source investigation status
 

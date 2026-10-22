@@ -2,13 +2,13 @@
 
 ## Purpose
 
-PCPartPicker publishes GPU trend charts rather than a structured monthly-price API. This project retrieves the chart references and converts the black actual-price line into a fixed, reviewable monthly dataset for July 2024 through September 2026.
+PCPartPicker publishes GPU trend charts rather than a structured monthly-price API. This project retrieves the chart references and converts the black actual-price line into a reviewable monthly dataset for the verified range July 2024 through July 2026.
 
 The output is a chart-derived observation. It is not a transaction database and does not claim more precision than the source raster supports.
 
 ## Current result
 
-The current dataset contains 23 unique GPU records and 621 monthly positions. There are 425 numeric values and 196 `N/A` values; numeric values split into 35 `observed` and 390 `estimated`. All 23 records require review. The six former automatic gridline failures now have individually verified manual-axis geometry; unsupported line segments and August–September 2026 remain `N/A`.
+The current dataset contains 23 unique GPU records and 575 monthly positions. There are 425 numeric values and 150 `N/A` values; numeric values split into 35 `observed` and 390 `estimated`. All 23 records require review. The six former automatic gridline failures now have individually verified manual-axis geometry; unsupported line segments remain `N/A`. August and September 2026 are not included because they are not verified by the available charts.
 
 ## Main components
 

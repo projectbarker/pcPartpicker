@@ -8,21 +8,21 @@ The existing calibrated Pillow pipeline was run against local cached images with
 
 ## Dataset update
 
-Only newly supported February–July 2026 positions were added. July 2024–January 2026 values were compared with the timestamped pre-update backup and were unchanged. August and September remain `N/A`. No interpolation, extrapolation, smoothing, or OpenAI API extraction was used.
+Only newly supported February–July 2026 positions were added. July 2024–January 2026 values were compared with the timestamped pre-update backup and were unchanged. August and September were not verified and are excluded from the final schema. No interpolation, extrapolation, smoothing, or OpenAI API extraction was used.
 
 | Measure | Result |
 |---|---:|
 | GPU records | 23 |
-| Monthly positions | 621 |
+| Monthly positions | 575 |
 | Numeric values | 425 |
-| `N/A` values | 196 |
+| `N/A` values | 150 |
 | `observed` values | 35 |
 | `estimated` values | 390 |
 | Records requiring review | 23 |
 | Failed records | 0 |
 | New numeric values relative to the pre-cached baseline | 118 |
 
-New numeric coverage by month is February 19, March 17, April 18, May 19, June 20, and July 18. August and September remain zero numeric values.
+New numeric coverage by month is February 19, March 17, April 18, May 19, June 20, and July 18. August and September are outside the final verified schema.
 
 ## Calibration and review
 
@@ -35,10 +35,10 @@ No universal accuracy threshold was claimed. The extraction is a controlled, rev
 ## Integrity and artifacts
 
 - Final dataset: `Monthly_Scraped_Data/pcpartpicker_gpu_trends_final.json`
-- Backup: `Monthly_Scraped_Data/pcpartpicker_gpu_trends_final.backup_20261022_160047.json`
-- Final SHA-256: `902198B7FFE5F0258FC020D93906C91C0091F4B683F8C21A7475E9B964603779`
+- Backup: `Monthly_Scraped_Data/pcpartpicker_gpu_trends_final.backup_20261022_162818.json`
+- Final SHA-256: `920BFC9BD9F93DB05EC25D64598E4037D132D411B6B32CEA01C4DB38C105D2A1`
 - Validation manifest: `docs/CACHED_JULY_2026_VALIDATION.json`
 - Retrieved images: `diagnostics/cached_july_2026_sources/`
 - Overlays and diagnostics: `diagnostics/cached_july_2026_extraction/`
 
-The prior final SHA-256 was `FBD1F9126A899F57D01A41BC46E54897DA515B37C42E4FBE9CDB33CF32CE5459`. Historical months were verified unchanged. The live PCPartPicker page remains Cloudflare-blocked; the source is the cached July 3 CDN set, not a live August/September source.
+The prior final SHA-256 was `FBD1F9126A899F57D01A41BC46E54897DA515B37C42E4FBE9CDB33CF32CE5459`. Historical numeric months were verified unchanged. The live PCPartPicker page remains Cloudflare-blocked; the source is the cached July 3 CDN set, not a live August source.
