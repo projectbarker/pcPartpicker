@@ -33,7 +33,7 @@ The vision command requires `OPENAI_API_KEY` in the environment. The local coord
 
 The cached July 2026 source run is documented in `CACHED_JULY_2026_EXTRACTION_REPORT.md`. It adds only visually supported February–July values; August and September are outside the verified schema. Cached-source extraction is not evidence of live PCPartPicker access.
 
-The October 2026 source investigation found that live PCPartPicker access is still blocked by Cloudflare. A local cached page contains 23 July 3, 2026 CDN URL references, but only the Arc A380 image has been visually inspected. Treat the cache as evidence for a supervised source-review queue, not as proof of current coverage. Obtain an approved browser session or source export and validate chart identity/date coverage before extraction.
+The October 2026 live-capture investigation loaded the official page in an authorized browser and visually confirmed 23 chart entries with August and September 2026 on the rendered axes. The browser surface did not expose reproducible native assets, exact image URLs, CDP/network logs, or HAR export, so extraction remains blocked pending an approved asset export or team-provided current chart files/URLs. See `LIVE_CHART_CAPTURE_REPORT_20261022.md` and `LIVE_CHART_CAPTURE_MANIFEST_20261022.json`.
 
 ## Safety rules
 

@@ -52,7 +52,7 @@ August and September 2026 are outside the verified source range and are intentio
 
 ### Source investigation status
 
-Live PCPartPicker page retrieval remains blocked by a Cloudflare challenge. A saved local page supplied 23 newer CDN URL references dated `2026.07.03`; all 23 images were retrieved and visually checked for chart identity. Their rolling axes support approximately July 2026, not August or September. The extraction report and machine-readable validation are [`docs/CACHED_JULY_2026_EXTRACTION_REPORT.md`](docs/CACHED_JULY_2026_EXTRACTION_REPORT.md) and [`docs/CACHED_JULY_2026_VALIDATION.json`](docs/CACHED_JULY_2026_VALIDATION.json). This is cached-source evidence, not proof of live site access.
+The live PCPartPicker page has since loaded in an authorized browser and visibly shows 23 GPU charts with August and September 2026 on the rendered axes. Reproducible native live assets and exact image URLs were not exposed by the available browser surface, so no later prices were extracted and the production cutoff remains July 2026. See [`docs/LIVE_CHART_CAPTURE_REPORT_20261022.md`](docs/LIVE_CHART_CAPTURE_REPORT_20261022.md) and [`docs/LIVE_CHART_CAPTURE_MANIFEST_20261022.json`](docs/LIVE_CHART_CAPTURE_MANIFEST_20261022.json). The cached July evidence remains documented in [`docs/CACHED_JULY_2026_EXTRACTION_REPORT.md`](docs/CACHED_JULY_2026_EXTRACTION_REPORT.md) and [`docs/CACHED_JULY_2026_VALIDATION.json`](docs/CACHED_JULY_2026_VALIDATION.json).
 
 Calibration checks and failure metadata must be preserved. Numeric output is not a claim of transaction-level ground truth.
 
@@ -94,6 +94,8 @@ The current full suite passes 44 tests, including calibration, runner, pipeline,
 - [Turnover and validation report](docs/TURNOVER_AND_VALIDATION_REPORT.md)
 - [Extended dataset validation](docs/EXTENDED_DATASET_VALIDATION.json)
 - [Authorized source investigation](docs/AUTHORIZED_SOURCE_ALTERNATIVE_20261022.md)
+- [Live chart capture report](docs/LIVE_CHART_CAPTURE_REPORT_20261022.md)
+- [Live chart capture manifest](docs/LIVE_CHART_CAPTURE_MANIFEST_20261022.json)
 - [Final recovery audit](docs/FINAL_RECOVERY_AUDIT.md)
 - [Final recovery register](docs/FINAL_RECOVERY_REGISTER.json)
 

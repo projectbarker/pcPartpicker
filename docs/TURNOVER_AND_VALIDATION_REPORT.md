@@ -34,7 +34,7 @@ The current full suite passes 44 tests.
 
 The cached source URLs are dated `2026.07.03`. All 23 cached images were retrieved and inspected; their rolling x-axes support approximately July 2026, not August. A local calibrated extraction added 118 values relative to the pre-cached baseline where supported. No live scraper/API extraction was run, and unsupported later months were not included.
 
-The October 2026 authorized-source investigation found a saved local page with 23 newer CDN references dated `2026.07.03`. All 23 URL references differ from the March sources and were retrieved for the controlled run. Live page retrieval remains blocked by Cloudflare, no official public chart-data API was found, and no prices were extracted for unsupported months. See [`CACHED_JULY_2026_EXTRACTION_REPORT.md`](CACHED_JULY_2026_EXTRACTION_REPORT.md).
+The October 2026 authorized-source investigation found a saved local page with 23 newer CDN references dated `2026.07.03`; these support the cached July run. A later authorized-browser observation loaded the live page and visibly showed August and September 2026, but no reproducible native live assets or exact image URLs were captured, so no later prices were extracted. See [`LIVE_CHART_CAPTURE_REPORT_20261022.md`](LIVE_CHART_CAPTURE_REPORT_20261022.md).
 
 Machine-readable validation is in [`EXTENDED_DATASET_VALIDATION.json`](EXTENDED_DATASET_VALIDATION.json). The baseline SHA-256 was `71DB952DD497189C15AD2E73376C39941BAF298620832518087086FF8F1C92C9`; the extended output SHA-256 is recorded there.
 
