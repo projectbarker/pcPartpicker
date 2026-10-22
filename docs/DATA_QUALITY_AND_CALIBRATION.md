@@ -2,7 +2,7 @@
 
 ## Monthly policy
 
-The project uses a fixed 19-month schema: `2024-07-01` through `2026-01-01`. The intended interpretation is a chart observation at the monthly sampling position, not a daily average or transaction-level price. Where a boundary transition is ambiguous, the current production decision is to retain the existing sampler, require review, and use `N/A` when the value cannot be determined reliably.
+The project uses a fixed 27-month schema: `2024-07-01` through `2026-09-01`. The intended interpretation is a chart observation at the monthly sampling position, not a daily average or transaction-level price. Where a boundary transition is ambiguous, the current production decision is to retain the existing sampler, require review, and use `N/A` when the value cannot be determined reliably.
 
 ## Quality classes
 
@@ -16,13 +16,15 @@ Calibration must be supported by the chart's own bounds, date anchor, tick label
 
 ## Review and failure reasons
 
-The implementation retains reason codes such as `outside_visible_history`, `missing_line_segment`, `ambiguous_line_candidate`, `isolated_spike`, and calibration/image failure details. A failed record has all 19 monthly values set to `N/A`, `extraction_skipped: true`, and no fabricated numeric values.
+The implementation retains reason codes such as `outside_visible_history`, `missing_line_segment`, `ambiguous_line_candidate`, `isolated_spike`, `extension_not_validated`, and calibration/image failure details. A failed record has all 27 monthly values set to `N/A`, `extraction_skipped: true`, and no fabricated numeric values.
 
 ## Evidence history
 
 The three-GPU vision sample exposed false missing-history interpretations and suspicious sequences. The continuity-aware coordinate prototype improved selection around spikes but left unstable regions requiring review. The Queue A pilot and Queue B boundary/history reviews supplied the published evidence used for the final integration. The compact `diagnostics/turnover_blocker_attempt/` directory contains the six recovered Queue B calibration artifacts and overlays.
 
 The approximate manual readings in the historical validation work are visual references, not ground truth. No universal accuracy threshold was invented. Future expansion should compare distributed manual references, review all ambiguous points, and preserve the current conservative semantics.
+
+The saved chart URLs are dated `2026.03.03`. A local chart inspection showed visible history through approximately February 2026, but no approved extraction was run for the eight requested extension months. They therefore remain `N/A` with `extension_not_validated`; March through September are outside the saved chart history.
 
 ## Remaining blocker
 

@@ -36,7 +36,8 @@ class PipelineTests(unittest.TestCase):
     def test_month_keys_are_complete_and_ordered(self):
         values, status = safe_parse_json(complete_payload())
         self.assertEqual(list(values), EXPECTED_MONTHS)
-        self.assertEqual(len(values), 19)
+        self.assertEqual(len(values), len(EXPECTED_MONTHS))
+        self.assertEqual(EXPECTED_MONTHS[-1], "2026-09-01")
         self.assertEqual(status, "success")
 
     def test_partial_and_all_missing_are_not_success(self):
@@ -45,7 +46,7 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(values[EXPECTED_MONTHS[0]], "150.00")
         self.assertEqual(status, "partial")
         values, status = safe_parse_json(json.dumps({month: "N/A" for month in EXPECTED_MONTHS}))
-        self.assertEqual(len(values), 19)
+        self.assertEqual(len(values), len(EXPECTED_MONTHS))
         self.assertEqual(status, "failed")
 
     def test_estimated_values_round_and_require_review(self):
@@ -99,7 +100,7 @@ class PipelineTests(unittest.TestCase):
     def test_api_response_and_status_are_recorded(self):
         result = extract_one({"gpu_model": "A", "image_url": "https://example/a.png"}, fake_client(complete_payload()), retries=0)
         self.assertEqual(result["extraction_status"], "success")
-        self.assertEqual(len(result["price_trend"]), 19)
+        self.assertEqual(len(result["price_trend"]), len(EXPECTED_MONTHS))
         self.assertIn("price_quality", result)
         self.assertFalse(result["review_required"])
 
@@ -169,7 +170,7 @@ class PipelineTests(unittest.TestCase):
         result = summarize(records)
         self.assertEqual(result["input_gpus"], 1)
         self.assertEqual(result["numeric_monthly_values"], 1)
-        self.assertEqual(result["missing_monthly_values"], 18)
+        self.assertEqual(result["missing_monthly_values"], len(EXPECTED_MONTHS) - 1)
         self.assertEqual(result["partial"], 1)
 
 

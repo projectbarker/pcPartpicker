@@ -6,14 +6,14 @@ This project retrieves PCPartPicker GPU trend-chart images and produces a review
 
 The published dataset is [`Monthly_Scraped_Data/pcpartpicker_gpu_trends_final.json`](Monthly_Scraped_Data/pcpartpicker_gpu_trends_final.json).
 
-- 23 unique GPU records and 19 monthly fields per record.
-- Date range: July 2024 through January 2026.
-- 437 monthly positions: 307 numeric and 130 `N/A`.
+- 23 unique GPU records and 27 monthly fields per record.
+- Requested date range: July 2024 through September 2026.
+- 621 monthly positions: 307 numeric and 314 `N/A`.
 - Numeric values: 25 `observed` and 282 `estimated`.
-- 22 records require review; one record is failed.
-- The reported final validation run passed 22 automated tests.
+- All 23 records require review because the extension months are unvalidated; one record is failed.
+- The extension validation run passed 40 automated tests.
 
-The counts reconcile: `307 + 130 = 437` and `25 + 282 = 307`. The dataset is structurally complete, but not fully numerically complete or production-approved. Radeon RX 7600 XT remains blocked by `ValueError: Expected 7 horizontal gridlines, detected 6`; its calibration was not bypassed.
+The counts reconcile: `307 + 314 = 621` and `25 + 282 = 307`. The dataset is structurally complete, but not fully numerically complete or production-approved. The saved `2026.03.03` charts visibly reach approximately February 2026; February–September 2026 were retained as `N/A` because the extension was not validated, and March–September are outside the saved chart history. Radeon RX 7600 XT remains blocked by `ValueError: Expected 7 horizontal gridlines, detected 6`; its calibration was not bypassed.
 
 ## Quick start
 
@@ -42,11 +42,13 @@ The scraper can be inspected with `python -m scrapy --settings=batch.settings li
 
 ## Data quality and schema
 
-Every record retains `gpu_model_name`, `image_url`, the backward-compatible `price_trend` field, `price_quality`, review metadata, and `extraction_status`. `price_trend` has exactly the 19 keys from `2024-07-01` through `2026-01-01`.
+Every record retains `gpu_model_name`, `image_url`, the backward-compatible `price_trend` field, `price_quality`, review metadata, and `extraction_status`. `price_trend` has exactly the 27 keys from `2024-07-01` through `2026-09-01`.
 
 - `observed` means the line position is directly supported by visible chart evidence.
 - `estimated` means a readable chart position was mapped conservatively; it is rounded to dollars, formatted with two decimals, and remains review-required.
 - `N/A` means history is unsupported, missing, disconnected, or ambiguous. Prices are never interpolated, extrapolated, smoothed, or invented.
+
+The eight extension months carry `N/A` and `extension_not_validated`; no future prices were inferred from the last visible point.
 
 Calibration checks and failure metadata must be preserved. Numeric output is not a claim of transaction-level ground truth.
 
@@ -62,6 +64,7 @@ tests/                        deterministic tests
 coordinate_calibration.py     chart calibration and line selection
 coordinate_calibration_runner.py  isolated calibrated runner
 gpu_trends_image_extraction.py    vision extraction utility
+extend_dataset.py             safe monthly-schema extension utility
 final_dataset_calibration.json    calibration configuration
 pcpartpicker_gpu_trends.json     input GPU records
 requirements.txt              Python dependencies
@@ -75,7 +78,7 @@ Run the deterministic suite with:
 python -m unittest discover -s tests -v
 ```
 
-The reported final integration validation passed 22 tests. The post-cleanup full suite passed 38 tests, including calibration, runner, pipeline, output-safety, and schema checks. Passing tests do not independently prove the accuracy of every raster-chart reading.
+The reported final integration validation passed 22 tests. The pre-extension full suite passed 38 tests, and the current extension suite passes 40 tests, including calibration, runner, pipeline, output-safety, schema, and date-range checks. Passing tests do not independently prove the accuracy of every raster-chart reading.
 
 ## Documentation index
 
@@ -85,5 +88,6 @@ The reported final integration validation passed 22 tests. The post-cleanup full
 - [Technical reference and decisions](docs/TECHNICAL_REFERENCE.md)
 - [Supervised pilot evidence](docs/SUPERVISED_EXTRACTION_PILOT.md)
 - [Turnover and validation report](docs/TURNOVER_AND_VALIDATION_REPORT.md)
+- [Extended dataset validation](docs/EXTENDED_DATASET_VALIDATION.json)
 
 GitHub: [ranvijaykumarg2c/pcPartPicker](https://github.com/ranvijaykumarg2c/pcPartPicker)

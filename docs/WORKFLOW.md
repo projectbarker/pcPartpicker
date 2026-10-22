@@ -24,9 +24,12 @@ python -m scrapy --settings=batch.settings list
 python -m scrapy --settings=batch.settings crawl pcpartpicker_gpu_trends -a headless=true
 python gpu_trends_image_extraction.py --limit 1 --output Monthly_Scraped_Data/pcpartpicker_gpu_trends_test.json
 python coordinate_calibration_runner.py --input sample_input.json --calibration sample_calibration.json --output Monthly_Scraped_Data/pcpartpicker_gpu_trends_coordinate_sample.json --artifact-dir diagnostics/coordinate_sample
+python extend_dataset.py
 ```
 
 The vision command requires `OPENAI_API_KEY` in the environment. The local coordinate runner uses explicit calibration evidence and does not call the external API.
+
+`extend_dataset.py` is a safe, non-extractive schema extension: it backs up the existing final JSON atomically, preserves the verified historical months, and adds unvalidated future months as `N/A`.
 
 ## Safety rules
 

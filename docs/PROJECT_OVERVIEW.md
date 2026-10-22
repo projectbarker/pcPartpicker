@@ -2,13 +2,13 @@
 
 ## Purpose
 
-PCPartPicker publishes GPU trend charts rather than a structured monthly-price API. This project retrieves the chart references and converts the black actual-price line into a fixed, reviewable monthly dataset for July 2024 through January 2026.
+PCPartPicker publishes GPU trend charts rather than a structured monthly-price API. This project retrieves the chart references and converts the black actual-price line into a fixed, reviewable monthly dataset for July 2024 through September 2026.
 
 The output is a chart-derived observation. It is not a transaction database and does not claim more precision than the source raster supports.
 
 ## Current result
 
-The final dataset contains 23 unique GPU records and 437 monthly positions. There are 307 numeric values and 130 `N/A` values; numeric values split into 25 `observed` and 282 `estimated`. Twenty-two records require review, and Radeon RX 7600 XT is explicitly failed because its calibration detects six rather than seven horizontal gridlines.
+The extended dataset contains 23 unique GPU records and 621 monthly positions. There are 307 numeric values and 314 `N/A` values; numeric values split into 25 `observed` and 282 `estimated`. All 23 records require review because the extension months are unvalidated, and Radeon RX 7600 XT is explicitly failed because its calibration detects six rather than seven horizontal gridlines.
 
 ## Main components
 

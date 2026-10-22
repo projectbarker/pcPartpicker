@@ -23,7 +23,7 @@ EXPECTED_MONTHS = [
     f"{year}-{month:02d}-01"
     for year in range(2024, 2027)
     for month in range(1, 13)
-    if (year, month) >= (2024, 7) and (year, month) <= (2026, 1)
+    if (year, month) >= (2024, 7) and (year, month) <= (2026, 9)
 ]
 
 
@@ -77,7 +77,7 @@ def feature_extraction_prompt_template(item: dict[str, Any]) -> str:
 GPU model: {item['gpu_model']}
 Image URL: {item['image_url']}
 
-Extract the price at the start of each month from July 2024 through January
+Extract the price at the start of each month from July 2024 through September
 2026, inclusive. Use only the thick, solid black actual-price line. Ignore
 blue lines, shaded ranges, projections, markers, annotations, and watermarks.
 Treat the line as a step function and read the first stable value immediately
@@ -85,7 +85,7 @@ after each month boundary. Read the USD y-axis and interpolate only when the
 chart supports a reasonable visual reading. Do not average, extrapolate,
 smooth, or invent values. Use "N/A" when a value cannot be read confidently.
 
-Return exactly one JSON object with these 19 date keys:
+Return exactly one JSON object with these 27 date keys:
 {', '.join(EXPECTED_MONTHS)}
 For each date return an object with "value", "quality", and "reason".
 Quality must be "observed", "estimated", or "N/A". Use "observed" when the

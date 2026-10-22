@@ -53,7 +53,7 @@ class CoordinateRunnerTests(unittest.TestCase):
                 result = process_record(self.item, {"valid": True}, Path(directory))
         self.assertEqual(result["extraction_status"], "needs_review")
         self.assertTrue(result["review_required"])
-        self.assertEqual(len(result["price_trend"]), 19)
+        self.assertEqual(len(result["price_trend"]), len(EXPECTED_MONTHS))
         self.assertEqual(result["price_trend"][EXPECTED_MONTHS[0]], "123.00")
         self.assertEqual(result["price_quality"][EXPECTED_MONTHS[0]], "estimated")
         self.assertIn("estimated_values_present", result["review_reasons"])

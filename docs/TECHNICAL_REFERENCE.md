@@ -6,20 +6,21 @@ The project uses Scrapy, BeautifulSoup, Selenium, undetected-chromedriver, pytho
 
 ## Calibration implementation
 
-`coordinate_calibration.py` detects chart geometry, maps calibrated pixels to USD, identifies connected dark components near monthly positions, scores horizontal support and neighboring continuity, rejects isolated vertical spikes, and emits diagnostic overlays. `coordinate_calibration_runner.py` loads explicit per-image calibration, isolates record failures, normalizes the 19 monthly keys, and writes atomically.
+`coordinate_calibration.py` detects chart geometry, maps calibrated pixels to USD, identifies connected dark components near monthly positions, scores horizontal support and neighboring continuity, rejects isolated vertical spikes, and emits diagnostic overlays. `coordinate_calibration_runner.py` loads explicit per-image calibration, isolates record failures, normalizes the 27 monthly keys, and writes atomically.
 
 The date anchor and tick mappings remain explicit calibration evidence rather than automated OCR. Axis mappings must be monotonic and in bounds. Invalid or contradictory calibration fails safely before numeric extraction.
 
 ## Important decisions
 
 - Keep Selenium because the trends page is dynamically rendered.
-- Keep the 19-month schema and backward-compatible `price_trend` field.
+- Keep the 27-month schema and backward-compatible `price_trend` field.
 - Treat chart readings as observations, not exact ground truth.
 - Use bounded API retries and classify all-`N/A` results as failed.
 - Preserve `observed`, `estimated`, `N/A`, review, and failure metadata.
 - Back up existing outputs and replace them atomically.
 - Keep direct vision and post-boundary stability as controlled/diagnostic paths, not unreviewed production behavior.
 - Never bypass calibration checks or fabricate missing history.
+- Use `extend_dataset.py` to add unvalidated months as `N/A` through the approved endpoint without rewriting historical values.
 
 ## Configuration and secrets
 
@@ -27,4 +28,4 @@ The date anchor and tick mappings remain explicit calibration evidence rather th
 
 ## Tests
 
-The documented final integration validation run passed 22 tests. The post-cleanup full suite passed 38 tests covering calibration, runner behavior, pipeline validation, failure isolation, output schema, and safe writes. Tests verify behavior; they do not establish that every chart-derived value is ground truth.
+The documented final integration validation run passed 22 tests. The pre-extension full suite passed 38 tests, and the extension suite passed 40 tests covering calibration, runner behavior, pipeline validation, failure isolation, output schema, safe writes, and the 27-month range. Tests verify behavior; they do not establish that every chart-derived value is ground truth.
