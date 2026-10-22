@@ -34,6 +34,8 @@ The reported integration run passed 22 tests; the pre-extension full suite passe
 
 The existing source URLs are dated `2026.03.03`. Direct inspection of the saved representative chart image showed visible x-axis history through approximately February 2026, not September 2026. No API extraction or scraper refresh was run. Consequently, the eight new months were added conservatively as `N/A` rather than inferred from the last visible point. March through September are outside the saved chart history; February is visible in the chart family but remains unvalidated because no approved extraction was run for the extension.
 
+The October 2026 authorized-source investigation found a saved local page with 23 newer CDN references dated `2026.07.03`. All 23 URL references differ from the March sources. Only Arc A380 was downloaded and visually inspected; it supports approximately July 2026 coverage. The other 22 charts and August–September coverage remain unverified. Live retrieval is still blocked by Cloudflare, no official public chart-data API was found, and no final-dataset values were changed. See [`AUTHORIZED_SOURCE_ALTERNATIVE_20261022.md`](AUTHORIZED_SOURCE_ALTERNATIVE_20261022.md).
+
 Machine-readable validation is in [`EXTENDED_DATASET_VALIDATION.json`](EXTENDED_DATASET_VALIDATION.json). The baseline SHA-256 was `71DB952DD497189C15AD2E73376C39941BAF298620832518087086FF8F1C92C9`; the extended output SHA-256 is recorded there.
 
 ## Limitations

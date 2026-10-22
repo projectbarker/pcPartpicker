@@ -50,6 +50,10 @@ Every record retains `gpu_model_name`, `image_url`, the backward-compatible `pri
 
 The eight extension months carry `N/A` and `extension_not_validated`; no future prices were inferred from the last visible point.
 
+### Source investigation status
+
+Live PCPartPicker retrieval remains blocked by a Cloudflare challenge. A saved local page contains 23 newer CDN URL references dated `2026.07.03`; these are cached source metadata, not proof of current live coverage. One Arc A380 image was downloaded and visually checked, reaching approximately July 2026. The other 22 charts, August 2026, and September 2026 remain unverified. See [`docs/AUTHORIZED_SOURCE_ALTERNATIVE_20261022.md`](docs/AUTHORIZED_SOURCE_ALTERNATIVE_20261022.md) and the [cached URL manifest](Monthly_Scraped_Data/pcpartpicker_gpu_sources_cached_2026.07.03.json). Do not resume extraction until chart identity and date coverage are reviewed.
+
 Calibration checks and failure metadata must be preserved. Numeric output is not a claim of transaction-level ground truth.
 
 ## Repository structure
@@ -89,5 +93,6 @@ The reported final integration validation passed 22 tests. The pre-extension ful
 - [Supervised pilot evidence](docs/SUPERVISED_EXTRACTION_PILOT.md)
 - [Turnover and validation report](docs/TURNOVER_AND_VALIDATION_REPORT.md)
 - [Extended dataset validation](docs/EXTENDED_DATASET_VALIDATION.json)
+- [Authorized source investigation](docs/AUTHORIZED_SOURCE_ALTERNATIVE_20261022.md)
 
 GitHub: [ranvijaykumarg2c/pcPartPicker](https://github.com/ranvijaykumarg2c/pcPartPicker)

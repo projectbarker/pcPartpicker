@@ -21,6 +21,7 @@ The date anchor and tick mappings remain explicit calibration evidence rather th
 - Keep direct vision and post-boundary stability as controlled/diagnostic paths, not unreviewed production behavior.
 - Never bypass calibration checks or fabricate missing history.
 - Use `extend_dataset.py` to add unvalidated months as `N/A` through the approved endpoint without rewriting historical values.
+- Treat cached July 2026 URL references as source-review evidence only; do not infer live coverage or extract from uninspected charts.
 
 ## Configuration and secrets
 

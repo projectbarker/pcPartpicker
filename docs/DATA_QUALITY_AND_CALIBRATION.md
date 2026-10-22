@@ -26,6 +26,8 @@ The approximate manual readings in the historical validation work are visual ref
 
 The saved chart URLs are dated `2026.03.03`. A local chart inspection showed visible history through approximately February 2026, but no approved extraction was run for the eight requested extension months. They therefore remain `N/A` with `extension_not_validated`; March through September are outside the saved chart history.
 
+The October 2026 source investigation also found `pcpartpicker_debug_page.html`, a saved local page containing 23 CDN references dated `2026.07.03`. All 23 differ from the March URLs, but only Arc A380 was downloaded and visually inspected; its chart reaches approximately July 2026. The remaining 22 charts, August, and September are unverified. No official public trend-data API or downloadable dataset was found, and unofficial wrappers were not accepted as authoritative sources. Existing historical values must be preserved until refreshed charts are individually verified.
+
 ## Remaining blocker
 
 Radeon RX 7600 XT still raises:
