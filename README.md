@@ -94,5 +94,7 @@ The current full suite passes 44 tests, including calibration, runner, pipeline,
 - [Turnover and validation report](docs/TURNOVER_AND_VALIDATION_REPORT.md)
 - [Extended dataset validation](docs/EXTENDED_DATASET_VALIDATION.json)
 - [Authorized source investigation](docs/AUTHORIZED_SOURCE_ALTERNATIVE_20261022.md)
+- [Final recovery audit](docs/FINAL_RECOVERY_AUDIT.md)
+- [Final recovery register](docs/FINAL_RECOVERY_REGISTER.json)
 
 GitHub: [ranvijaykumarg2c/pcPartPicker](https://github.com/ranvijaykumarg2c/pcPartPicker)

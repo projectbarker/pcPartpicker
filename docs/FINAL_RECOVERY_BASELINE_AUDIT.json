@@ -1,0 +1,54 @@
+{
+  "dataset_sha256": "A001249CE23B0537FA475F24AE7B5BF8DDE18FF896449EA10AF1CEBD37BE66E2",
+  "baseline_sha256": "FBD1F9126A899F57D01A41BC46E54897DA515B37C42E4FBE9CDB33CF32CE5459",
+  "dataset_counts": {
+    "record_count": 23,
+    "month_count": 27,
+    "position_count": 621,
+    "numeric_count": 425,
+    "na_count": 196,
+    "observed_count": 35,
+    "estimated_count": 390,
+    "failed_record_count": 0
+  },
+  "source_image_count": 23,
+  "cached_source_range": {
+    "first": "2025-02-01",
+    "last_approximate": "2026-07-01"
+  },
+  "numeric_provenance_counts": {
+    "inherited_pre_cached_baseline": 307,
+    "cached_july_source_recovery": 118
+  },
+  "numeric_by_month": {
+    "2024-09-01": 11,
+    "2024-10-01": 14,
+    "2024-11-01": 14,
+    "2024-12-01": 14,
+    "2025-01-01": 14,
+    "2025-02-01": 19,
+    "2025-03-01": 19,
+    "2025-04-01": 21,
+    "2025-05-01": 22,
+    "2025-06-01": 22,
+    "2025-07-01": 23,
+    "2025-08-01": 23,
+    "2025-09-01": 22,
+    "2025-10-01": 18,
+    "2025-11-01": 19,
+    "2025-12-01": 20,
+    "2026-01-01": 19,
+    "2026-02-01": 19,
+    "2026-04-01": 18,
+    "2026-05-01": 19,
+    "2026-06-01": 20,
+    "2026-07-01": 18,
+    "2026-03-01": 17
+  },
+  "na_reason_counts": {
+    "out_of_history": 85,
+    "isolated_spike": 11,
+    "source_unavailable_chart_not_visible": 46,
+    "missing_line_segment": 54
+  }
+}
