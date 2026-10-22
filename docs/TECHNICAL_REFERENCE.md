@@ -29,4 +29,4 @@ The date anchor and tick mappings remain explicit calibration evidence rather th
 
 ## Tests
 
-The documented final integration validation run passed 22 tests. The pre-extension full suite passed 38 tests, and the extension suite passed 40 tests covering calibration, runner behavior, pipeline validation, failure isolation, output schema, safe writes, and the 27-month range. Tests verify behavior; they do not establish that every chart-derived value is ground truth.
+The current full deterministic suite passes 43 tests covering calibration, runner behavior, pipeline validation, failure isolation, output schema, safe writes, source-collection setup, and the 27-month range. Tests verify behavior; they do not establish that every chart-derived value is ground truth. The cached July 2026 extraction report records the controlled source refresh and its six calibration failures.

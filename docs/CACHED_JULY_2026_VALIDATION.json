@@ -1,0 +1,702 @@
+{
+  "generated_at": "2026-10-22",
+  "source_page_artifact": "pcpartpicker_debug_page.html",
+  "source_url_date": "2026.07.03",
+  "live_page_verified": false,
+  "all_cached_images_retrieved": true,
+  "entry_count": 23,
+  "axis_coverage_note": "Charts show a rolling axis with February 2025 through June 2026 labels and approximately July 2026 at the right edge; August and September are not represented.",
+  "rows": [
+    {
+      "gpu_model": "Arc A380",
+      "cached_chart_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.arc-a380.0fb7aab89d5ed6876ba7ce3063ac574d.png",
+      "retrieval_status": "retrieved",
+      "local_image": "diagnostics\\cached_july_2026_sources\\arc_a380.png",
+      "image_dimensions": [
+        1176,
+        484
+      ],
+      "identity_verification": "cached HTML title plus visual contact-sheet inspection",
+      "earliest_axis_label": "2025-02-01",
+      "latest_axis_label": "2026-06-01",
+      "latest_visible_approx": "2026-07-01",
+      "months_eligible_for_extraction": [
+        "2026-02-01",
+        "2026-03-01",
+        "2026-04-01",
+        "2026-05-01",
+        "2026-06-01",
+        "2026-07-01"
+      ],
+      "numeric_values_extracted": 17,
+      "new_numeric_values_feb_jul": 5,
+      "calibration_status": "passed_experimental",
+      "review_required": true,
+      "failure_or_uncertainty": [
+        "estimated_values_present",
+        "isolated_spike",
+        "missing_line_segment",
+        "outside_visible_history"
+      ]
+    },
+    {
+      "gpu_model": "Arc A750",
+      "cached_chart_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.arc-a750.2c8a7f738789e43ab4b5e4978feac5e9.png",
+      "retrieval_status": "retrieved",
+      "local_image": "diagnostics\\cached_july_2026_sources\\arc_a750.png",
+      "image_dimensions": [
+        1176,
+        484
+      ],
+      "identity_verification": "cached HTML title plus visual contact-sheet inspection",
+      "earliest_axis_label": "2025-02-01",
+      "latest_axis_label": "2026-06-01",
+      "latest_visible_approx": "2026-07-01",
+      "months_eligible_for_extraction": [
+        "2026-02-01",
+        "2026-03-01",
+        "2026-04-01",
+        "2026-05-01",
+        "2026-06-01",
+        "2026-07-01"
+      ],
+      "numeric_values_extracted": 18,
+      "new_numeric_values_feb_jul": 6,
+      "calibration_status": "passed_experimental",
+      "review_required": true,
+      "failure_or_uncertainty": [
+        "estimated_values_present",
+        "isolated_spike",
+        "outside_visible_history"
+      ]
+    },
+    {
+      "gpu_model": "Arc A770",
+      "cached_chart_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.arc-a770.456753b5d050c5b8f435fc7fdacfdb9e.png",
+      "retrieval_status": "retrieved",
+      "local_image": "diagnostics\\cached_july_2026_sources\\arc_a770.png",
+      "image_dimensions": [
+        1176,
+        484
+      ],
+      "identity_verification": "cached HTML title plus visual contact-sheet inspection",
+      "earliest_axis_label": "2025-02-01",
+      "latest_axis_label": "2026-06-01",
+      "latest_visible_approx": "2026-07-01",
+      "months_eligible_for_extraction": [
+        "2026-02-01",
+        "2026-03-01",
+        "2026-04-01",
+        "2026-05-01",
+        "2026-06-01",
+        "2026-07-01"
+      ],
+      "numeric_values_extracted": 15,
+      "new_numeric_values_feb_jul": 4,
+      "calibration_status": "passed_experimental",
+      "review_required": true,
+      "failure_or_uncertainty": [
+        "estimated_values_present",
+        "missing_line_segment",
+        "outside_visible_history"
+      ]
+    },
+    {
+      "gpu_model": "GeForce RTX 4070",
+      "cached_chart_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.geforce-rtx-4070.fafe0b87bbe0a0a9a0eedbbe7a065168.png",
+      "retrieval_status": "retrieved",
+      "local_image": "diagnostics\\cached_july_2026_sources\\geforce_rtx_4070.png",
+      "image_dimensions": [
+        1176,
+        484
+      ],
+      "identity_verification": "cached HTML title plus visual contact-sheet inspection",
+      "earliest_axis_label": "2025-02-01",
+      "latest_axis_label": "2026-06-01",
+      "latest_visible_approx": "2026-07-01",
+      "months_eligible_for_extraction": [
+        "2026-02-01",
+        "2026-03-01",
+        "2026-04-01",
+        "2026-05-01",
+        "2026-06-01",
+        "2026-07-01"
+      ],
+      "numeric_values_extracted": 0,
+      "new_numeric_values_feb_jul": 0,
+      "calibration_status": "failed",
+      "review_required": true,
+      "failure_or_uncertainty": "ValueError: Expected 7 horizontal gridlines, detected 6"
+    },
+    {
+      "gpu_model": "GeForce RTX 4070 SUPER",
+      "cached_chart_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.geforce-rtx-4070-super.86cbc796969cbed8d977e5361bc71fc8.png",
+      "retrieval_status": "retrieved",
+      "local_image": "diagnostics\\cached_july_2026_sources\\geforce_rtx_4070_super.png",
+      "image_dimensions": [
+        1176,
+        484
+      ],
+      "identity_verification": "cached HTML title plus visual contact-sheet inspection",
+      "earliest_axis_label": "2025-02-01",
+      "latest_axis_label": "2026-06-01",
+      "latest_visible_approx": "2026-07-01",
+      "months_eligible_for_extraction": [
+        "2026-02-01",
+        "2026-03-01",
+        "2026-04-01",
+        "2026-05-01",
+        "2026-06-01",
+        "2026-07-01"
+      ],
+      "numeric_values_extracted": 17,
+      "new_numeric_values_feb_jul": 5,
+      "calibration_status": "passed_experimental",
+      "review_required": true,
+      "failure_or_uncertainty": [
+        "estimated_values_present",
+        "isolated_spike",
+        "outside_visible_history"
+      ]
+    },
+    {
+      "gpu_model": "GeForce RTX 4070 Ti",
+      "cached_chart_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.geforce-rtx-4070-ti.141138fff1511ad6eb5528a50f13d835.png",
+      "retrieval_status": "retrieved",
+      "local_image": "diagnostics\\cached_july_2026_sources\\geforce_rtx_4070_ti.png",
+      "image_dimensions": [
+        1176,
+        484
+      ],
+      "identity_verification": "cached HTML title plus visual contact-sheet inspection",
+      "earliest_axis_label": "2025-02-01",
+      "latest_axis_label": "2026-06-01",
+      "latest_visible_approx": "2026-07-01",
+      "months_eligible_for_extraction": [
+        "2026-02-01",
+        "2026-03-01",
+        "2026-04-01",
+        "2026-05-01",
+        "2026-06-01",
+        "2026-07-01"
+      ],
+      "numeric_values_extracted": 0,
+      "new_numeric_values_feb_jul": 0,
+      "calibration_status": "failed",
+      "review_required": true,
+      "failure_or_uncertainty": "ValueError: Expected 7 horizontal gridlines, detected 6"
+    },
+    {
+      "gpu_model": "GeForce RTX 4070 Ti SUPER",
+      "cached_chart_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.geforce-rtx-4070-ti-super.db961b0685aba4f59878b5d5e1e857b5.png",
+      "retrieval_status": "retrieved",
+      "local_image": "diagnostics\\cached_july_2026_sources\\geforce_rtx_4070_ti_super.png",
+      "image_dimensions": [
+        1176,
+        484
+      ],
+      "identity_verification": "cached HTML title plus visual contact-sheet inspection",
+      "earliest_axis_label": "2025-02-01",
+      "latest_axis_label": "2026-06-01",
+      "latest_visible_approx": "2026-07-01",
+      "months_eligible_for_extraction": [
+        "2026-02-01",
+        "2026-03-01",
+        "2026-04-01",
+        "2026-05-01",
+        "2026-06-01",
+        "2026-07-01"
+      ],
+      "numeric_values_extracted": 0,
+      "new_numeric_values_feb_jul": 0,
+      "calibration_status": "failed",
+      "review_required": true,
+      "failure_or_uncertainty": "ValueError: Expected 7 horizontal gridlines, detected 6"
+    },
+    {
+      "gpu_model": "GeForce RTX 4080",
+      "cached_chart_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.geforce-rtx-4080.4bb4ec8ae38fc313e72ec0bf68c1aabd.png",
+      "retrieval_status": "retrieved",
+      "local_image": "diagnostics\\cached_july_2026_sources\\geforce_rtx_4080.png",
+      "image_dimensions": [
+        1176,
+        484
+      ],
+      "identity_verification": "cached HTML title plus visual contact-sheet inspection",
+      "earliest_axis_label": "2025-02-01",
+      "latest_axis_label": "2026-06-01",
+      "latest_visible_approx": "2026-07-01",
+      "months_eligible_for_extraction": [
+        "2026-02-01",
+        "2026-03-01",
+        "2026-04-01",
+        "2026-05-01",
+        "2026-06-01",
+        "2026-07-01"
+      ],
+      "numeric_values_extracted": 18,
+      "new_numeric_values_feb_jul": 6,
+      "calibration_status": "passed_experimental",
+      "review_required": true,
+      "failure_or_uncertainty": [
+        "estimated_values_present",
+        "missing_line_segment",
+        "outside_visible_history"
+      ]
+    },
+    {
+      "gpu_model": "GeForce RTX 4080 SUPER",
+      "cached_chart_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.geforce-rtx-4080-super.b5ac375fdba53867f6fa39ff8090856a.png",
+      "retrieval_status": "retrieved",
+      "local_image": "diagnostics\\cached_july_2026_sources\\geforce_rtx_4080_super.png",
+      "image_dimensions": [
+        1176,
+        484
+      ],
+      "identity_verification": "cached HTML title plus visual contact-sheet inspection",
+      "earliest_axis_label": "2025-02-01",
+      "latest_axis_label": "2026-06-01",
+      "latest_visible_approx": "2026-07-01",
+      "months_eligible_for_extraction": [
+        "2026-02-01",
+        "2026-03-01",
+        "2026-04-01",
+        "2026-05-01",
+        "2026-06-01",
+        "2026-07-01"
+      ],
+      "numeric_values_extracted": 17,
+      "new_numeric_values_feb_jul": 6,
+      "calibration_status": "passed_experimental",
+      "review_required": true,
+      "failure_or_uncertainty": [
+        "estimated_values_present",
+        "isolated_spike",
+        "outside_visible_history"
+      ]
+    },
+    {
+      "gpu_model": "GeForce RTX 4090",
+      "cached_chart_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.geforce-rtx-4090.9dd4d989ef10793beed5719b3397797c.png",
+      "retrieval_status": "retrieved",
+      "local_image": "diagnostics\\cached_july_2026_sources\\geforce_rtx_4090.png",
+      "image_dimensions": [
+        1176,
+        484
+      ],
+      "identity_verification": "cached HTML title plus visual contact-sheet inspection",
+      "earliest_axis_label": "2025-02-01",
+      "latest_axis_label": "2026-06-01",
+      "latest_visible_approx": "2026-07-01",
+      "months_eligible_for_extraction": [
+        "2026-02-01",
+        "2026-03-01",
+        "2026-04-01",
+        "2026-05-01",
+        "2026-06-01",
+        "2026-07-01"
+      ],
+      "numeric_values_extracted": 0,
+      "new_numeric_values_feb_jul": 0,
+      "calibration_status": "failed",
+      "review_required": true,
+      "failure_or_uncertainty": "ValueError: Expected 7 horizontal gridlines, detected 6"
+    },
+    {
+      "gpu_model": "GeForce RTX 5060 Ti",
+      "cached_chart_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.geforce-rtx-5060-ti.eeb90d2efdc1defc208a03b5e0106615.png",
+      "retrieval_status": "retrieved",
+      "local_image": "diagnostics\\cached_july_2026_sources\\geforce_rtx_5060_ti.png",
+      "image_dimensions": [
+        1176,
+        484
+      ],
+      "identity_verification": "cached HTML title plus visual contact-sheet inspection",
+      "earliest_axis_label": "2025-02-01",
+      "latest_axis_label": "2026-06-01",
+      "latest_visible_approx": "2026-07-01",
+      "months_eligible_for_extraction": [
+        "2026-02-01",
+        "2026-03-01",
+        "2026-04-01",
+        "2026-05-01",
+        "2026-06-01",
+        "2026-07-01"
+      ],
+      "numeric_values_extracted": 15,
+      "new_numeric_values_feb_jul": 6,
+      "calibration_status": "passed_experimental",
+      "review_required": true,
+      "failure_or_uncertainty": [
+        "estimated_values_present",
+        "missing_line_segment",
+        "outside_visible_history"
+      ]
+    },
+    {
+      "gpu_model": "GeForce RTX 5070",
+      "cached_chart_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.geforce-rtx-5070.1d66df86ef701a678b69f687714db438.png",
+      "retrieval_status": "retrieved",
+      "local_image": "diagnostics\\cached_july_2026_sources\\geforce_rtx_5070.png",
+      "image_dimensions": [
+        1176,
+        484
+      ],
+      "identity_verification": "cached HTML title plus visual contact-sheet inspection",
+      "earliest_axis_label": "2025-02-01",
+      "latest_axis_label": "2026-06-01",
+      "latest_visible_approx": "2026-07-01",
+      "months_eligible_for_extraction": [
+        "2026-02-01",
+        "2026-03-01",
+        "2026-04-01",
+        "2026-05-01",
+        "2026-06-01",
+        "2026-07-01"
+      ],
+      "numeric_values_extracted": 17,
+      "new_numeric_values_feb_jul": 6,
+      "calibration_status": "passed_experimental",
+      "review_required": true,
+      "failure_or_uncertainty": [
+        "estimated_values_present",
+        "isolated_spike",
+        "missing_line_segment",
+        "outside_visible_history"
+      ]
+    },
+    {
+      "gpu_model": "GeForce RTX 5070 Ti",
+      "cached_chart_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.geforce-rtx-5070-ti.471cb76250c07c0198f5fae65a30a181.png",
+      "retrieval_status": "retrieved",
+      "local_image": "diagnostics\\cached_july_2026_sources\\geforce_rtx_5070_ti.png",
+      "image_dimensions": [
+        1176,
+        484
+      ],
+      "identity_verification": "cached HTML title plus visual contact-sheet inspection",
+      "earliest_axis_label": "2025-02-01",
+      "latest_axis_label": "2026-06-01",
+      "latest_visible_approx": "2026-07-01",
+      "months_eligible_for_extraction": [
+        "2026-02-01",
+        "2026-03-01",
+        "2026-04-01",
+        "2026-05-01",
+        "2026-06-01",
+        "2026-07-01"
+      ],
+      "numeric_values_extracted": 17,
+      "new_numeric_values_feb_jul": 6,
+      "calibration_status": "passed_experimental",
+      "review_required": true,
+      "failure_or_uncertainty": [
+        "estimated_values_present",
+        "isolated_spike",
+        "missing_line_segment",
+        "outside_visible_history"
+      ]
+    },
+    {
+      "gpu_model": "GeForce RTX 5080",
+      "cached_chart_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.geforce-rtx-5080.bbcba89c4c02d18605a7f5c1d2032a87.png",
+      "retrieval_status": "retrieved",
+      "local_image": "diagnostics\\cached_july_2026_sources\\geforce_rtx_5080.png",
+      "image_dimensions": [
+        1176,
+        484
+      ],
+      "identity_verification": "cached HTML title plus visual contact-sheet inspection",
+      "earliest_axis_label": "2025-02-01",
+      "latest_axis_label": "2026-06-01",
+      "latest_visible_approx": "2026-07-01",
+      "months_eligible_for_extraction": [
+        "2026-02-01",
+        "2026-03-01",
+        "2026-04-01",
+        "2026-05-01",
+        "2026-06-01",
+        "2026-07-01"
+      ],
+      "numeric_values_extracted": 18,
+      "new_numeric_values_feb_jul": 6,
+      "calibration_status": "passed_experimental",
+      "review_required": true,
+      "failure_or_uncertainty": [
+        "estimated_values_present",
+        "missing_line_segment",
+        "outside_visible_history"
+      ]
+    },
+    {
+      "gpu_model": "GeForce RTX 5090",
+      "cached_chart_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.geforce-rtx-5090.be3a606ab78d83e762b957b3f852f2a0.png",
+      "retrieval_status": "retrieved",
+      "local_image": "diagnostics\\cached_july_2026_sources\\geforce_rtx_5090.png",
+      "image_dimensions": [
+        1176,
+        484
+      ],
+      "identity_verification": "cached HTML title plus visual contact-sheet inspection",
+      "earliest_axis_label": "2025-02-01",
+      "latest_axis_label": "2026-06-01",
+      "latest_visible_approx": "2026-07-01",
+      "months_eligible_for_extraction": [
+        "2026-02-01",
+        "2026-03-01",
+        "2026-04-01",
+        "2026-05-01",
+        "2026-06-01",
+        "2026-07-01"
+      ],
+      "numeric_values_extracted": 18,
+      "new_numeric_values_feb_jul": 6,
+      "calibration_status": "passed_experimental",
+      "review_required": true,
+      "failure_or_uncertainty": [
+        "estimated_values_present",
+        "missing_line_segment",
+        "outside_visible_history"
+      ]
+    },
+    {
+      "gpu_model": "Radeon RX 7600 XT",
+      "cached_chart_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.radeon-rx-7600-xt.61a575d45ab0458db094f07866163d92.png",
+      "retrieval_status": "retrieved",
+      "local_image": "diagnostics\\cached_july_2026_sources\\radeon_rx_7600_xt.png",
+      "image_dimensions": [
+        1176,
+        484
+      ],
+      "identity_verification": "cached HTML title plus visual contact-sheet inspection",
+      "earliest_axis_label": "2025-02-01",
+      "latest_axis_label": "2026-06-01",
+      "latest_visible_approx": "2026-07-01",
+      "months_eligible_for_extraction": [
+        "2026-02-01",
+        "2026-03-01",
+        "2026-04-01",
+        "2026-05-01",
+        "2026-06-01",
+        "2026-07-01"
+      ],
+      "numeric_values_extracted": 0,
+      "new_numeric_values_feb_jul": 0,
+      "calibration_status": "failed",
+      "review_required": true,
+      "failure_or_uncertainty": "No approved calibration configuration; retained blocked status."
+    },
+    {
+      "gpu_model": "Radeon RX 7700 XT",
+      "cached_chart_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.radeon-rx-7700-xt.e4d3db600924b106e314fae808d2c023.png",
+      "retrieval_status": "retrieved",
+      "local_image": "diagnostics\\cached_july_2026_sources\\radeon_rx_7700_xt.png",
+      "image_dimensions": [
+        1176,
+        484
+      ],
+      "identity_verification": "cached HTML title plus visual contact-sheet inspection",
+      "earliest_axis_label": "2025-02-01",
+      "latest_axis_label": "2026-06-01",
+      "latest_visible_approx": "2026-07-01",
+      "months_eligible_for_extraction": [
+        "2026-02-01",
+        "2026-03-01",
+        "2026-04-01",
+        "2026-05-01",
+        "2026-06-01",
+        "2026-07-01"
+      ],
+      "numeric_values_extracted": 18,
+      "new_numeric_values_feb_jul": 6,
+      "calibration_status": "passed_experimental",
+      "review_required": true,
+      "failure_or_uncertainty": [
+        "estimated_values_present",
+        "isolated_spike",
+        "outside_visible_history"
+      ]
+    },
+    {
+      "gpu_model": "Radeon RX 7800 XT",
+      "cached_chart_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.radeon-rx-7800-xt.b1f5fcb7825b2cf1d3f1cf0ec8e4b69a.png",
+      "retrieval_status": "retrieved",
+      "local_image": "diagnostics\\cached_july_2026_sources\\radeon_rx_7800_xt.png",
+      "image_dimensions": [
+        1176,
+        484
+      ],
+      "identity_verification": "cached HTML title plus visual contact-sheet inspection",
+      "earliest_axis_label": "2025-02-01",
+      "latest_axis_label": "2026-06-01",
+      "latest_visible_approx": "2026-07-01",
+      "months_eligible_for_extraction": [
+        "2026-02-01",
+        "2026-03-01",
+        "2026-04-01",
+        "2026-05-01",
+        "2026-06-01",
+        "2026-07-01"
+      ],
+      "numeric_values_extracted": 18,
+      "new_numeric_values_feb_jul": 5,
+      "calibration_status": "passed_experimental",
+      "review_required": true,
+      "failure_or_uncertainty": [
+        "estimated_values_present",
+        "missing_line_segment",
+        "outside_visible_history"
+      ]
+    },
+    {
+      "gpu_model": "Radeon RX 7900 XT",
+      "cached_chart_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.radeon-rx-7900-xt.56e38d3bdcb6ca172ca6119dccee79b8.png",
+      "retrieval_status": "retrieved",
+      "local_image": "diagnostics\\cached_july_2026_sources\\radeon_rx_7900_xt.png",
+      "image_dimensions": [
+        1176,
+        484
+      ],
+      "identity_verification": "cached HTML title plus visual contact-sheet inspection",
+      "earliest_axis_label": "2025-02-01",
+      "latest_axis_label": "2026-06-01",
+      "latest_visible_approx": "2026-07-01",
+      "months_eligible_for_extraction": [
+        "2026-02-01",
+        "2026-03-01",
+        "2026-04-01",
+        "2026-05-01",
+        "2026-06-01",
+        "2026-07-01"
+      ],
+      "numeric_values_extracted": 18,
+      "new_numeric_values_feb_jul": 6,
+      "calibration_status": "passed_experimental",
+      "review_required": true,
+      "failure_or_uncertainty": [
+        "estimated_values_present",
+        "isolated_spike",
+        "outside_visible_history"
+      ]
+    },
+    {
+      "gpu_model": "Radeon RX 7900 XTX",
+      "cached_chart_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.radeon-rx-7900-xtx.eee00d979ce102fa3d00e6fd7174ce71.png",
+      "retrieval_status": "retrieved",
+      "local_image": "diagnostics\\cached_july_2026_sources\\radeon_rx_7900_xtx.png",
+      "image_dimensions": [
+        1176,
+        484
+      ],
+      "identity_verification": "cached HTML title plus visual contact-sheet inspection",
+      "earliest_axis_label": "2025-02-01",
+      "latest_axis_label": "2026-06-01",
+      "latest_visible_approx": "2026-07-01",
+      "months_eligible_for_extraction": [
+        "2026-02-01",
+        "2026-03-01",
+        "2026-04-01",
+        "2026-05-01",
+        "2026-06-01",
+        "2026-07-01"
+      ],
+      "numeric_values_extracted": 19,
+      "new_numeric_values_feb_jul": 6,
+      "calibration_status": "passed_experimental",
+      "review_required": true,
+      "failure_or_uncertainty": [
+        "estimated_values_present",
+        "outside_visible_history"
+      ]
+    },
+    {
+      "gpu_model": "Radeon RX 9060 XT",
+      "cached_chart_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.radeon-rx-9060-xt.5fa1a62005a47270835e7ec46c385fa6.png",
+      "retrieval_status": "retrieved",
+      "local_image": "diagnostics\\cached_july_2026_sources\\radeon_rx_9060_xt.png",
+      "image_dimensions": [
+        1176,
+        484
+      ],
+      "identity_verification": "cached HTML title plus visual contact-sheet inspection",
+      "earliest_axis_label": "2025-02-01",
+      "latest_axis_label": "2026-06-01",
+      "latest_visible_approx": "2026-07-01",
+      "months_eligible_for_extraction": [
+        "2026-02-01",
+        "2026-03-01",
+        "2026-04-01",
+        "2026-05-01",
+        "2026-06-01",
+        "2026-07-01"
+      ],
+      "numeric_values_extracted": 0,
+      "new_numeric_values_feb_jul": 0,
+      "calibration_status": "failed",
+      "review_required": true,
+      "failure_or_uncertainty": "ValueError: Expected 7 horizontal gridlines, detected 6"
+    },
+    {
+      "gpu_model": "Radeon RX 9070",
+      "cached_chart_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.radeon-rx-9070.a7b241561888f9b151a5d455c88535e1.png",
+      "retrieval_status": "retrieved",
+      "local_image": "diagnostics\\cached_july_2026_sources\\radeon_rx_9070.png",
+      "image_dimensions": [
+        1176,
+        484
+      ],
+      "identity_verification": "cached HTML title plus visual contact-sheet inspection",
+      "earliest_axis_label": "2025-02-01",
+      "latest_axis_label": "2026-06-01",
+      "latest_visible_approx": "2026-07-01",
+      "months_eligible_for_extraction": [
+        "2026-02-01",
+        "2026-03-01",
+        "2026-04-01",
+        "2026-05-01",
+        "2026-06-01",
+        "2026-07-01"
+      ],
+      "numeric_values_extracted": 17,
+      "new_numeric_values_feb_jul": 6,
+      "calibration_status": "passed_experimental",
+      "review_required": true,
+      "failure_or_uncertainty": [
+        "estimated_values_present",
+        "missing_line_segment",
+        "outside_visible_history"
+      ]
+    },
+    {
+      "gpu_model": "Radeon RX 9070 XT",
+      "cached_chart_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.radeon-rx-9070-xt.92a795037d74b73ee4044519e1d372e3.png",
+      "retrieval_status": "retrieved",
+      "local_image": "diagnostics\\cached_july_2026_sources\\radeon_rx_9070_xt.png",
+      "image_dimensions": [
+        1176,
+        484
+      ],
+      "identity_verification": "cached HTML title plus visual contact-sheet inspection",
+      "earliest_axis_label": "2025-02-01",
+      "latest_axis_label": "2026-06-01",
+      "latest_visible_approx": "2026-07-01",
+      "months_eligible_for_extraction": [
+        "2026-02-01",
+        "2026-03-01",
+        "2026-04-01",
+        "2026-05-01",
+        "2026-06-01",
+        "2026-07-01"
+      ],
+      "numeric_values_extracted": 17,
+      "new_numeric_values_feb_jul": 6,
+      "calibration_status": "passed_experimental",
+      "review_required": true,
+      "failure_or_uncertainty": [
+        "estimated_values_present",
+        "missing_line_segment",
+        "outside_visible_history"
+      ]
+    }
+  ]
+}

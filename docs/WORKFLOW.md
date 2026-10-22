@@ -31,6 +31,8 @@ The vision command requires `OPENAI_API_KEY` in the environment. The local coord
 
 `extend_dataset.py` is a safe, non-extractive schema extension: it backs up the existing final JSON atomically, preserves the verified historical months, and adds unvalidated future months as `N/A`.
 
+The cached July 2026 source run is documented in `CACHED_JULY_2026_EXTRACTION_REPORT.md`. It adds only visually supported February–July values, preserves August–September as `N/A`, and records calibration failures per GPU. Cached-source extraction is not evidence of live PCPartPicker access.
+
 The October 2026 source investigation found that live PCPartPicker access is still blocked by Cloudflare. A local cached page contains 23 July 3, 2026 CDN URL references, but only the Arc A380 image has been visually inspected. Treat the cache as evidence for a supervised source-review queue, not as proof of current coverage. Obtain an approved browser session or source export and validate chart identity/date coverage before extraction.
 
 ## Safety rules

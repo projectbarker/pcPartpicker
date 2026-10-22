@@ -8,12 +8,12 @@ The published dataset is [`Monthly_Scraped_Data/pcpartpicker_gpu_trends_final.js
 
 - 23 unique GPU records and 27 monthly fields per record.
 - Requested date range: July 2024 through September 2026.
-- 621 monthly positions: 307 numeric and 314 `N/A`.
-- Numeric values: 25 `observed` and 282 `estimated`.
-- All 23 records require review because the extension months are unvalidated; one record is failed.
-- The extension validation run passed 40 automated tests.
+- 621 monthly positions: 404 numeric and 217 `N/A`.
+- Numeric values: 31 `observed` and 373 `estimated`.
+- All 23 records require review; one record is failed and six records remain blocked by calibration errors on the refreshed-source attempt.
+- The current deterministic test suite passes 43 tests.
 
-The counts reconcile: `307 + 314 = 621` and `25 + 282 = 307`. The dataset is structurally complete, but not fully numerically complete or production-approved. The saved `2026.03.03` charts visibly reach approximately February 2026; February–September 2026 were retained as `N/A` because the extension was not validated, and March–September are outside the saved chart history. Radeon RX 7600 XT remains blocked by `ValueError: Expected 7 horizontal gridlines, detected 6`; its calibration was not bypassed.
+The counts reconcile: `404 + 217 = 621` and `31 + 373 = 404`. The dataset is structurally complete, but not fully numerically complete or production-approved. A controlled run using cached July 3, 2026 chart sources added 97 numeric values for February–July 2026 where calibration and line evidence supported them. August and September remain `N/A`; no future values were inferred. Radeon RX 7600 XT remains blocked by `ValueError: Expected 7 horizontal gridlines, detected 6`, and five additional refreshed-source charts had the same calibration failure. No calibration check was bypassed. See [`docs/CACHED_JULY_2026_EXTRACTION_REPORT.md`](docs/CACHED_JULY_2026_EXTRACTION_REPORT.md).
 
 ## Quick start
 
@@ -48,11 +48,11 @@ Every record retains `gpu_model_name`, `image_url`, the backward-compatible `pri
 - `estimated` means a readable chart position was mapped conservatively; it is rounded to dollars, formatted with two decimals, and remains review-required.
 - `N/A` means history is unsupported, missing, disconnected, or ambiguous. Prices are never interpolated, extrapolated, smoothed, or invented.
 
-The eight extension months carry `N/A` and `extension_not_validated`; no future prices were inferred from the last visible point.
+August and September 2026 carry `N/A` with `extension_not_validated`; no future prices were inferred from the last visible point. February–July values recovered from cached July sources remain estimated and review-required unless directly supported by existing evidence.
 
 ### Source investigation status
 
-Live PCPartPicker retrieval remains blocked by a Cloudflare challenge. A saved local page contains 23 newer CDN URL references dated `2026.07.03`; these are cached source metadata, not proof of current live coverage. One Arc A380 image was downloaded and visually checked, reaching approximately July 2026. The other 22 charts, August 2026, and September 2026 remain unverified. See [`docs/AUTHORIZED_SOURCE_ALTERNATIVE_20261022.md`](docs/AUTHORIZED_SOURCE_ALTERNATIVE_20261022.md) and the [cached URL manifest](Monthly_Scraped_Data/pcpartpicker_gpu_sources_cached_2026.07.03.json). Do not resume extraction until chart identity and date coverage are reviewed.
+Live PCPartPicker page retrieval remains blocked by a Cloudflare challenge. A saved local page supplied 23 newer CDN URL references dated `2026.07.03`; all 23 images were retrieved and visually checked for chart identity. Their rolling axes support approximately July 2026, not August or September. The extraction report and machine-readable validation are [`docs/CACHED_JULY_2026_EXTRACTION_REPORT.md`](docs/CACHED_JULY_2026_EXTRACTION_REPORT.md) and [`docs/CACHED_JULY_2026_VALIDATION.json`](docs/CACHED_JULY_2026_VALIDATION.json). This is cached-source evidence, not proof of live site access.
 
 Calibration checks and failure metadata must be preserved. Numeric output is not a claim of transaction-level ground truth.
 
@@ -82,7 +82,7 @@ Run the deterministic suite with:
 python -m unittest discover -s tests -v
 ```
 
-The reported final integration validation passed 22 tests. The pre-extension full suite passed 38 tests, and the current extension suite passes 40 tests, including calibration, runner, pipeline, output-safety, schema, and date-range checks. Passing tests do not independently prove the accuracy of every raster-chart reading.
+The current full suite passes 43 tests, including calibration, runner, pipeline, output-safety, schema, source-collection setup, and date-range checks. Passing tests do not independently prove the accuracy of every raster-chart reading.
 
 ## Documentation index
 
