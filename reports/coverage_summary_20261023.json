@@ -1,0 +1,29 @@
+{
+  "dataset_start_month": "2024-07-01",
+  "dataset_end_month": "2026-09-01",
+  "months_per_gpu": 27,
+  "gpu_count": 23,
+  "total_gpu_month_positions": 621,
+  "json_fields_present": 621,
+  "numeric_values": 459,
+  "na_values": 162,
+  "value_classification_counts": {
+    "N/A": 162,
+    "estimated": 421,
+    "observed": 38
+  },
+  "final_coverage_classification_counts": {
+    "missing_evidence": 140,
+    "ambiguous": 85,
+    "pending_human_review": 396
+  },
+  "qa_status_counts": {
+    "not_flagged": 570,
+    "statistical_warning_explained_automated_only": 35,
+    "unresolved_aug_sep_position": 12,
+    "unresolved_historical_qa_warning": 4
+  },
+  "source_asset_rows": 621,
+  "all_records_review_required": true,
+  "validated_rows": 0
+}

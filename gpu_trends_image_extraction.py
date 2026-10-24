@@ -17,16 +17,10 @@ import requests
 from dotenv import load_dotenv
 from openai import OpenAI
 
+from coverage_config import EXPECTED_MONTHS
+
 LOGGER = logging.getLogger(__name__)
 DEFAULT_MODEL = "gpt-4o-mini"
-EXPECTED_MONTHS = [
-    f"{year}-{month:02d}-01"
-    for year in range(2024, 2027)
-    for month in range(1, 13)
-    if (year, month) >= (2024, 7) and (year, month) <= (2026, 9)
-]
-
-
 def load_gpu_records(path: Path) -> list[dict[str, Any]]:
     """Load valid, unique GPU model/image records from JSON."""
     with path.open("r", encoding="utf-8") as handle:

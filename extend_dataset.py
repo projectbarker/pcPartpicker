@@ -1,4 +1,4 @@
-"""Extend the verified GPU dataset with explicit unavailable future months."""
+"""Extend the original 19-month dataset to the current 27-month field schema."""
 
 from __future__ import annotations
 
@@ -6,10 +6,11 @@ import argparse
 import json
 from pathlib import Path
 
-from gpu_trends_image_extraction import EXPECTED_MONTHS, backup_and_write
+from coverage_config import EXPECTED_MONTHS, ORIGINAL_MONTHS
+from gpu_trends_image_extraction import backup_and_write
 
 
-LEGACY_MONTHS = EXPECTED_MONTHS[:19]
+LEGACY_MONTHS = ORIGINAL_MONTHS
 EXTENSION_MONTHS = EXPECTED_MONTHS[19:]
 
 
