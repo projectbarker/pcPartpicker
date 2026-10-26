@@ -1,7 +1,7 @@
 [
   {
     "gpu_model_name": "Arc A380",
-    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.arc-a380.0fb7aab89d5ed6876ba7ce3063ac574d.png",
+    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.10.22.usd.gpu.chipset.arc-a380.91f12cc9388073bc447d482778006ee0.png",
     "price_trend": {
       "2024-07-01": "N/A",
       "2024-08-01": "N/A",
@@ -75,7 +75,7 @@
   },
   {
     "gpu_model_name": "Arc A750",
-    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.arc-a750.2c8a7f738789e43ab4b5e4978feac5e9.png",
+    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.10.22.usd.gpu.chipset.arc-a750.a9eddfca5300612304958eb04328308a.png",
     "price_trend": {
       "2024-07-01": "N/A",
       "2024-08-01": "N/A",
@@ -150,7 +150,7 @@
   },
   {
     "gpu_model_name": "Arc A770",
-    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.arc-a770.456753b5d050c5b8f435fc7fdacfdb9e.png",
+    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.10.22.usd.gpu.chipset.arc-a770.79b5a3bc82ffc29d8ee9640d504c1d82.png",
     "price_trend": {
       "2024-07-01": "N/A",
       "2024-08-01": "N/A",
@@ -225,7 +225,7 @@
   },
   {
     "gpu_model_name": "GeForce RTX 4070",
-    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.geforce-rtx-4070.fafe0b87bbe0a0a9a0eedbbe7a065168.png",
+    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.10.22.usd.gpu.chipset.geforce-rtx-4070.e94616f4072745ece0c44ef2acee80f2.png",
     "price_trend": {
       "2024-07-01": "N/A",
       "2024-08-01": "N/A",
@@ -299,7 +299,7 @@
   },
   {
     "gpu_model_name": "GeForce RTX 4070 SUPER",
-    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.geforce-rtx-4070-super.86cbc796969cbed8d977e5361bc71fc8.png",
+    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.10.22.usd.gpu.chipset.geforce-rtx-4070-super.03fa7b91bb791cd49ad0233f598c79e4.png",
     "price_trend": {
       "2024-07-01": "N/A",
       "2024-08-01": "N/A",
@@ -374,7 +374,7 @@
   },
   {
     "gpu_model_name": "GeForce RTX 4070 Ti",
-    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.03.usd.gpu.chipset.geforce-rtx-4070-ti.0891c71f1ea313cc9e66a57f2c265016.png",
+    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.10.22.usd.gpu.chipset.geforce-rtx-4070-ti.94a4a6ea52a8aa218e8555e81c102a8c.png",
     "price_trend": {
       "2024-07-01": "N/A",
       "2024-08-01": "N/A",
@@ -448,7 +448,7 @@
   },
   {
     "gpu_model_name": "GeForce RTX 4070 Ti SUPER",
-    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.03.usd.gpu.chipset.geforce-rtx-4070-ti-super.3bbde82162932080d15e284052c7e57d.png",
+    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.10.22.usd.gpu.chipset.geforce-rtx-4070-ti-super.bc37dc9a28dffecfaea52a691846d398.png",
     "price_trend": {
       "2024-07-01": "N/A",
       "2024-08-01": "N/A",
@@ -523,7 +523,7 @@
   },
   {
     "gpu_model_name": "GeForce RTX 4080",
-    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.geforce-rtx-4080.4bb4ec8ae38fc313e72ec0bf68c1aabd.png",
+    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.10.22.usd.gpu.chipset.geforce-rtx-4080.d6106536003ec8e6bb22b086efbba3d0.png",
     "price_trend": {
       "2024-07-01": "N/A",
       "2024-08-01": "N/A",
@@ -598,7 +598,7 @@
   },
   {
     "gpu_model_name": "GeForce RTX 4080 SUPER",
-    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.geforce-rtx-4080-super.b5ac375fdba53867f6fa39ff8090856a.png",
+    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.10.22.usd.gpu.chipset.geforce-rtx-4080-super.082e18e135dac73988aff367f2554a5a.png",
     "price_trend": {
       "2024-07-01": "N/A",
       "2024-08-01": "N/A",
@@ -673,7 +673,7 @@
   },
   {
     "gpu_model_name": "GeForce RTX 4090",
-    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.03.usd.gpu.chipset.geforce-rtx-4090.6cffaa467e9701ce93547594581181d0.png",
+    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.10.22.usd.gpu.chipset.geforce-rtx-4090.afab7383542e67eefb0ba643b15b917b.png",
     "price_trend": {
       "2024-07-01": "N/A",
       "2024-08-01": "N/A",
@@ -748,7 +748,7 @@
   },
   {
     "gpu_model_name": "GeForce RTX 5060 Ti",
-    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.geforce-rtx-5060-ti.eeb90d2efdc1defc208a03b5e0106615.png",
+    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.10.22.usd.gpu.chipset.geforce-rtx-5060-ti.69b6904ef13e3659477745de235246bb.png",
     "price_trend": {
       "2024-07-01": "N/A",
       "2024-08-01": "N/A",
@@ -823,7 +823,7 @@
   },
   {
     "gpu_model_name": "GeForce RTX 5070",
-    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.geforce-rtx-5070.1d66df86ef701a678b69f687714db438.png",
+    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.10.22.usd.gpu.chipset.geforce-rtx-5070.02e705a6b064463a0e8210ed838ebcae.png",
     "price_trend": {
       "2024-07-01": "N/A",
       "2024-08-01": "N/A",
@@ -899,7 +899,7 @@
   },
   {
     "gpu_model_name": "GeForce RTX 5070 Ti",
-    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.geforce-rtx-5070-ti.471cb76250c07c0198f5fae65a30a181.png",
+    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.10.22.usd.gpu.chipset.geforce-rtx-5070-ti.b4a4ddbd2d035fd8767cd9a74326d36c.png",
     "price_trend": {
       "2024-07-01": "N/A",
       "2024-08-01": "N/A",
@@ -975,7 +975,7 @@
   },
   {
     "gpu_model_name": "GeForce RTX 5080",
-    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.geforce-rtx-5080.bbcba89c4c02d18605a7f5c1d2032a87.png",
+    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.10.22.usd.gpu.chipset.geforce-rtx-5080.d705eeb4ce1e4f82ef0a08884ad3d830.png",
     "price_trend": {
       "2024-07-01": "N/A",
       "2024-08-01": "N/A",
@@ -1050,7 +1050,7 @@
   },
   {
     "gpu_model_name": "GeForce RTX 5090",
-    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.geforce-rtx-5090.be3a606ab78d83e762b957b3f852f2a0.png",
+    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.10.22.usd.gpu.chipset.geforce-rtx-5090.abb99f5d099ebe048fb06ff0eaa414be.png",
     "price_trend": {
       "2024-07-01": "N/A",
       "2024-08-01": "N/A",
@@ -1125,7 +1125,7 @@
   },
   {
     "gpu_model_name": "Radeon RX 7600 XT",
-    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.radeon-rx-7600-xt.61a575d45ab0458db094f07866163d92.png",
+    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.10.22.usd.gpu.chipset.radeon-rx-7600-xt.59e8cc46945961b854aa809da2ec9152.png",
     "price_trend": {
       "2024-07-01": "N/A",
       "2024-08-01": "N/A",
@@ -1203,7 +1203,7 @@
   },
   {
     "gpu_model_name": "Radeon RX 7700 XT",
-    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.radeon-rx-7700-xt.e4d3db600924b106e314fae808d2c023.png",
+    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.10.22.usd.gpu.chipset.radeon-rx-7700-xt.75902616d20adf0aee730490a1a0f73c.png",
     "price_trend": {
       "2024-07-01": "N/A",
       "2024-08-01": "N/A",
@@ -1277,7 +1277,7 @@
   },
   {
     "gpu_model_name": "Radeon RX 7800 XT",
-    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.radeon-rx-7800-xt.b1f5fcb7825b2cf1d3f1cf0ec8e4b69a.png",
+    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.10.22.usd.gpu.chipset.radeon-rx-7800-xt.e9ac84b4a286a690e5fa3a296daa454b.png",
     "price_trend": {
       "2024-07-01": "N/A",
       "2024-08-01": "N/A",
@@ -1352,7 +1352,7 @@
   },
   {
     "gpu_model_name": "Radeon RX 7900 XT",
-    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.radeon-rx-7900-xt.56e38d3bdcb6ca172ca6119dccee79b8.png",
+    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.10.22.usd.gpu.chipset.radeon-rx-7900-xt.a0397e640a45c325998b9d571344ab1b.png",
     "price_trend": {
       "2024-07-01": "N/A",
       "2024-08-01": "N/A",
@@ -1426,7 +1426,7 @@
   },
   {
     "gpu_model_name": "Radeon RX 7900 XTX",
-    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.radeon-rx-7900-xtx.eee00d979ce102fa3d00e6fd7174ce71.png",
+    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.10.22.usd.gpu.chipset.radeon-rx-7900-xtx.5f95039ef2f31dc0f26545f8d1b949ba.png",
     "price_trend": {
       "2024-07-01": "N/A",
       "2024-08-01": "N/A",
@@ -1501,7 +1501,7 @@
   },
   {
     "gpu_model_name": "Radeon RX 9060 XT",
-    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.radeon-rx-9060-xt.5fa1a62005a47270835e7ec46c385fa6.png",
+    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.10.22.usd.gpu.chipset.radeon-rx-9060-xt.a3ebb56a0e98a3d9ff86873c34fa3b0e.png",
     "price_trend": {
       "2024-07-01": "N/A",
       "2024-08-01": "N/A",
@@ -1576,7 +1576,7 @@
   },
   {
     "gpu_model_name": "Radeon RX 9070",
-    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.radeon-rx-9070.a7b241561888f9b151a5d455c88535e1.png",
+    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.10.22.usd.gpu.chipset.radeon-rx-9070.b3262b716d5a59a59773a67bc89730f0.png",
     "price_trend": {
       "2024-07-01": "N/A",
       "2024-08-01": "N/A",
@@ -1651,7 +1651,7 @@
   },
   {
     "gpu_model_name": "Radeon RX 9070 XT",
-    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.07.03.usd.gpu.chipset.radeon-rx-9070-xt.92a795037d74b73ee4044519e1d372e3.png",
+    "image_url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.10.22.usd.gpu.chipset.radeon-rx-9070-xt.f14a435106d9e2abffde47a9d9826a36.png",
     "price_trend": {
       "2024-07-01": "N/A",
       "2024-08-01": "N/A",
